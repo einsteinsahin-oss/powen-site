@@ -1,0 +1,100 @@
+{
+  "Nav": {
+    "home": "Home",
+    "capabilities": "Capabilities",
+    "industries": "Industries",
+    "projects": "Projects",
+    "about": "About",
+    "insights": "Insights",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "slides": [
+      {"title": "Advisory & Consulting", "subtitle": "We focus on long-term operational performance.", "tagline": "We see the invisible."},
+      {"title": "EPC & Construction", "subtitle": "Maximize performance and ROI.", "tagline": "Building your dreams with engineering."},
+      {"title": "O&M Services", "subtitle": "Explore our solutions.", "tagline": "No stopping, peak performance."},
+      {"title": "Asset Management", "subtitle": "", "tagline": "Making assets smarter."},
+      {"title": "Performance & Optimisation", "subtitle": "Bridging engineering and finance.", "tagline": "Pushing boundaries."},
+      {"title": "Digital & Software Solutions", "subtitle": "Managing risk, data, and results.", "tagline": "Transforming data into intelligence."}
+    ],
+    "stats": {
+      "capacity": "GW Under Management",
+      "availability": "Avg. Availability",
+      "projects": "Active Projects",
+      "countries": "Countries"
+    }
+  },
+  "Capabilities": {
+    "title": "What We Do",
+    "subtitle": "Comprehensive engineering services",
+    "advisory": {
+      "title": "Advisory",
+      "items": [
+        {"name": "Feasibility Study", "desc": "Technical and operational success."},
+        {"name": "Owner's Engineering", "desc": "Quality assurance at every stage."},
+        {"name": "Contract Advisory", "desc": "Minimizing risks."},
+        {"name": "Grid Compliance", "desc": "Seamless processes."},
+        {"name": "Due Diligence", "desc": "Informed decisions."},
+        {"name": "Technology Assessment", "desc": "Evaluating new tech."},
+        {"name": "Risk Management", "desc": "Solving risks."},
+        {"name": "Financial Modelling", "desc": "ROI simulations."},
+        {"name": "Regulatory Strategy", "desc": "Compliance planning."},
+        {"name": "Lifecycle Engineering", "desc": "Cost optimization."},
+        {"name": "Sustainability", "desc": "Green certification."}
+      ]
+    },
+    "epc": {"title": "EPC", "items": [{"name": "Electrical Works", "desc": "Engineering excellence."},{"name": "Balance of Plant", "desc": "Optimizing systems."},{"name": "Grid Connection", "desc": "Full performance."},{"name": "Civil Works", "desc": "Solid principles."},{"name": "Project Management", "desc": "On time, on budget."},{"name": "Quality Assurance", "desc": "Engineering standards."},{"name": "Procurement", "desc": "Optimal cost."},{"name": "Safety", "desc": "Risk management."},{"name": "Commissioning", "desc": "Operational success."},{"name": "Turnkey", "desc": "Complete management."}]},
+    "om": {"title": "O&M", "items": [{"name": "Preventive Maintenance", "desc": "Uninterrupted operations."},{"name": "OEM Management", "desc": "Maximum performance."},{"name": "Spare Parts", "desc": "Operational continuity."},{"name": "Reliability", "desc": "Increasing availability."},{"name": "Monitoring", "desc": "Detecting failures."},{"name": "Performance Analysis", "desc": "Continuous optimization."},{"name": "Lifecycle Management", "desc": "Maximizing value."},{"name": "Training", "desc": "Empowering teams."},{"name": "Predictive Maintenance", "desc": "Minimizing downtime."},{"name": "Digital O&M", "desc": "IoT platforms."}]},
+    "asset": {"title": "Asset Management", "items": [{"name": "Technical Management", "desc": "Performance monitoring."},{"name": "Contract Management", "desc": "Risk minimization."},{"name": "Budgeting", "desc": "Financial decisions."},{"name": "Reporting", "desc": "Reliable reports."},{"name": "Cost Analysis", "desc": "Long-term value."},{"name": "Reliability Planning", "desc": "Strategic planning."},{"name": "Compliance", "desc": "Regulatory tracking."},{"name": "ESG Tracking", "desc": "Sustainability goals."},{"name": "Health Indexing", "desc": "Risk detection."}]},
+    "performance": {"title": "Performance", "items": [{"name": "Loss Analysis", "desc": "Minimizing losses."},{"name": "Power Curve", "desc": "Optimizing performance."},{"name": "SCADA Analytics", "desc": "Intelligent decisions."},{"name": "Root Cause Analysis", "desc": "Preventing recurrence."},{"name": "Benchmarking", "desc": "Best practices."},{"name": "Forecasting", "desc": "Strategic planning."},{"name": "Capacity Analysis", "desc": "Maximum efficiency."},{"name": "OEE Monitoring", "desc": "Operational success."},{"name": "FMEA", "desc": "Foreseeing failures."}]},
+    "digital": {"title": "Digital Solutions", "items": [{"name": "Platforms", "desc": "Digitalizing management."},{"name": "SCADA Integration", "desc": "Operational visibility."},{"name": "Dashboards", "desc": "Real-time performance."},{"name": "Predictive Maintenance", "desc": "Preventing downtime."},{"name": "IoT Integration", "desc": "Smart monitoring."},{"name": "AI & ML", "desc": "Performance prediction."},{"name": "Cloud Monitoring", "desc": "Central operations."},{"name": "Mobile Apps", "desc": "Real-time management."},{"name": "Digital Twin", "desc": "Simulation optimization."}]}
+  },
+  "Industries": {
+    "title": "Technologies",
+    "wind": {"title": "Wind Power", "complexity": "Highly complex systems.", "risk": "Real-time data collection.", "output": "Continuous adjustment."},
+    "solar": {"title": "Solar PV", "complexity": "Complex structure.", "risk": "Module-level monitoring.", "output": "Performance optimization."},
+    "hydro": {"title": "Hydro Power", "complexity": "Complex systems.", "risk": "Health monitoring.", "output": "Efficiency analysis."},
+    "gas": {"title": "Gas & Thermal", "complexity": "Difficult to manage.", "risk": "Advanced control.", "output": "Efficiency analyses."},
+    "bess": {"title": "Energy Storage", "complexity": "Technically complex.", "risk": "Real-time monitoring.", "output": "Optimization software."}
+  },
+  "Projects": {
+    "title": "Track Record",
+    "subtitle": "Selected projects",
+    "technology": {"capacity": "100+ MW wind, 250 MW solar.", "scope": "EPC, O&M, consulting.", "challenge": "Variable climate.", "result": "98%+ availability."},
+    "geography": {"capacity": "500+ MW across continents.", "scope": "Comprehensive solutions.", "challenge": "Logistics management.", "result": "99% availability."},
+    "service": {"capacity": "400+ MW under management.", "scope": "Engineering excellence.", "challenge": "Contract management.", "result": "10-15% efficiency increase."}
+  },
+  "WhyUs": {
+    "title": "Our Approach",
+    "items": [
+      {"number": "01", "title": "Lifecycle Mindset", "subtitle": "End-to-End", "desc": "We optimize the entire lifecycle."},
+      {"number": "02", "title": "OEM-Independent", "subtitle": "Freedom", "desc": "Not limited to any supplier."},
+      {"number": "03", "title": "Data-Driven", "subtitle": "Intelligence", "desc": "Decisions supported by data and AI."},
+      {"number": "04", "title": "Field-Proven", "subtitle": "Experience", "desc": "Engineers with proven experience."}
+    ]
+  },
+  "About": {
+    "title": "About POWEN",
+    "vision": {"title": "Vision", "subtitle": "Guiding Principles", "desc": "Making a difference with sustainable solutions."},
+    "leadership": {"title": "Leadership", "subtitle": "Strategic", "desc": "Proven experience in global projects."},
+    "culture": {"title": "Culture", "subtitle": "Innovation", "desc": "Shaped by creativity and analysis."},
+    "hse": {"title": "HSE & Quality", "subtitle": "Safety", "desc": "Cornerstones of our operations."}
+  },
+  "Insights": {
+    "title": "Insights",
+    "items": [
+      {"title": "O&M Lessons", "subtitle": "Experience", "desc": "Solutions that minimize risks."},
+      {"title": "Performance Engineering", "subtitle": "Data-Powered", "desc": "Supported by analysis."},
+      {"title": "Grid & Regulation", "subtitle": "Navigating", "desc": "Foreseeing complexity."},
+      {"title": "Failure Analysis", "subtitle": "Learning", "desc": "Learning from mistakes."}
+    ]
+  },
+  "Contact": {
+    "title": "Talk to Us",
+    "items": [
+      {"title": "Project Enquiry", "subtitle": "Your Vision", "desc": "Global experience and engineering excellence.", "email": "projects@powerenerlytics.com"},
+      {"title": "Investor Contact", "subtitle": "Transparent", "desc": "Built on full transparency.", "email": "investors@powerenerlytics.com"},
+      {"title": "Technical Support", "subtitle": "Expert Help", "desc": "Experienced engineers.", "email": "support@powerenerlytics.com"}
+    ]
+  }
+}
