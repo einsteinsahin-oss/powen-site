@@ -1,11 +1,298 @@
 {
-  "Nav": {"home": "Ana Sayfa", "capabilities": "Yetenekler", "industries": "Teknolojiler", "projects": "Projeler", "about": "Hakkımızda", "insights": "İçgörüler", "contact": "İletişim"},
-  "Hero": {"slides": [{"title": "Danışmanlık", "subtitle": "Uzun vadeli performans.", "tagline": "Görünmeyeni görürüz."},{"title": "EPC", "subtitle": "Performansı maksimize edin.", "tagline": "Hayallerinizi inşa ediyoruz."},{"title": "İşletme", "subtitle": "Çözümlerimizi keşfedin.", "tagline": "Durmak yok."},{"title": "Varlık Yönetimi", "subtitle": "", "tagline": "Varlıkları akıllı kılıyoruz."},{"title": "Performans", "subtitle": "Mühendislik ve finans.", "tagline": "Sınırları zorluyoruz."},{"title": "Dijital Çözümler", "subtitle": "Risk ve veri yönetimi.", "tagline": "Veriyi zekaya dönüştürüyoruz."}], "stats": {"capacity": "GW Yönetim", "availability": "Kullanılabilirlik", "projects": "Proje", "countries": "Ülke"}},
-  "Capabilities": {"title": "Ne Yapıyoruz", "subtitle": "Kapsamlı mühendislik", "advisory": {"title": "Danışmanlık", "items": [{"name": "Fizibilite", "desc": "Teknik başarı."},{"name": "İşveren Mühendisliği", "desc": "Kalite güvencesi."},{"name": "Sözleşme", "desc": "Risk azaltma."},{"name": "Şebeke", "desc": "Sorunsuz süreç."},{"name": "Due Diligence", "desc": "Bilinçli kararlar."},{"name": "Teknoloji", "desc": "Yeni teknoloji."},{"name": "Risk", "desc": "Çözümler."},{"name": "Finansal", "desc": "ROI."},{"name": "Regülasyon", "desc": "Uyumluluk."},{"name": "Yaşam Döngüsü", "desc": "Optimizasyon."},{"name": "Sürdürülebilirlik", "desc": "Yeşil sertifika."}]}, "epc": {"title": "EPC", "items": [{"name": "Elektrik", "desc": "Mükemmellik."},{"name": "BoP", "desc": "Optimize."},{"name": "Şebeke", "desc": "Tam performans."},{"name": "İnşaat", "desc": "Sağlam."},{"name": "Proje", "desc": "Zamanında."},{"name": "Kalite", "desc": "Standartlar."},{"name": "Tedarik", "desc": "Optimal."},{"name": "Güvenlik", "desc": "Risk."},{"name": "Devreye Alma", "desc": "Başarı."},{"name": "Anahtar Teslim", "desc": "Tam yönetim."}]}, "om": {"title": "İşletme", "items": [{"name": "Bakım", "desc": "Kesintisiz."},{"name": "OEM", "desc": "Maksimum."},{"name": "Yedek Parça", "desc": "Süreklilik."},{"name": "Güvenilirlik", "desc": "Artış."},{"name": "İzleme", "desc": "Tespit."},{"name": "Analiz", "desc": "Optimizasyon."},{"name": "Yaşam", "desc": "Değer."},{"name": "Eğitim", "desc": "Güçlendirme."},{"name": "Öngörücü", "desc": "Minimize."},{"name": "Dijital", "desc": "IoT."}]}, "asset": {"title": "Varlık", "items": [{"name": "Teknik", "desc": "İzleme."},{"name": "Sözleşme", "desc": "Risk."},{"name": "Bütçe", "desc": "Finans."},{"name": "Raporlama", "desc": "Güvenilir."},{"name": "Maliyet", "desc": "Değer."},{"name": "Planlama", "desc": "Stratejik."},{"name": "Uyum", "desc": "Takip."},{"name": "ESG", "desc": "Sürdürülebilirlik."},{"name": "Sağlık", "desc": "Risk."}]}, "performance": {"title": "Performans", "items": [{"name": "Kayıp", "desc": "Minimize."},{"name": "Güç", "desc": "Optimize."},{"name": "SCADA", "desc": "Akıllı."},{"name": "Neden", "desc": "Önleme."},{"name": "Kıyaslama", "desc": "En iyi."},{"name": "Tahmin", "desc": "Stratejik."},{"name": "Kapasite", "desc": "Verim."},{"name": "OEE", "desc": "Başarı."},{"name": "FMEA", "desc": "Öngörü."}]}, "digital": {"title": "Dijital", "items": [{"name": "Platform", "desc": "Dijitalleşme."},{"name": "SCADA", "desc": "Görünürlük."},{"name": "Dashboard", "desc": "Gerçek zamanlı."},{"name": "Öngörücü", "desc": "Önleme."},{"name": "IoT", "desc": "Akıllı."},{"name": "AI", "desc": "Tahmin."},{"name": "Bulut", "desc": "Merkezi."},{"name": "Mobil", "desc": "Yönetim."},{"name": "İkiz", "desc": "Simülasyon."}]}},
-  "Industries": {"title": "Teknolojiler", "wind": {"title": "Rüzgar", "complexity": "Karmaşık.", "risk": "Veri toplama.", "output": "Ayarlama."}, "solar": {"title": "Güneş", "complexity": "Karmaşık.", "risk": "İzleme.", "output": "Optimizasyon."}, "hydro": {"title": "Hidro", "complexity": "Karmaşık.", "risk": "Sağlık.", "output": "Analiz."}, "gas": {"title": "Gaz", "complexity": "Zor.", "risk": "Kontrol.", "output": "Verimlilik."}, "bess": {"title": "Depolama", "complexity": "Karmaşık.", "risk": "İzleme.", "output": "Yazılım."}},
-  "Projects": {"title": "Sicilimiz", "subtitle": "Seçilmiş projeler", "technology": {"capacity": "100+ MW rüzgar.", "scope": "EPC, O&M.", "challenge": "İklim.", "result": "98%+ kullanılabilirlik."}, "geography": {"capacity": "500+ MW.", "scope": "Çözümler.", "challenge": "Lojistik.", "result": "99%."}, "service": {"capacity": "400+ MW.", "scope": "Mükemmellik.", "challenge": "Sözleşme.", "result": "10-15%."}},
-  "WhyUs": {"title": "Yaklaşımımız", "items": [{"number": "01", "title": "Yaşam Döngüsü", "subtitle": "Uçtan Uca", "desc": "Yaşam döngüsünü optimize ediyoruz."},{"number": "02", "title": "Bağımsız", "subtitle": "Özgürlük", "desc": "Sınırlı değiliz."},{"number": "03", "title": "Veri Odaklı", "subtitle": "Zeka", "desc": "Veri ve AI destekli."},{"number": "04", "title": "Kanıtlanmış", "subtitle": "Deneyim", "desc": "Kanıtlanmış deneyim."}]},
-  "About": {"title": "Hakkımızda", "vision": {"title": "Vizyon", "subtitle": "Prensipler", "desc": "Sürdürülebilir çözümler."}, "leadership": {"title": "Liderlik", "subtitle": "Stratejik", "desc": "Kanıtlanmış deneyim."}, "culture": {"title": "Kültür", "subtitle": "İnovasyon", "desc": "Yaratıcılık ve analiz."}, "hse": {"title": "İSG", "subtitle": "Güvenlik", "desc": "Temel taşlar."}},
-  "Insights": {"title": "İçgörüler", "items": [{"title": "İşletme", "subtitle": "Deneyim", "desc": "Risk azaltma."},{"title": "Performans", "subtitle": "Veri", "desc": "Analiz."},{"title": "Şebeke", "subtitle": "Yol Gösterme", "desc": "Öngörü."},{"title": "Arıza", "subtitle": "Öğrenme", "desc": "Hatalardan öğrenme."}]},
-  "Contact": {"title": "İletişim", "items": [{"title": "Proje", "subtitle": "Vizyonunuz", "desc": "Küresel deneyim.", "email": "projects@powerenerlytics.com"},{"title": "Yatırımcı", "subtitle": "Şeffaf", "desc": "Şeffaflık.", "email": "investors@powerenerlytics.com"},{"title": "Destek", "subtitle": "Uzman", "desc": "Deneyimli mühendisler.", "email": "support@powerenerlytics.com"}]}
+  "Nav": {
+    "home": "Ana Sayfa",
+    "capabilities": "Yetenekler",
+    "industries": "Teknolojiler",
+    "projects": "Projeler",
+    "about": "Hakkımızda",
+    "insights": "İçgörüler",
+    "contact": "İletişim"
+  },
+  "Hero": {
+    "slides": [
+      {
+        "title": "Danışmanlık & Mühendislik",
+        "subtitle": "Sadece projeyi zamanında bitirmek değil, uzun vadeli işletme performansına uygun şekilde tamamlamaya odaklanırız.",
+        "tagline": "Görünmeyeni görür, karmaşayı fırsata çeviririz."
+      },
+      {
+        "title": "EPC & İnşaat",
+        "subtitle": "Tüm yenilenebilir enerji yatırımlarınızda performansı, güvenilirliği ve yatırım getirisini en üst düzeye çıkarmanıza yardımcı olalım.",
+        "tagline": "Hayallerinizi mühendislikle inşa ediyoruz; her taşında güven ve kalite var."
+      },
+      {
+        "title": "İşletme & Bakım",
+        "subtitle": "Anahtar teslim çözümlerimiz, O&M hizmetlerimiz veya dijital analitik platformlarımız hakkında keşif yapmak için ekibimizle iletişime geçin.",
+        "tagline": "Durmak yok, her sistem en yüksek performansla çalışıyor."
+      },
+      {
+        "title": "Varlık Yönetimi",
+        "subtitle": "",
+        "tagline": "Varlıklarınızı sadece yönetmiyoruz; onları daha akıllı, daha değerli kılıyor, değer yaratıyoruz."
+      },
+      {
+        "title": "Performans & Optimizasyon",
+        "subtitle": "Mühendislik gerçekleri, operasyonel veriler ve finansal beklentiler arasındaki boşluğu kapatırız. Sunum üretmeyiz. Karar alınabilir teknik gerçekler üretiriz.",
+        "tagline": "Sınırları zorluyor, verimliliğinizi yeniden tanımlıyoruz."
+      },
+      {
+        "title": "Dijital & Yazılım Çözümleri",
+        "subtitle": "Her teknoloji farklıdır. Ama gerçek karmaşıklık teknoloji değil, yanlış kararların bedelidir. Biz ekipman yönetmiyoruz. Biz risk, veri ve sonuç yönetiyoruz.",
+        "tagline": "Veriyi zekâya dönüştürüyor, operasyonlarınızı geleceğe taşıyoruz."
+      }
+    ],
+    "stats": {
+      "capacity": "GW Yönetim Altında",
+      "availability": "Ort. Kullanılabilirlik",
+      "projects": "Aktif Proje",
+      "countries": "Ülke"
+    }
+  },
+  "Capabilities": {
+    "title": "Ne Yapıyoruz",
+    "subtitle": "Enerji santrali yaşam döngüsü boyunca kapsamlı mühendislik ve teknik hizmetler",
+    "advisory": {
+      "title": "Danışmanlık",
+      "items": [
+        {"name": "Fizibilite & Saha Seçimi", "desc": "Projeleriniz için en uygun lokasyonu belirler, teknik ve operasyonel başarıyı garanti altına alırız."},
+        {"name": "İşveren Mühendisliği", "desc": "Yatırımcı gözüyle mühendislik çözümleri sunar, projelerinizin her aşamasında kalite ve güvence sağlar."},
+        {"name": "İhale & Sözleşme Danışmanlığı", "desc": "Teknik karmaşıklıkları basitleştirir, sözleşmelerde riskleri minimize eder ve fırsatları maksimize ederiz."},
+        {"name": "Şebeke Uyumu & İzinler", "desc": "Şebeke uyumluluğu ve izin süreçlerini sorunsuz yönetir, projelerinizin hızla hayata geçmesini sağlar."},
+        {"name": "Teknik Due Diligence", "desc": "Her detayı inceler, teknik ve operasyonel riskleri öngörerek bilinçli karar almanızı sağlar."},
+        {"name": "Teknoloji Değerlendirmesi", "desc": "Yeni teknolojilerin projeye uygunluğunu değerlendirir."},
+        {"name": "Risk Yönetimi", "desc": "Teknik ve operasyonel riskleri öngörüp çözümler sunar."},
+        {"name": "Finansal Modelleme", "desc": "Proje yatırım geri dönüşü ve performans simülasyonları."},
+        {"name": "Regülasyon Stratejisi", "desc": "Uzun vadeli regülasyon planlaması ve uyumluluk."},
+        {"name": "Yaşam Döngüsü Mühendisliği", "desc": "Varlık ömrü boyunca performans ve maliyet optimizasyonu."},
+        {"name": "Sürdürülebilirlik Danışmanlığı", "desc": "Çevresel ve sosyal etki değerlendirmeleri, yeşil sertifikasyon danışmanlığı."}
+      ]
+    },
+    "epc": {
+      "title": "EPC & İnşaat",
+      "items": [
+        {"name": "Elektrik & Mekanik İşler", "desc": "Projelerinizin kalbini oluşturan elektrik ve mekanik sistemleri, mühendislik mükemmeliyetiyle hayata geçiriyoruz."},
+        {"name": "Balance of Plant", "desc": "Tüm yardımcı sistemleri optimize eder, tesisinizin sorunsuz ve verimli çalışmasını garanti ederiz."},
+        {"name": "Şebeke Bağlantısı", "desc": "Şebeke entegrasyonunu sorunsuz yönetir, sistemleri tam performansla devreye alırız."},
+        {"name": "İnşaat & Trafo", "desc": "Altyapı ve trafo tesislerini sağlam mühendislik prensipleriyle inşa eder, güvenliği ve dayanıklılığı garanti ederiz."},
+        {"name": "Proje Yönetimi", "desc": "Projenizi zamanında ve bütçede tamamlamak için mühendislik odaklı stratejik planlama sunuyoruz."},
+        {"name": "Kalite Güvencesi", "desc": "Her aşamada kaliteyi mühendislik standartlarıyla güvence altına alıyoruz."},
+        {"name": "Tedarik Zinciri", "desc": "Kritik ekipman ve malzemeleri en uygun maliyet ve kaliteyle temin ediyoruz."},
+        {"name": "Saha Güvenliği", "desc": "Saha güvenliği ve riskleri mühendislik perspektifiyle önceden öngörüyor ve yönetiyoruz."},
+        {"name": "Test & Devreye Alma", "desc": "Sistemlerin tam performansla devreye alınmasını sağlıyor, operasyonel başarıyı garanti ediyoruz."},
+        {"name": "Anahtar Teslim", "desc": "Anahtar teslim projelerde tüm mühendislik ve inşaat sürecini eksiksiz entegre yönetiyoruz."}
+      ]
+    },
+    "om": {
+      "title": "İşletme & Bakım",
+      "items": [
+        {"name": "Önleyici & Düzeltici Bakım", "desc": "Kesintisiz operasyon için sistemlerinizi önleyici ve düzeltici mühendislik çözümleriyle yönetiyoruz."},
+        {"name": "OEM Yönetimi", "desc": "Ekipman üreticileriyle koordinasyonu sağlayarak maksimum performans ve uyumluluk garantisi sunuyoruz."},
+        {"name": "Yedek Parça & Lojistik", "desc": "Yedek parça ve lojistiği optimize ederek operasyonel sürekliliği güvence altına alıyoruz."},
+        {"name": "Güvenilirlik Mühendisliği", "desc": "Sistem kullanılabilirliğini ve güvenilirliğini mühendislik temelli stratejilerle artırıyoruz."},
+        {"name": "Durum İzleme", "desc": "Gerçek zamanlı izleme ve akıllı teşhis ile olası arızaları daha başlamadan tespit ediyoruz."},
+        {"name": "Performans Analizi", "desc": "Veriye dayalı mühendislik analizleriyle performansı sürekli optimize ediyoruz."},
+        {"name": "Yaşam Döngüsü Yönetimi", "desc": "Varlıklarınızın tüm yaşam döngüsünde mühendislik zekâsıyla değerini maksimize ediyoruz."},
+        {"name": "Teknik Eğitim", "desc": "Operasyon ekibinizi mühendislik bilgi ve yetkinliğiyle güçlendiriyoruz."},
+        {"name": "Öngörücü Bakım", "desc": "Sensör ve veri odaklı öngörücü bakım stratejileriyle kesintileri minimize ediyoruz."},
+        {"name": "Dijital O&M", "desc": "IoT ve dijital platformlarla bakım süreçlerinizi akıllı ve verimli kılıyoruz."}
+      ]
+    },
+    "asset": {
+      "title": "Varlık Yönetimi",
+      "items": [
+        {"name": "Teknik Varlık Yönetimi", "desc": "Varlıklarınızın teknik performansını sürekli izler ve mühendislik odaklı optimizasyon sağlar."},
+        {"name": "Sözleşme & Garanti", "desc": "Sözleşme ve garanti süreçlerini profesyonelce yönetir, riskleri minimize ederiz."},
+        {"name": "Bütçeleme", "desc": "Mühendislik verileriyle bütçe ve tahminleme yaparak finansal kararları güçlendiririz."},
+        {"name": "Yatırımcı Raporlama", "desc": "Yatırımcı ve finans kurumlarına güvenilir, teknik ve operasyonel raporlar sunarız."},
+        {"name": "Maliyet Analizi", "desc": "Varlık maliyetlerini ömrü boyunca optimize ederek uzun vadeli değer yaratıyoruz."},
+        {"name": "Güvenilirlik Planlama", "desc": "Kritik ekipmanlarınız için güvenilirlik odaklı stratejilerle planlama yapıyoruz."},
+        {"name": "Regülasyon Yönetimi", "desc": "Mevzuat ve sertifikasyon süreçlerini takip ederek projelerinizin uyumluluğunu garanti ediyoruz."},
+        {"name": "ESG İzleme", "desc": "Çevresel ve sosyal performansı ölçer, sürdürülebilirlik hedeflerinize ulaşmanızı sağlıyoruz."},
+        {"name": "Sağlık İndeksleme", "desc": "Varlıklarınızın teknik ve operasyonel sağlık durumunu skorlayarak riskleri önceden tespit ediyoruz."}
+      ]
+    },
+    "performance": {
+      "title": "Performans & Optimizasyon",
+      "items": [
+        {"name": "Üretim Kaybı Analizi", "desc": "Üretim kayıplarını mühendislik perspektifiyle analiz eder, verim kayıplarını minimize ederiz."},
+        {"name": "Güç Eğrisi", "desc": "Santralinizi endüstri standartlarıyla kıyaslayarak performansı optimize ederiz."},
+        {"name": "SCADA Analitiği", "desc": "SCADA verilerini derinlemesine analiz ederek akıllı operasyon kararları almanızı sağlıyoruz."},
+        {"name": "Kök Neden Analizi", "desc": "Arızaların temel nedenlerini tespit edip, tekrarlanmalarını mühendislik çözümleriyle önleriz."},
+        {"name": "Verimlilik Kıyaslama", "desc": "Tesislerinizin operasyonel verimliliğini sektördeki en iyi uygulamalarla karşılaştırıyoruz."},
+        {"name": "Enerji Tahminleme", "desc": "Enerji üretim tahminleriyle stratejik planlamanızı güçlendiriyoruz."},
+        {"name": "Kapasite Analizi", "desc": "Kapasite kullanım oranlarını analiz ederek maksimum verim sağlıyoruz."},
+        {"name": "OEE İzleme", "desc": "Ekipman verimliliğini sürekli izleyerek operasyonel başarıyı artırıyoruz."},
+        {"name": "FMEA", "desc": "Potansiyel arızaları önceden öngörerek kesintileri minimize ediyoruz."}
+      ]
+    },
+    "digital": {
+      "title": "Dijital Çözümler",
+      "items": [
+        {"name": "Varlık Yönetim Platformları", "desc": "Varlık yönetimini dijitalleştirir, mühendislik temelli verimlilik sağlar."},
+        {"name": "SCADA Entegrasyonu", "desc": "SCADA sistemlerini entegre ederek operasyonel görünürlüğü ve kontrolü artırıyoruz."},
+        {"name": "Performans Panoları", "desc": "Gerçek zamanlı performans panolarıyla karar süreçlerinizi hızlandırıyoruz."},
+        {"name": "Öngörücü Bakım", "desc": "Veri ve algoritmalarla öngörücü bakım modelleri sunarak kesintileri önlüyoruz."},
+        {"name": "IoT Entegrasyonu", "desc": "Tesis sensörlerini dijital platformlarla entegre ederek akıllı izleme sağlıyoruz."},
+        {"name": "AI & Makine Öğrenmesi", "desc": "Akıllı algoritmalarla performans ve bakım tahmini yapıyoruz."},
+        {"name": "Bulut Tabanlı İzleme", "desc": "Bulut tabanlı veri ve kontrol yönetimi ile operasyonlarınızı merkezi olarak izliyoruz."},
+        {"name": "Mobil Uygulamalar", "desc": "Mobil cihazlarla saha operasyonlarını gerçek zamanlı yönetmenizi sağlıyoruz."},
+        {"name": "Dijital İkiz", "desc": "Santralin dijital ikizini oluşturarak simülasyon ve optimizasyon ile riskleri azaltıyoruz."}
+      ]
+    }
+  },
+  "Industries": {
+    "title": "Desteklediğimiz Teknolojiler",
+    "wind": {
+      "title": "Rüzgar Santralleri",
+      "complexity": "Rüzgar türbinleri, aerodinamik rotor sistemleri, yüksek hızlı jeneratörler ve enerji iletim altyapısının entegrasyonu nedeniyle teknik olarak son derece karmaşıktır.",
+      "risk": "Riskleri azaltmak için yapısal sağlık izleme, titreşim ve performans sensörleri ile gerçek zamanlı veri toplar, öngörücü bakım algoritmaları uygularız.",
+      "output": "Enerji üretimini maksimize etmek için rotor eğimi, yaw kontrolü ve pitch optimizasyonunu veri analitiği ile sürekli ayarlarız."
+    },
+    "solar": {
+      "title": "Güneş PV & Hibrit",
+      "complexity": "Güneş PV ve hibrit sistemler, farklı panel teknolojileri, inverter çeşitliliği ve enerji depolama entegrasyonu ile karmaşık bir yapıya sahiptir.",
+      "risk": "Panel performansını modül bazında izler, inverter arızalarını öngörülü bakım sistemleriyle minimize ederiz.",
+      "output": "Enerji üretimini artırmak için panel eğimi, izleme sistemleri ve inverter performans optimizasyonunu sürekli analiz ederiz."
+    },
+    "hydro": {
+      "title": "Hidroelektrik",
+      "complexity": "Hidroelektrik santraller, su akışının değişkenliği, türbin hidrodinamiği ve baraj yapısının mühendislik hassasiyeti nedeniyle karmaşık sistemlerdir.",
+      "risk": "Baraj ve türbin yapılarının sağlık izleme sistemleri ile gerçek zamanlı veri toplar, hidrodinamik simülasyonlarla ekipman ömrünü tahmin ederiz.",
+      "output": "Türbin verim analizi ve enerji üretim simülasyonları ile performansı optimize ederiz."
+    },
+    "gas": {
+      "title": "Gaz & Termal",
+      "complexity": "Gaz ve termal santraller, karmaşık termodinamik döngüler, kombine sistem entegrasyonu ve yüksek sıcaklık/basınç koşulları nedeniyle yönetimi zor sistemlerdir.",
+      "risk": "Riskleri minimize etmek için ileri kontrol sistemleri, termal ve mekanik izleme sensörleri ve bakım protokolleri uygularız.",
+      "output": "Enerji verimliliği analizleri ve performans optimizasyonu ile üretim kapasitesini maksimize ederiz."
+    },
+    "bess": {
+      "title": "Enerji Depolama (BESS)",
+      "complexity": "Batarya enerji depolama sistemleri, kimyasal hücre yönetimi, termal kontrol ve şebeke entegrasyonu nedeniyle teknik olarak karmaşık yapılardır.",
+      "risk": "Pil hücrelerini gerçek zamanlı izler, termal yönetim ve güç kontrol algoritmaları uygularız.",
+      "output": "Batarya optimizasyon yazılımları ve şarj/deşarj stratejileri ile enerji depolama kapasitesini maksimuma çıkarırız."
+    }
+  },
+  "Projects": {
+    "title": "Sicilimiz",
+    "subtitle": "Teknik yetenek ve uygulama mükemmelliğini gösteren seçilmiş projeler",
+    "technology": {
+      "capacity": "100+ MW rüzgar, 250 MW güneş ve 150 MW hidro santrallerle küresel enerji portföyümüzü güçlendirdik.",
+      "scope": "EPC, O&M ve danışmanlık hizmetleri ile projelerin tüm yaşam döngüsünü teknik ve mühendislik odaklı şekilde yönettik.",
+      "challenge": "Değişken iklim koşulları, uzak lokasyon erişimi ve karmaşık ekipman entegrasyonu projelerde öne çıkan zorluklardı.",
+      "result": "Yüksek mühendislik standartları sayesinde santrallerde %98+ kullanılabilirlik sağladık, enerji verimini %12–15 artırdık."
+    },
+    "geography": {
+      "capacity": "Çeşitli kıtalarda toplam 500 MW'ı aşan projelerle farklı iklim ve saha koşullarında deneyim kazandık.",
+      "scope": "Yerel ve uluslararası regülasyonlar, izin süreçleri ve şebeke entegrasyonunu kapsayan kapsamlı mühendislik çözümleri sunduk.",
+      "challenge": "Farklı coğrafyalarda lojistik, tedarik zinciri ve çevresel gerekliliklerin yönetimi ana zorluktu.",
+      "result": "Projelerimiz, bölgesel enerji taleplerine uygun şekilde %99 kullanılabilirlik ve yüksek performans gösterdi."
+    },
+    "service": {
+      "capacity": "EPC ve O&M kapsamında 400+ MW, danışmanlık projelerinde 600+ MW eşdeğer kapasiteyi başarıyla yönettik.",
+      "scope": "Anahtar teslim EPC, öngörücü bakım ve performans optimizasyonu ile tüm proje aşamalarına mühendislik mükemmeliyeti kattık.",
+      "challenge": "Sözleşme ve garanti yönetimi, saha güvenliği ve teknik uyumluluk en kritik zorlukları oluşturdu.",
+      "result": "Yatırımcı ve işletme güveni artarken, enerji üretiminde %10–15 verim artışı ve maksimum kullanılabilirlik sağladık."
+    }
+  },
+  "WhyUs": {
+    "title": "Yaklaşımımız",
+    "items": [
+      {
+        "number": "01",
+        "title": "Yaşam Döngüsü Zihniyeti",
+        "subtitle": "Uçtan Uca Mükemmellik",
+        "desc": "Biz sadece bir proje teslim etmiyoruz; bütün bir yaşam döngüsünü tasarlıyor ve optimize ediyoruz."
+      },
+      {
+        "number": "02",
+        "title": "OEM-Bağımsız Mühendislik",
+        "subtitle": "Yenilik Özgürlüğü",
+        "desc": "Bizim mühendisliğimiz bağımsızdır; hiçbir tedarikçi veya teknolojiyle sınırlı değiliz."
+      },
+      {
+        "number": "03",
+        "title": "Veri Odaklı Kararlar",
+        "subtitle": "Ölçekli Zeka",
+        "desc": "Kararlarımız veri ve yapay zekayla desteklenir. Gerçek zamanlı saha verileri, AI tabanlı tahmin modelleri ve simülasyonlarla çözümler üretiriz."
+      },
+      {
+        "number": "04",
+        "title": "Kanıtlanmış Ekipler",
+        "subtitle": "Deneyim ve İnovasyon",
+        "desc": "Ekibimiz, global projelerde kanıtlanmış deneyime sahip ve sahada sonuç üreten mühendislerden oluşur."
+      }
+    ]
+  },
+  "About": {
+    "title": "POWEN Hakkında",
+    "vision": {
+      "title": "Vizyon & Değerler",
+      "subtitle": "Küresel Etki İçin Rehber Prensipler",
+      "desc": "Vizyonumuz, sadece enerji projeleri gerçekleştirmek değil, sürdürülebilir, dijital ve veri odaklı çözümlerle sektörde fark yaratmaktır."
+    },
+    "leadership": {
+      "title": "Liderlik Ekibi",
+      "subtitle": "Stratejik, Kanıtlanmış, İlham Verici",
+      "desc": "Liderlik ekibimiz, global enerji ve mühendislik projelerinde kanıtlanmış deneyime sahiptir."
+    },
+    "culture": {
+      "title": "Mühendislik Kültürü",
+      "subtitle": "İnovasyon ve Hassasiyet",
+      "desc": "Mühendislik kültürümüz, yaratıcılık, sistematik analiz ve dijital çözümler ile şekillenir."
+    },
+    "hse": {
+      "title": "İSG & Kalite",
+      "subtitle": "Güvenlik ve Mükemmellik",
+      "desc": "İş sağlığı, güvenlik ve kalite, operasyonlarımızın temel taşlarıdır."
+    }
+  },
+  "Insights": {
+    "title": "Bilgi & İçgörüler",
+    "items": [
+      {
+        "title": "İşletme & Bakım Dersleri",
+        "subtitle": "Deneyimi Avantaja Dönüştürme",
+        "desc": "Saha deneyimlerimizden elde ettiğimiz dersler, müşterilerimize riskleri minimize eden ve operasyonel verimliliği artıran çözümler sağlar."
+      },
+      {
+        "title": "Performans Mühendisliği",
+        "subtitle": "Veri Destekli Bilgi",
+        "desc": "Performans mühendisliği makalelerimiz, veri odaklı analiz ve ileri simülasyon teknikleri ile desteklenir."
+      },
+      {
+        "title": "Şebeke & Regülasyon",
+        "subtitle": "Karmaşıklıkta Yol Gösterme",
+        "desc": "Enerji piyasaları ve regülasyonlar sürekli değişiyor. Biz, global deneyim ve AI destekli analizlerle bu karmaşayı öngörüyoruz."
+      },
+      {
+        "title": "Arıza Analizi Vaka Çalışmaları",
+        "subtitle": "Her Zorluktan Öğrenme",
+        "desc": "Her başarısızlık, gelecekteki başarı için bir fırsattır. Sistematik analiz ve veri destekli yaklaşımlar ile hatalardan öğreniyoruz."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Bizimle İletişime Geçin",
+    "items": [
+      {
+        "title": "Proje Sorgusu",
+        "subtitle": "Vizyonunuz, Uzmanlığımız",
+        "desc": "Yeni projelerinizde, fikirden uygulamaya kadar her aşamada küresel deneyim ve mühendislik mükemmeliyeti ile yanınızdayız.",
+        "email": "projects@powen.com"
+      },
+      {
+        "title": "Yatırımcı İletişim",
+        "subtitle": "Şeffaf ve Stratejik",
+        "desc": "Yatırımcılar ve finans kurumlarıyla ilişkilerimiz, tam şeffaflık, güven ve stratejik perspektif üzerine kuruludur.",
+        "email": "investors@powen.com"
+      },
+      {
+        "title": "Teknik Destek",
+        "subtitle": "İhtiyacınız Olduğunda Uzman Yardım",
+        "desc": "Teknik destek ekibimiz, sahada ve dijital ortamda deneyimli mühendislerden oluşur.",
+        "email": "support@powen.com"
+      }
+    ]
+  }
 }

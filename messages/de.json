@@ -1,11 +1,298 @@
 {
-  "Nav": {"home": "Startseite", "capabilities": "Fähigkeiten", "industries": "Technologien", "projects": "Projekte", "about": "Über uns", "insights": "Einblicke", "contact": "Kontakt"},
-  "Hero": {"slides": [{"title": "Beratung", "subtitle": "Langfristige Leistung.", "tagline": "Wir sehen das Unsichtbare."},{"title": "EPC", "subtitle": "Leistung maximieren.", "tagline": "Träume bauen."},{"title": "Betrieb", "subtitle": "Lösungen erkunden.", "tagline": "Kein Stopp."},{"title": "Asset-Management", "subtitle": "", "tagline": "Assets intelligenter."},{"title": "Leistung", "subtitle": "Engineering und Finanzen.", "tagline": "Grenzen verschieben."},{"title": "Digital", "subtitle": "Risiko und Daten.", "tagline": "Daten in Intelligenz."}], "stats": {"capacity": "GW Verwaltung", "availability": "Verfügbarkeit", "projects": "Projekte", "countries": "Länder"}},
-  "Capabilities": {"title": "Was Wir Tun", "subtitle": "Engineering-Dienstleistungen", "advisory": {"title": "Beratung", "items": [{"name": "Machbarkeit", "desc": "Technischer Erfolg."},{"name": "Bauherren", "desc": "Qualitätssicherung."},{"name": "Vertrag", "desc": "Risikominimierung."},{"name": "Netz", "desc": "Nahtlos."},{"name": "Due Diligence", "desc": "Entscheidungen."},{"name": "Technologie", "desc": "Neue Technologie."},{"name": "Risiko", "desc": "Lösungen."},{"name": "Finanz", "desc": "ROI."},{"name": "Regulierung", "desc": "Compliance."},{"name": "Lifecycle", "desc": "Optimierung."},{"name": "Nachhaltigkeit", "desc": "Grüne Zertifizierung."}]}, "epc": {"title": "EPC", "items": [{"name": "Elektro", "desc": "Exzellenz."},{"name": "BoP", "desc": "Optimierung."},{"name": "Netz", "desc": "Volle Leistung."},{"name": "Tiefbau", "desc": "Solide."},{"name": "Projekt", "desc": "Pünktlich."},{"name": "Qualität", "desc": "Standards."},{"name": "Beschaffung", "desc": "Optimal."},{"name": "Sicherheit", "desc": "Risiko."},{"name": "Inbetriebnahme", "desc": "Erfolg."},{"name": "Schlüsselfertig", "desc": "Verwaltung."}]}, "om": {"title": "Betrieb", "items": [{"name": "Wartung", "desc": "Unterbrechungsfrei."},{"name": "OEM", "desc": "Maximum."},{"name": "Ersatzteile", "desc": "Kontinuität."},{"name": "Zuverlässigkeit", "desc": "Erhöhung."},{"name": "Überwachung", "desc": "Erkennung."},{"name": "Analyse", "desc": "Optimierung."},{"name": "Lifecycle", "desc": "Wert."},{"name": "Training", "desc": "Stärkung."},{"name": "Prädiktiv", "desc": "Minimierung."},{"name": "Digital", "desc": "IoT."}]}, "asset": {"title": "Asset", "items": [{"name": "Technisch", "desc": "Überwachung."},{"name": "Vertrag", "desc": "Risiko."},{"name": "Budget", "desc": "Finanz."},{"name": "Reporting", "desc": "Zuverlässig."},{"name": "Kosten", "desc": "Wert."},{"name": "Planung", "desc": "Strategisch."},{"name": "Compliance", "desc": "Verfolgung."},{"name": "ESG", "desc": "Nachhaltigkeit."},{"name": "Gesundheit", "desc": "Risiko."}]}, "performance": {"title": "Leistung", "items": [{"name": "Verlust", "desc": "Minimierung."},{"name": "Leistung", "desc": "Optimierung."},{"name": "SCADA", "desc": "Intelligent."},{"name": "Ursache", "desc": "Vermeidung."},{"name": "Benchmarking", "desc": "Best Practices."},{"name": "Prognose", "desc": "Strategisch."},{"name": "Kapazität", "desc": "Effizienz."},{"name": "OEE", "desc": "Erfolg."},{"name": "FMEA", "desc": "Vorhersage."}]}, "digital": {"title": "Digital", "items": [{"name": "Plattform", "desc": "Digitalisierung."},{"name": "SCADA", "desc": "Sichtbarkeit."},{"name": "Dashboard", "desc": "Echtzeit."},{"name": "Prädiktiv", "desc": "Vermeidung."},{"name": "IoT", "desc": "Intelligent."},{"name": "AI", "desc": "Prognose."},{"name": "Cloud", "desc": "Zentral."},{"name": "Mobil", "desc": "Verwaltung."},{"name": "Zwilling", "desc": "Simulation."}]}},
-  "Industries": {"title": "Technologien", "wind": {"title": "Wind", "complexity": "Komplex.", "risk": "Datensammlung.", "output": "Anpassung."}, "solar": {"title": "Solar", "complexity": "Komplex.", "risk": "Überwachung.", "output": "Optimierung."}, "hydro": {"title": "Wasser", "complexity": "Komplex.", "risk": "Gesundheit.", "output": "Analyse."}, "gas": {"title": "Gas", "complexity": "Schwierig.", "risk": "Steuerung.", "output": "Effizienz."}, "bess": {"title": "Speicher", "complexity": "Komplex.", "risk": "Überwachung.", "output": "Software."}},
-  "Projects": {"title": "Erfolgsbilanz", "subtitle": "Ausgewählte Projekte", "technology": {"capacity": "100+ MW Wind.", "scope": "EPC, O&M.", "challenge": "Klima.", "result": "98%+ Verfügbarkeit."}, "geography": {"capacity": "500+ MW.", "scope": "Lösungen.", "challenge": "Logistik.", "result": "99%."}, "service": {"capacity": "400+ MW.", "scope": "Exzellenz.", "challenge": "Vertrag.", "result": "10-15%."}},
-  "WhyUs": {"title": "Unser Ansatz", "items": [{"number": "01", "title": "Lifecycle", "subtitle": "End-to-End", "desc": "Lifecycle optimieren."},{"number": "02", "title": "Unabhängig", "subtitle": "Freiheit", "desc": "Nicht begrenzt."},{"number": "03", "title": "Datengesteuert", "subtitle": "Intelligenz", "desc": "Daten und AI."},{"number": "04", "title": "Felderprobt", "subtitle": "Erfahrung", "desc": "Bewährte Erfahrung."}]},
-  "About": {"title": "Über POWEN", "vision": {"title": "Vision", "subtitle": "Prinzipien", "desc": "Nachhaltige Lösungen."}, "leadership": {"title": "Führung", "subtitle": "Strategisch", "desc": "Bewährte Erfahrung."}, "culture": {"title": "Kultur", "subtitle": "Innovation", "desc": "Kreativität und Analyse."}, "hse": {"title": "HSE", "subtitle": "Sicherheit", "desc": "Eckpfeiler."}},
-  "Insights": {"title": "Einblicke", "items": [{"title": "Betrieb", "subtitle": "Erfahrung", "desc": "Risikominimierung."},{"title": "Leistung", "subtitle": "Daten", "desc": "Analyse."},{"title": "Netz", "subtitle": "Navigation", "desc": "Vorhersage."},{"title": "Fehler", "subtitle": "Lernen", "desc": "Aus Fehlern lernen."}]},
-  "Contact": {"title": "Sprechen Sie mit uns", "items": [{"title": "Projekt", "subtitle": "Ihre Vision", "desc": "Globale Erfahrung.", "email": "projects@powerenerlytics.com"},{"title": "Investor", "subtitle": "Transparent", "desc": "Transparenz.", "email": "investors@powerenerlytics.com"},{"title": "Support", "subtitle": "Experten", "desc": "Erfahrene Ingenieure.", "email": "support@powerenerlytics.com"}]}
+  "Nav": {
+    "home": "Startseite",
+    "capabilities": "Fähigkeiten",
+    "industries": "Technologien",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "insights": "Einblicke",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "slides": [
+      {
+        "title": "Beratung & Engineering",
+        "subtitle": "Wir konzentrieren uns nicht nur darauf, Projekte pünktlich abzuschließen, sondern sie für langfristige Betriebsleistung zu realisieren.",
+        "tagline": "Wir sehen das Unsichtbare, verwandeln Komplexität in Chancen."
+      },
+      {
+        "title": "EPC & Bau",
+        "subtitle": "Lassen Sie uns Ihnen helfen, Leistung, Zuverlässigkeit und ROI in all Ihren Investitionen in erneuerbare Energien zu maximieren.",
+        "tagline": "Wir bauen Ihre Träume mit Engineering; jedes Element trägt Vertrauen und Qualität."
+      },
+      {
+        "title": "Betrieb & Wartung",
+        "subtitle": "Kontaktieren Sie unser Team, um unsere schlüsselfertigen Lösungen, O&M-Services oder digitalen Analyseplattformen zu erkunden.",
+        "tagline": "Kein Stopp - jedes System läuft mit Höchstleistung."
+      },
+      {
+        "title": "Asset-Management",
+        "subtitle": "",
+        "tagline": "Wir verwalten Ihre Assets nicht nur; wir machen sie intelligenter, wertvoller - schaffen echten Wert."
+      },
+      {
+        "title": "Leistung & Optimierung",
+        "subtitle": "Wir schließen die Lücke zwischen technischen Realitäten, Betriebsdaten und finanziellen Erwartungen. Wir produzieren keine Präsentationen. Wir produzieren umsetzbare technische Wahrheiten.",
+        "tagline": "Grenzen verschieben, Ihre Effizienz neu definieren."
+      },
+      {
+        "title": "Digital & Software",
+        "subtitle": "Jede Technologie ist anders. Aber die wahre Komplexität ist nicht die Technologie - es sind die Kosten falscher Entscheidungen. Wir verwalten keine Ausrüstung. Wir verwalten Risiken, Daten und Ergebnisse.",
+        "tagline": "Daten in Intelligenz verwandeln, Ihre Operationen in die Zukunft führen."
+      }
+    ],
+    "stats": {
+      "capacity": "GW unter Verwaltung",
+      "availability": "Durchschn. Verfügbarkeit",
+      "projects": "Aktive Projekte",
+      "countries": "Länder"
+    }
+  },
+  "Capabilities": {
+    "title": "Was Wir Tun",
+    "subtitle": "Umfassende Engineering- und technische Dienstleistungen über den Kraftwerkslebenszyklus",
+    "advisory": {
+      "title": "Beratung",
+      "items": [
+        {"name": "Machbarkeit & Standortwahl", "desc": "Wir identifizieren die am besten geeigneten Standorte für Ihre Projekte und garantieren technischen und operativen Erfolg."},
+        {"name": "Bauherren-Engineering", "desc": "Engineering-Lösungen aus Investorenperspektive, Sicherstellung von Qualität und Gewährleistung in jeder Phase."},
+        {"name": "Ausschreibungs- & Vertragsberatung", "desc": "Vereinfachung technischer Komplexitäten, Minimierung von Vertragsrisiken und Maximierung von Chancen."},
+        {"name": "Netzkonformität & Genehmigung", "desc": "Nahtloses Management von Netzkonformität und Genehmigungsverfahren für schnelle Projektumsetzung."},
+        {"name": "Technische Due Diligence", "desc": "Untersuchung jedes Details zur Vorhersage technischer und operativer Risiken für fundierte Entscheidungsfindung."},
+        {"name": "Technologiebewertung", "desc": "Bewertung der Eignung neuer Technologien für Projekte."},
+        {"name": "Risikomanagement", "desc": "Vorhersage und Lösung technischer und operativer Risiken."},
+        {"name": "Finanzmodellierung", "desc": "Projekt-ROI- und Leistungssimulationen."},
+        {"name": "Regulierungsstrategie", "desc": "Langfristige Regulierungsplanung und Compliance."},
+        {"name": "Lifecycle-Engineering", "desc": "Leistungs- und Kostenoptimierung über die gesamte Asset-Lebensdauer."},
+        {"name": "Nachhaltigkeitsberatung", "desc": "Umwelt- und soziale Folgenabschätzungen, grüne Zertifizierungsberatung."}
+      ]
+    },
+    "epc": {
+      "title": "EPC & Bau",
+      "items": [
+        {"name": "Elektro- & Maschinenbau", "desc": "Wir bringen Elektro- und Maschinensysteme mit Engineering-Exzellenz zum Leben."},
+        {"name": "Balance of Plant", "desc": "Optimierung aller Hilfssysteme für reibungslosen und effizienten Anlagenbetrieb."},
+        {"name": "Netzanschluss", "desc": "Nahtloses Netzintegrationsmanagement, Inbetriebnahme von Systemen mit voller Leistung."},
+        {"name": "Tiefbau & Umspannwerke", "desc": "Bau von Infrastruktur und Transformatoranlagen mit soliden Engineering-Prinzipien."},
+        {"name": "Projektmanagement", "desc": "Engineering-fokussierte strategische Planung für pünktliche und budgetgerechte Projektvollendung."},
+        {"name": "Qualitätssicherung", "desc": "Gewährleistung von Qualität in jeder Phase mit Engineering-Standards."},
+        {"name": "Lieferkette", "desc": "Beschaffung kritischer Ausrüstung und Materialien zu optimalen Kosten und Qualität."},
+        {"name": "Bausicherheit", "desc": "Vorhersage und Management von Standortsicherheit und Risiken aus Engineering-Perspektive."},
+        {"name": "Test & Inbetriebnahme", "desc": "Sicherstellung der Inbetriebnahme von Systemen mit voller Leistung, Garantie des operativen Erfolgs."},
+        {"name": "Schlüsselfertig", "desc": "Umfassendes integriertes Management aller Engineering- und Bauprozesse."}
+      ]
+    },
+    "om": {
+      "title": "Betrieb & Wartung",
+      "items": [
+        {"name": "Vorbeugende & Korrigierende Wartung", "desc": "Verwaltung von Systemen mit vorbeugenden und korrigierenden Engineering-Lösungen für unterbrechungsfreien Betrieb."},
+        {"name": "OEM-Management", "desc": "Koordination mit Ausrüstungsherstellern für maximale Leistung und Compliance-Garantie."},
+        {"name": "Ersatzteile & Logistik", "desc": "Optimierung von Ersatzteilen und Logistik zur Sicherung der operativen Kontinuität."},
+        {"name": "Zuverlässigkeitstechnik", "desc": "Erhöhung der Systemverfügbarkeit und Zuverlässigkeit mit engineering-basierten Strategien."},
+        {"name": "Zustandsüberwachung", "desc": "Echtzeit-Überwachung und intelligente Diagnostik zur Erkennung potenzieller Ausfälle."},
+        {"name": "Leistungsanalyse", "desc": "Kontinuierliche Optimierung der Leistung mit datengesteuerten Engineering-Analysen."},
+        {"name": "Lifecycle-Management", "desc": "Maximierung des Asset-Werts über den gesamten Lebenszyklus mit Engineering-Intelligenz."},
+        {"name": "Technisches Training", "desc": "Stärkung Ihres Betriebsteams mit Engineering-Wissen und -Kompetenzen."},
+        {"name": "Prädiktive Wartung", "desc": "Minimierung von Ausfallzeiten mit sensor- und datengesteuerten prädiktiven Wartungsstrategien."},
+        {"name": "Digitale O&M", "desc": "Intelligente und effiziente Wartungsprozesse mit IoT und digitalen Plattformen."}
+      ]
+    },
+    "asset": {
+      "title": "Asset-Management",
+      "items": [
+        {"name": "Technisches Asset-Management", "desc": "Kontinuierliche Überwachung der technischen Leistung und engineering-fokussierte Optimierung."},
+        {"name": "Vertrags- & Garantiemanagement", "desc": "Professionelles Management von Verträgen und Garantien, Risikominimierung."},
+        {"name": "Budgetierung", "desc": "Stärkung finanzieller Entscheidungen mit Engineering-Daten für Budgetierung und Prognosen."},
+        {"name": "Investor-Reporting", "desc": "Bereitstellung zuverlässiger, technischer und operativer Berichte für Investoren und Finanzinstitute."},
+        {"name": "Kostenanalyse", "desc": "Langfristige Wertschöpfung durch Optimierung der Asset-Kosten über deren Lebensdauer."},
+        {"name": "Zuverlässigkeitsplanung", "desc": "Zuverlässigkeitsfokussierte Planungsstrategien für kritische Ausrüstung."},
+        {"name": "Regulierungsmanagement", "desc": "Verfolgung von Vorschriften und Zertifizierungen zur Garantie der Projektkonformität."},
+        {"name": "ESG-Tracking", "desc": "Messung der Umwelt- und Sozialleistung, Erreichung Ihrer Nachhaltigkeitsziele."},
+        {"name": "Gesundheitsindexierung", "desc": "Bewertung der technischen und operativen Gesundheit von Assets zur proaktiven Risikoerkennung."}
+      ]
+    },
+    "performance": {
+      "title": "Leistung & Optimierung",
+      "items": [
+        {"name": "Produktionsverlustanalyse", "desc": "Analyse von Produktionsverlusten aus Engineering-Perspektive, Minimierung von Effizienzverlusten."},
+        {"name": "Leistungskurve", "desc": "Optimierung der Leistung durch Vergleich Ihrer Anlage mit Industriestandards."},
+        {"name": "SCADA-Analytik", "desc": "Tiefgehende SCADA-Datenanalyse für intelligente Betriebsentscheidungen."},
+        {"name": "Grundursachenanalyse", "desc": "Identifizierung der Grundursachen von Ausfällen und Vermeidung von Wiederholungen mit Engineering-Lösungen."},
+        {"name": "Effizienzbenchmarking", "desc": "Vergleich der Betriebseffizienz Ihrer Anlagen mit Best Practices der Branche."},
+        {"name": "Energieprognose", "desc": "Stärkung Ihrer strategischen Planung mit Energieproduktionsprognosen."},
+        {"name": "Kapazitätsanalyse", "desc": "Analyse von Kapazitätsauslastungsraten für maximale Effizienz."},
+        {"name": "OEE-Überwachung", "desc": "Kontinuierliche Überwachung der Anlageneffektivität zur Steigerung des operativen Erfolgs."},
+        {"name": "FMEA", "desc": "Vorhersage potenzieller Ausfälle zur Minimierung von Ausfallzeiten."}
+      ]
+    },
+    "digital": {
+      "title": "Digitale Lösungen",
+      "items": [
+        {"name": "Asset-Management-Plattformen", "desc": "Digitalisierung des Asset-Managements für engineering-basierte Effizienz."},
+        {"name": "SCADA-Integration", "desc": "Integration von SCADA-Systemen zur Erhöhung der operativen Sichtbarkeit und Kontrolle."},
+        {"name": "Leistungs-Dashboards", "desc": "Beschleunigung von Entscheidungsprozessen mit Echtzeit-Leistungs-Dashboards."},
+        {"name": "Prädiktive Wartung", "desc": "Vermeidung von Ausfallzeiten mit daten- und algorithmenbasierten prädiktiven Wartungsmodellen."},
+        {"name": "IoT-Integration", "desc": "Intelligente Überwachung durch Integration von Anlagensensoren mit digitalen Plattformen."},
+        {"name": "AI & Maschinelles Lernen", "desc": "Leistungs- und Wartungsprognosen mit intelligenten Algorithmen."},
+        {"name": "Cloud-basierte Überwachung", "desc": "Zentrale Betriebsüberwachung mit Cloud-basiertem Daten- und Kontrollmanagement."},
+        {"name": "Mobile Apps", "desc": "Echtzeit-Feldoperationsmanagement mit mobilen Geräten."},
+        {"name": "Digitaler Zwilling", "desc": "Risikominimierung durch Simulation und Optimierung mit digitalem Zwilling der Anlage."}
+      ]
+    }
+  },
+  "Industries": {
+    "title": "Unterstützte Technologien",
+    "wind": {
+      "title": "Windkraftanlagen",
+      "complexity": "Windturbinen sind technisch hochkomplex aufgrund aerodynamischer Rotorsysteme, Hochgeschwindigkeitsgeneratoren und Energieübertragungsinfrastrukturintegration.",
+      "risk": "Zur Risikominimierung sammeln wir Echtzeitdaten mit struktureller Gesundheitsüberwachung, Vibrations- und Leistungssensoren und wenden prädiktive Wartungsalgorithmen an.",
+      "output": "Zur Maximierung der Energieproduktion passen wir kontinuierlich Rotorneigung, Gierregelung und Pitch-Optimierung mit Datenanalysen an."
+    },
+    "solar": {
+      "title": "Solar-PV & Hybrid",
+      "complexity": "Solar-PV- und Hybridsysteme haben eine komplexe Struktur mit verschiedenen Paneltechnologien, Wechselrichtervielfalt und Energiespeicherintegration.",
+      "risk": "Wir überwachen die Panelleistung auf Modulebene und minimieren Wechselrichterausfälle mit prädiktiven Wartungssystemen.",
+      "output": "Zur Steigerung der Energieproduktion analysieren wir kontinuierlich Panelneigung, Tracking-Systeme und Wechselrichterleistungsoptimierung."
+    },
+    "hydro": {
+      "title": "Wasserkraft",
+      "complexity": "Wasserkraftwerke sind komplexe Systeme aufgrund der Wasserströmungsvariabilität, Turbinenhydrodynamik und Dammbauingenieurpräzision.",
+      "risk": "Wir sammeln Echtzeitdaten mit Gesundheitsüberwachungssystemen für Damm- und Turbinenstrukturen und prognostizieren die Lebensdauer der Ausrüstung mit hydrodynamischen Simulationen.",
+      "output": "Wir optimieren die Leistung mit Turbinenwirkungsgradanalysen und Energieproduktionssimulationen."
+    },
+    "gas": {
+      "title": "Gas & Thermal",
+      "complexity": "Gas- und Thermalkraftwerke sind schwer zu verwaltende Systeme aufgrund komplexer thermodynamischer Zyklen, kombinierter Systemintegration und Hochtemperatur-/Hochdruckbedingungen.",
+      "risk": "Zur Risikominimierung wenden wir fortschrittliche Steuerungssysteme, thermische und mechanische Überwachungssensoren und Wartungsprotokolle an.",
+      "output": "Wir maximieren die Produktionskapazität mit Energieeffizienzanalysen und Leistungsoptimierung."
+    },
+    "bess": {
+      "title": "Energiespeicher (BESS)",
+      "complexity": "Batterieenergiespeichersysteme sind technisch komplexe Strukturen aufgrund chemischer Zellenverwaltung, Thermalkontrolle und Netzintegration.",
+      "risk": "Wir überwachen Batteriezellen in Echtzeit und wenden Thermalmanagement- und Leistungssteuerungsalgorithmen an.",
+      "output": "Wir maximieren die Energiespeicherkapazität mit Batterieoptimierungssoftware und Lade-/Entladestrategien."
+    }
+  },
+  "Projects": {
+    "title": "Erfolgsbilanz",
+    "subtitle": "Ausgewählte Projekte, die technische Fähigkeit und Ausführungsexzellenz demonstrieren",
+    "technology": {
+      "capacity": "Stärkung unseres globalen Energieportfolios mit 100+ MW Wind, 250 MW Solar und 150 MW Wasserkraft.",
+      "scope": "Verwaltung gesamter Projektlebenszyklen technisch und engineering-fokussiert mit EPC, O&M und Beratungsdienstleistungen.",
+      "challenge": "Variable Klimabedingungen, Zugang zu abgelegenen Standorten und komplexe Ausrüstungsintegration waren prominente Projektherausforderungen.",
+      "result": "Durch hohe Engineering-Standards erreichten wir 98%+ Verfügbarkeit in Anlagen und steigerten die Energieeffizienz um 12-15%."
+    },
+    "geography": {
+      "capacity": "Erfahrung in verschiedenen Klima- und Standortbedingungen mit Projekten über 500 MW auf verschiedenen Kontinenten.",
+      "scope": "Bereitstellung umfassender Engineering-Lösungen für lokale und internationale Vorschriften, Genehmigungsverfahren und Netzintegration.",
+      "challenge": "Management von Logistik, Lieferkette und Umweltanforderungen in verschiedenen Geografien war die Hauptherausforderung.",
+      "result": "Unsere Projekte zeigten 99% Verfügbarkeit und hohe Leistung passend zu regionalen Energieanforderungen."
+    },
+    "service": {
+      "capacity": "Erfolgreiche Verwaltung von 400+ MW unter EPC und O&M, 600+ MW äquivalente Kapazität in Beratungsprojekten.",
+      "scope": "Hinzufügen von Engineering-Exzellenz zu allen Projektphasen mit schlüsselfertiger EPC, prädiktiver Wartung und Leistungsoptimierung.",
+      "challenge": "Vertrags- und Garantiemanagement, Standortsicherheit und technische Compliance bildeten die kritischsten Herausforderungen.",
+      "result": "Steigerung des Investor- und Betriebsvertrauens bei gleichzeitiger Erzielung von 10-15% Effizienzsteigerung und maximaler Verfügbarkeit in der Energieproduktion."
+    }
+  },
+  "WhyUs": {
+    "title": "Unser Ansatz",
+    "items": [
+      {
+        "number": "01",
+        "title": "Lifecycle-Denkweise",
+        "subtitle": "End-to-End-Exzellenz",
+        "desc": "Wir liefern nicht nur ein Projekt; wir entwerfen und optimieren den gesamten Lebenszyklus."
+      },
+      {
+        "number": "02",
+        "title": "OEM-unabhängiges Engineering",
+        "subtitle": "Innovationsfreiheit",
+        "desc": "Unser Engineering ist unabhängig; wir sind nicht auf einen Lieferanten oder eine Technologie beschränkt."
+      },
+      {
+        "number": "03",
+        "title": "Datengesteuerte Entscheidungen",
+        "subtitle": "Intelligenz im großen Maßstab",
+        "desc": "Unsere Entscheidungen werden durch Daten und künstliche Intelligenz unterstützt. Mit Echtzeit-Felddaten, KI-basierten Vorhersagemodellen und Simulationen produzieren wir Lösungen."
+      },
+      {
+        "number": "04",
+        "title": "Felderprobte Teams",
+        "subtitle": "Erfahrung trifft Innovation",
+        "desc": "Unser Team besteht aus Ingenieuren mit bewährter Erfahrung in globalen Projekten, die Ergebnisse im Feld liefern."
+      }
+    ]
+  },
+  "About": {
+    "title": "Über POWEN",
+    "vision": {
+      "title": "Vision & Werte",
+      "subtitle": "Leitprinzipien für globale Wirkung",
+      "desc": "Unsere Vision ist es nicht nur, Energieprojekte durchzuführen, sondern mit nachhaltigen, digitalen und datengesteuerten Lösungen einen Unterschied in der Branche zu machen."
+    },
+    "leadership": {
+      "title": "Führungsteam",
+      "subtitle": "Strategisch, Bewährt, Inspirierend",
+      "desc": "Unser Führungsteam verfügt über bewährte Erfahrung in globalen Energie- und Engineering-Projekten."
+    },
+    "culture": {
+      "title": "Engineering-Kultur",
+      "subtitle": "Innovation trifft Präzision",
+      "desc": "Unsere Engineering-Kultur wird durch Kreativität, systematische Analyse und digitale Lösungen geprägt."
+    },
+    "hse": {
+      "title": "HSE & Qualität",
+      "subtitle": "Sicherheit und Exzellenz",
+      "desc": "Arbeitssicherheit, Gesundheit und Qualität sind die Eckpfeiler unserer Operationen."
+    }
+  },
+  "Insights": {
+    "title": "Wissen & Einblicke",
+    "items": [
+      {
+        "title": "Betriebs- & Wartungslektionen",
+        "subtitle": "Erfahrung in Vorteile verwandeln",
+        "desc": "Lektionen aus unserer Felderfahrung bieten unseren Kunden Lösungen, die Risiken minimieren und operative Effizienz steigern."
+      },
+      {
+        "title": "Leistungs-Engineering",
+        "subtitle": "Datengestütztes Wissen",
+        "desc": "Unsere Leistungs-Engineering-Artikel werden durch datengesteuerte Analysen und fortgeschrittene Simulationstechniken unterstützt."
+      },
+      {
+        "title": "Netz & Regulierung",
+        "subtitle": "Komplexität navigieren",
+        "desc": "Energiemärkte und Vorschriften ändern sich ständig. Wir sagen diese Komplexität mit globaler Erfahrung und KI-gestützten Analysen voraus."
+      },
+      {
+        "title": "Fehleranalyse-Fallstudien",
+        "subtitle": "Aus jeder Herausforderung lernen",
+        "desc": "Jeder Fehler ist eine Gelegenheit für zukünftigen Erfolg. Wir lernen aus Fehlern mit systematischer Analyse und datengestützten Ansätzen."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Sprechen Sie mit uns",
+    "items": [
+      {
+        "title": "Projektanfrage",
+        "subtitle": "Ihre Vision, unsere Expertise",
+        "desc": "In Ihren neuen Projekten sind wir in jeder Phase von der Idee bis zur Umsetzung mit globaler Erfahrung und Engineering-Exzellenz an Ihrer Seite.",
+        "email": "projects@powen.com"
+      },
+      {
+        "title": "Investor-Kontakt",
+        "subtitle": "Transparent und Strategisch",
+        "desc": "Unsere Beziehungen zu Investoren und Finanzinstituten basieren auf vollständiger Transparenz, Vertrauen und strategischer Perspektive.",
+        "email": "investors@powen.com"
+      },
+      {
+        "title": "Technischer Support",
+        "subtitle": "Expertenunterstützung wenn Sie sie brauchen",
+        "desc": "Unser technisches Support-Team besteht aus erfahrenen Ingenieuren im Feld und in digitaler Umgebung.",
+        "email": "support@powen.com"
+      }
+    ]
+  }
 }
