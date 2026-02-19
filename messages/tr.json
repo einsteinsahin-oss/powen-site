@@ -52,7 +52,7 @@
     "title": "Neler Yapıyoruz",
     "subtitle": "Enerji santrallerinin tüm yaşam döngüsü boyunca; stratejik danışmanlıktan ileri mühendislik çözümlerine kadar uçtan uca teknik derinlik sunuyoruz. Bizim için mühendislik sadece fiziksel bir inşa süreci değil; verinin zekâya, karmaşanın operasyonel mükemmeliyete dönüştüğü dijital ve zihinsel bir disiplindir. Sadece varlıkları ve projeleri değil, sürdürülebilir bir geleceğin içgörülerini inşa ediyoruz.",
     "advisory": {
-      "title": "Danışmanlık",
+      "title": "Stratejik Danışmanlık & Mühendislik Çözümleri",
       "items": [
         {"name": "Fizibilite & Saha Seçimi", "desc": "Projeleriniz için en uygun lokasyonu belirler, teknik ve operasyonel başarıyı garanti altına alırız."},
         {"name": "İşveren Mühendisliği", "desc": "Yatırımcı gözüyle mühendislik çözümleri sunar, projelerinizin her aşamasında kalite ve güvence sağlar."},
@@ -68,7 +68,7 @@
       ]
     },
     "epc": {
-      "title": "EPC & İnşaat",
+      "title": "EPC & Kurulum, İnşaat",
       "items": [
         {"name": "Elektrik & Mekanik İşler", "desc": "Projelerinizin kalbini oluşturan elektrik ve mekanik sistemleri, mühendislik mükemmeliyetiyle hayata geçiriyoruz."},
         {"name": "Balance of Plant", "desc": "Tüm yardımcı sistemleri optimize eder, tesisinizin sorunsuz ve verimli çalışmasını garanti ederiz."},
@@ -83,7 +83,7 @@
       ]
     },
     "om": {
-      "title": "İşletme & Bakım",
+      "title": "İşletme, Bakım & Dijital İzleme (O&M)",
       "items": [
         {"name": "Önleyici & Düzeltici Bakım", "desc": "Kesintisiz operasyon için sistemlerinizi önleyici ve düzeltici mühendislik çözümleriyle yönetiyoruz."},
         {"name": "OEM Yönetimi", "desc": "Ekipman üreticileriyle koordinasyonu sağlayarak maksimum performans ve uyumluluk garantisi sunuyoruz."},
