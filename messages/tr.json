@@ -85,58 +85,58 @@
     "om": {
       "title": "İşletme, Bakım (O&M)",
       "items": [
-        {"name": "Önleyici & Düzeltici Bakım", "desc": "Kesintisiz operasyon için sistemlerinizi önleyici ve düzeltici mühendislik çözümleriyle yönetiyoruz."},
+        {"name": "Stratejik Bakım Yönetimi", "desc": "Kesintisiz operasyon için sistemlerinizi önleyici ve düzeltici bakımlarını mühendislik çözümleriyle yönetiyoruz."},
         {"name": "OEM Yönetimi", "desc": "Ekipman üreticileriyle koordinasyonu sağlayarak maksimum performans ve uyumluluk garantisi sunuyoruz."},
         {"name": "Yedek Parça & Lojistik", "desc": "Yedek parça ve lojistiği optimize ederek operasyonel sürekliliği güvence altına alıyoruz."},
-        {"name": "Güvenilirlik Mühendisliği", "desc": "Sistem kullanılabilirliğini ve güvenilirliğini mühendislik temelli stratejilerle artırıyoruz."},
-        {"name": "Durum İzleme", "desc": "Gerçek zamanlı izleme ve akıllı teşhis ile olası arızaları daha başlamadan tespit ediyoruz."},
-        {"name": "Performans Analizi", "desc": "Veriye dayalı mühendislik analizleriyle performansı sürekli optimize ediyoruz."},
-        {"name": "Yaşam Döngüsü Yönetimi", "desc": "Varlıklarınızın tüm yaşam döngüsünde mühendislik zekâsıyla değerini maksimize ediyoruz."},
-        {"name": "Teknik Eğitim", "desc": "Operasyon ekibinizi mühendislik bilgi ve yetkinliğiyle güçlendiriyoruz."},
+        {"name": "Güvenilirlik Merkezli Bakım (RCM)", "desc": "Sistem kullanılabilirliğini ve güvenilirliğini mühendislik temelli stratejilerle artırıyoruz."},
+        {"name": "7/24 İzleme & Teşhis", "desc": "Gerçek zamanlı verilerle sistem sağlığını takip eder, anormallikleri kritik seviyeye gelmeden çözüyoruz."},
+        {"name": "İleri Performans Analitiği", "desc": "Saha verilerini sürekli işleyerek tesis verimliliğini tasarlanan en üst limitlere taşıyoruz."},
+        {"name": "Varlık Değer Optimizasyonu", "desc": "Varlıklarınızın bakım stratejilerini, varlığın finansal değerini koruyacak ve ömrünü uzatacak şekilde kurguluyoruz."},
+        {"name": "Teknik Eğitim & Yetkinlik Yönetimi", "desc": "Operasyon ekibinizi mühendislik bilgi ve yetkinliğiyle güçlendiriyoruz."},
         {"name": "Öngörücü Bakım", "desc": "Sensör ve veri odaklı öngörücü bakım stratejileriyle kesintileri minimize ediyoruz."},
-        {"name": "Dijital O&M", "desc": "IoT ve dijital platformlarla bakım süreçlerinizi akıllı ve verimli kılıyoruz."}
+        {"name": "Dijital O&M Ekosistemi", "desc": "Saha operasyonlarını, IoT ve akıllı platformlarla entegre ederek bakımı şeffaf ve ölçülebilir kılıyoruz."}
       ]
     },
     "asset": {
       "title": "Varlık Yönetimi",
       "items": [
-        {"name": "Teknik Varlık Yönetimi", "desc": "Varlıklarınızın teknik performansını sürekli izler ve mühendislik odaklı optimizasyon sağlar."},
-        {"name": "Sözleşme & Garanti", "desc": "Sözleşme ve garanti süreçlerini profesyonelce yönetir, riskleri minimize ederiz."},
-        {"name": "Bütçeleme", "desc": "Mühendislik verileriyle bütçe ve tahminleme yaparak finansal kararları güçlendiririz."},
-        {"name": "Yatırımcı Raporlama", "desc": "Yatırımcı ve finans kurumlarına güvenilir, teknik ve operasyonel raporlar sunarız."},
-        {"name": "Maliyet Analizi", "desc": "Varlık maliyetlerini ömrü boyunca optimize ederek uzun vadeli değer yaratıyoruz."},
-        {"name": "Güvenilirlik Planlama", "desc": "Kritik ekipmanlarınız için güvenilirlik odaklı stratejilerle planlama yapıyoruz."},
-        {"name": "Regülasyon Yönetimi", "desc": "Mevzuat ve sertifikasyon süreçlerini takip ederek projelerinizin uyumluluğunu garanti ediyoruz."},
-        {"name": "ESG İzleme", "desc": "Çevresel ve sosyal performansı ölçer, sürdürülebilirlik hedeflerinize ulaşmanızı sağlıyoruz."},
-        {"name": "Sağlık İndeksleme", "desc": "Varlıklarınızın teknik ve operasyonel sağlık durumunu skorlayarak riskleri önceden tespit ediyoruz."}
+        {"name": "Teknik Varlık Optimizasyonu", "desc": "Varlıkların performans verilerini finansal çıktılarla eşleştirerek yatırımın kârlılığını maksimize ederiz."},
+        {"name": "Kontrat & Garanti Yönetimi", "desc": "Sözleşme ve garanti süreçlerini profesyonelce yönetir, riskleri minimize ederiz."},
+        {"name": "Stratejik Bütçeleme & Tahminleme", "desc": "Mühendislik verileriyle bütçe ve tahminleme yaparak finansal kararları güçlendiririz."},
+        {"name": "Yatırımcı Raporlamaları", "desc": "Karmaşık teknik verileri, finans kuruluşları ve yatırımcılar için stratejik karar destek raporlarına dönüştürürüz."},
+        {"name": "Yaşam Döngüsü Maliyet Analizi", "desc": "Varlık maliyetlerini ömrü boyunca optimize ederek uzun vadeli değer yaratıyoruz."},
+        {"name": "Güvenilirlik Planlaması", "desc": "Kritik ekipmanlarınız için güvenilirlik odaklı stratejilerle planlama yapıyoruz."},
+        {"name": "Mevzuat & Sertifikasyon Yönetimi", "desc": "Yerel ve uluslararası regülasyon uyumluluğunu sağlayarak operasyonel sürekliliği garanti ederiz."},
+        {"name": "ESG Performans İzleme", "desc": "Çevresel ve sosyal performansı ölçer, sürdürülebilirlik hedeflerinize ulaşmanızı sağlıyoruz."},
+        {"name": "Varlık Sağlık İndeksleme", "desc": "Varlıklarınızın teknik ve operasyonel sağlık durumunu skorlayarak riskleri önceden tespit ediyoruz."}
       ]
     },
     "performance": {
       "title": "Performans & Optimizasyon",
       "items": [
-        {"name": "Üretim Kaybı Analizi", "desc": "Üretim kayıplarını mühendislik perspektifiyle analiz eder, verim kayıplarını minimize ederiz."},
-        {"name": "Güç Eğrisi", "desc": "Santralinizi endüstri standartlarıyla kıyaslayarak performansı optimize ederiz."},
-        {"name": "SCADA Analitiği", "desc": "SCADA verilerini derinlemesine analiz ederek akıllı operasyon kararları almanızı sağlıyoruz."},
-        {"name": "Kök Neden Analizi", "desc": "Arızaların temel nedenlerini tespit edip, tekrarlanmalarını mühendislik çözümleriyle önleriz."},
-        {"name": "Verimlilik Kıyaslama", "desc": "Tesislerinizin operasyonel verimliliğini sektördeki en iyi uygulamalarla karşılaştırıyoruz."},
-        {"name": "Enerji Tahminleme", "desc": "Enerji üretim tahminleriyle stratejik planlamanızı güçlendiriyoruz."},
-        {"name": "Kapasite Analizi", "desc": "Kapasite kullanım oranlarını analiz ederek maksimum verim sağlıyoruz."},
-        {"name": "OEE İzleme", "desc": "Ekipman verimliliğini sürekli izleyerek operasyonel başarıyı artırıyoruz."},
-        {"name": "FMEA", "desc": "Potansiyel arızaları önceden öngörerek kesintileri minimize ediyoruz."}
+        {"name": "Üretim Kaybı Analizi", "desc": "Üretim kayıplarının kök nedenlerini mühendislik hassasiyetiyle bulur ve geri kazanım stratejileri uygularız."},
+        {"name": "Benchmark & Güç Eğrisi", "desc": "Santralinizi endüstri standartlarıyla kıyaslayarak performansı optimize ediyoruz."},
+        {"name": "İleri SCADA Analitiği", "desc": "SCADA verilerini derinlemesine analiz ederek akıllı operasyon kararları almanızı sağlıyoruz."},
+        {"name": "Kök Neden Analizi (RCA)", "desc": "Kronik arızaların kaynağına iner, kalıcı mühendislik çözümleriyle sistem kararlılığını sağlıyoruz."},
+        {"name": "Operasyonel Verimlilik Kıyaslama", "desc": "Tesislerinizin operasyonel verimliliğini, performansını en iyi uygulama örnekleri (Best Practices) ile kıyaslayarak gelişim alanlarını belirliyoruz."},
+        {"name": "Yapay Zeka Destekli Üretim Tahmini", "desc": "Meteorolojik ve teknik verileri harmanlayarak yüksek doğrulukta üretim projeksiyonları sunuyoruz."},
+        {"name": "Kapasite & Limit Optimizasyonu", "desc": "Ekipmanların kapasite sınırlarını güvenli bölgede tutarak maksimum çıktı elde edilmesini sağlıyoruz."},
+        {"name": "Ekipman Etkinliğiİzleme", "desc": "Ekipman bazlı kullanılabilirlik ve verimlilik oranlarını sürekli ölçerek operasyonel başarıyı artırıyoruz."},
+        {"name": "Hata Türleri Etki Analizi (FMEA)", "desc": "Potansiyel hata modlarını önceden simüle ederek riskleri tasarım ve işletme aşamasında elimine ediyoruz."}
       ]
     },
     "digital": {
       "title": "Dijital Çözümler",
       "items": [
-        {"name": "Varlık Yönetim Platformları", "desc": "Varlık yönetimini dijitalleştirir, mühendislik temelli verimlilik sağlar."},
-        {"name": "SCADA Entegrasyonu", "desc": "SCADA sistemlerini entegre ederek operasyonel görünürlüğü ve kontrolü artırıyoruz."},
-        {"name": "Performans Panoları", "desc": "Gerçek zamanlı performans panolarıyla karar süreçlerinizi hızlandırıyoruz."},
-        {"name": "Öngörücü Bakım", "desc": "Veri ve algoritmalarla öngörücü bakım modelleri sunarak kesintileri önlüyoruz."},
-        {"name": "IoT Entegrasyonu", "desc": "Tesis sensörlerini dijital platformlarla entegre ederek akıllı izleme sağlıyoruz."},
-        {"name": "AI & Makine Öğrenmesi", "desc": "Akıllı algoritmalarla performans ve bakım tahmini yapıyoruz."},
-        {"name": "Bulut Tabanlı İzleme", "desc": "Bulut tabanlı veri ve kontrol yönetimi ile operasyonlarınızı merkezi olarak izliyoruz."},
-        {"name": "Mobil Uygulamalar", "desc": "Mobil cihazlarla saha operasyonlarını gerçek zamanlı yönetmenizi sağlıyoruz."},
-        {"name": "Dijital İkiz", "desc": "Santralin dijital ikizini oluşturarak simülasyon ve optimizasyon ile riskleri azaltıyoruz."}
+        {"name": "Digital Varlık Yönetim Platformları", "desc": "Varlık yönetim süreçlerini dijital bir ekosisteme taşıyarak tam şeffaflık ve kontrol sağlıyoruz."},
+        {"name": "Uçtan Uca SCADA Entegrasyonu", "desc": "Dağınık veri kaynaklarını tek bir merkezde birleştirerek operasyonel görünürlüğü maksimize ediyoruz."},
+        {"name": "Performans Dashboardları", "desc": "Kritik KPI’ları gerçek zamanlı izlenebilir kılan, karar destek odaklı görselleştirme çözümleri sunuyoruz."},
+        {"name": "Öngörücü Bakım Algoritmaları", "desc": "Veri ve algoritmalarla öngörücü bakım modelleri sunarak kesintileri önlüyoruz."},
+        {"name": "Endüstriyel IoT Entegrasyonu", "desc": "Saha sensörlerini akıllı ağlara bağlayarak her bir ekipmandan stratejik veri süzüyoruz."},
+        {"name": "AI & Makine Öğrenmesi Çözümleri", "desc": "Karmaşık veri setlerini analiz eden yapay zeka modelleriyle performans tahminlemesinde mükemmeliyete ulaşıyoruz."},
+        {"name": "Bulut Tabanlı İzleme & Kontrol", "desc": "Bulut tabanlı veri ve kontrol yönetimi ile operasyonlarınızı merkezi olarak izliyoruz."},
+        {"name": "Mobil Saha Operasyon Yönetimi", "desc": "Saha ekiplerini mobil uygulamalarla dijital merkeze bağlıyor, müdahale hızını ve kalitesini artırıyoruz."},
+        {"name": "Dijital İkiz (Twin) Teknolojisi", "desc": "Santralin dijital ikizini oluşturarak simülasyon ve optimizasyon ile riskleri azaltıyoruz."}
       ]
     }
   },
