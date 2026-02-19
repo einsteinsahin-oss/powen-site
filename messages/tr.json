@@ -11,34 +11,34 @@
   "Hero": {
     "slides": [
       {
-        "title": "Danışmanlık & Mühendislik",
-        "subtitle": "Sadece projeyi zamanında bitirmek değil, uzun vadeli işletme performansına uygun şekilde tamamlamaya odaklanırız.",
-        "tagline": "Görünmeyeni görür, karmaşayı fırsata çeviririz."
+        "title": "Stratejik Danışmanlık & Mühendislik Çözümleri",
+        "subtitle": "Sadece proje teslimat takvimine değil, projenizin yaşam döngüsü boyunca sergileyeceği maksimum performansa odaklanıyoruz.",
+        "tagline": "Detaylardaki potansiyeli görür, karmaşık süreçleri yalın ve kârlı sonuçlara dönüştürürüz."
       },
       {
-        "title": "EPC & İnşaat",
-        "subtitle": "Tüm yenilenebilir enerji yatırımlarınızda performansı, güvenilirliği ve yatırım getirisini en üst düzeye çıkarmanıza yardımcı olalım.",
-        "tagline": "Hayallerinizi mühendislikle inşa ediyoruz; her taşında güven ve kalite var."
+        "title": "EPC & Kurulum, İnşaat",
+        "subtitle": "Yenilenebilir enerji yatırımlarınızı sadece hayata geçirmekle kalmıyor; performans, dayanıklılık ve kârlılık ekseninde en üst düzeye taşıyoruz.",
+        "tagline": "Geleceği mühendislik disipliniyle tasarlıyor, her detayda sarsılmaz bir güven ve kalıcı bir değer inşa ediyoruz."
       },
       {
-        "title": "İşletme & Bakım",
-        "subtitle": "Anahtar teslim çözümlerimiz, O&M hizmetlerimiz veya dijital analitik platformlarımız hakkında keşif yapmak için ekibimizle iletişime geçin.",
-        "tagline": "Durmak yok, her sistem en yüksek performansla çalışıyor."
+        "title": "İşletme, Bakım & Dijital İzleme (O&M)",
+        "subtitle": "Güvenilirlik Merkezli Bakım (RCM) metodolojimiz ve dijital analitik platformlarımızla, operasyonel süreçlerinizde sürdürülebilir bir mükemmeliyet inşa ediyoruz.",
+        "tagline": "Kesintisiz enerji, kusursuz yönetim: Dijital analitiğin gücüyle sistem performansınızı zirvede tutuyoruz."
       },
       {
-        "title": "Varlık Yönetimi",
-        "subtitle": "",
-        "tagline": "Varlıklarınızı sadece yönetmiyoruz; onları daha akıllı, daha değerli kılıyor, değer yaratıyoruz."
+        "title": "Stratejik Varlık Yönetimi",
+        "subtitle": "Yaşam Döngüsü Boyunca Kesintisiz Değer.",
+        "tagline": "Operasyonel mükemmeliyet ilkelerimizle varlıklarınızın yaşam döngüsünü optimize ediyor, riskleri minimize ederek yatırımınızın gelecekteki değerini bugünden inşa ediyoruz."
       },
       {
-        "title": "Performans & Optimizasyon",
-        "subtitle": "Mühendislik gerçekleri, operasyonel veriler ve finansal beklentiler arasındaki boşluğu kapatırız. Sunum üretmeyiz. Karar alınabilir teknik gerçekler üretiriz.",
-        "tagline": "Sınırları zorluyor, verimliliğinizi yeniden tanımlıyoruz."
+        "title": "Performans Mühendisliği & Optimizasyon",
+        "subtitle": "Mühendislik disiplini, operasyonel veriler ve finansal hedefler arasındaki boşluğu köprüleriz. Biz sadece rapor sunmuyoruz; karmaşık verileri, operasyonel mükemmeliyete giden yolda uygulanabilir teknik içgörülere (insights) ve kesin kararlara dönüştürüyoruz.",
+        "tagline": "Sınırları zorluyor, mühendisliğin gücüyle verimliliği yeniden kurguluyoruz."
       },
       {
-        "title": "Dijital & Yazılım Çözümleri",
-        "subtitle": "Her teknoloji farklıdır. Ama gerçek karmaşıklık teknoloji değil, yanlış kararların bedelidir. Biz ekipman yönetmiyoruz. Biz risk, veri ve sonuç yönetiyoruz.",
-        "tagline": "Veriyi zekâya dönüştürüyor, operasyonlarınızı geleceğe taşıyoruz."
+        "title": "Dijital Dönüşüm & Akıllı Yazılım Çözümleri",
+        "subtitle": "Gerçek karmaşıklık teknolojik altyapı değil, hatalı kararların ve kaçırılan fırsatların maliyetidir. Biz sadece ekipman veya kod yönetmiyoruz; operasyonel mükemmeliyet hedefiyle riski, veriyi ve finansal sonuçları yönetiyoruz.",
+        "tagline": "Veriyi stratejik içgörüye (insight) dönüştürüyor, operasyonlarınızı geleceğin standartlarına taşıyoruz."
       }
     ],
     "stats": {
@@ -49,8 +49,8 @@
     }
   },
   "Capabilities": {
-    "title": "Ne Yapıyoruz",
-    "subtitle": "Enerji santrali yaşam döngüsü boyunca kapsamlı mühendislik ve teknik hizmetler",
+    "title": "Neler Yapıyoruz",
+    "subtitle": "Enerji santralleri yaşam döngüsü boyunca danışmanlık, kapsamlı mühendislik ve teknik hizmetler sunuyoruz.",
     "advisory": {
       "title": "Danışmanlık",
       "items": [
