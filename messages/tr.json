@@ -50,7 +50,8 @@
   },
   "Capabilities": {
     "title": "Neler Yapıyoruz",
-    "subtitle": "Enerji santralleri yaşam döngüsü boyunca danışmanlık, kapsamlı mühendislik ve teknik hizmetler sunuyoruz.",
+    "subtitle": "Enerji santrallerinin tüm yaşam döngüsü boyunca; stratejik danışmanlıktan ileri mühendislik çözümlerine kadar uçtan uca teknik derinlik sunuyoruz. Bizim için mühendislik sadece fiziksel bir inşa süreci değil; verinin zekâya, karmaşanın operasyonel mükemmeliyete dönüştüğü dijital ve zihinsel bir disiplindir.",
+    "subtitle": "Sadece varlıkları ve projeleri değil, sürdürülebilir bir geleceğin içgörülerini inşa ediyoruz.",
     "advisory": {
       "title": "Danışmanlık",
       "items": [
