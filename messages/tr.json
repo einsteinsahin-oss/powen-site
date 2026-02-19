@@ -56,30 +56,30 @@
       "items": [
         {"name": "Fizibilite & Saha Seçimi", "desc": "Projeleriniz için en uygun lokasyonu belirler, teknik ve operasyonel başarıyı garanti altına alıyoruz."},
         {"name": "İşveren Mühendisliği", "desc": "Yatırımcı gözüyle mühendislik çözümleri sunar, projelerinizin her aşamasında kalite ve güvence sağlıyoruz."},
-        {"name": "İhale & Sözleşme Danışmanlığı", "desc": "Teknik karmaşıklıkları basitleştirir, sözleşmelerde riskleri minimize eder ve fırsatları maksimize ediyoruz."},
-        {"name": "Şebeke Uyumu & İzinler", "desc": "Şebeke uyumluluğu ve izin süreçlerini sorunsuz yönetir, projelerinizin hızla hayata geçmesini sağlıyoruz."},
+        {"name": "İhale & Sözleşme Yönetimi", "desc": "Teknik karmaşıklıkları basitleştirir, sözleşmelerde riskleri minimize eder ve fırsatları maksimize ediyoruz."},
+        {"name": "Şebeke Entegrasyonu & Mevzuat Yönetimi", "desc": "Şebeke uyumluluğu ve izin süreçlerini sorunsuz yönetir, projelerinizin hızla hayata geçmesini sağlıyoruz."},
         {"name": "Teknik Due Diligence", "desc": "Her detayı inceler, teknik ve operasyonel riskleri öngörerek bilinçli kararlar almanızı sağlıyoruz."},
-        {"name": "Teknoloji Değerlendirmesi", "desc": "Yeni teknolojilerin projelerinizde kullanılmasının etkinliklerini araştırır, uygunluğunu değerlendiriyoruz."},
-        {"name": "Risk Yönetimi", "desc": "Teknik ve operasyonel riskleri öngörüp, değerlendirmelerini gerçekleştirerek, çözümler sunuyoruz."},
-        {"name": "Finansal Modelleme", "desc": "Proje finansal kriterlerinize uygun olarak, yatırım geri dönüşü ve performans simülasyonları raporlarını sunuyoruz."},
-        {"name": "Regülasyon Stratejisi", "desc": "Uzun vadeli regülasyon planlamaları ve uyumluluklarına ilişkin raporlar hazırlıyoruz."},
+        {"name": "Teknoloji Stratejisi", "desc": "Yeni teknolojilerin projelerinizde kullanılmasının etkinliklerini araştırır, uygunluğunu değerlendiriyoruz."},
+        {"name": "Bütünsel Risk Yönetimi", "desc": "Teknik ve operasyonel riskleri henüz oluşmadan öngören proaktif savınma stratejileri geliştiriyoruz,çözümler sunuyoruz."},
+        {"name": "İleri Finansal Modelleme", "desc": "Proje finansal kriterlerinize uygun olarak, yatırım geri dönüşü ve performans simülasyonları raporlarını sunuyoruz."},
+        {"name": "Regülasyon ve Uyunluluk Stratejisi", "desc": "Değişen enerji piyasası mevzuatlarını takip ederek projelerin uzun vadeli uyumluluğunu garanti altına alıyoruz."},
         {"name": "Yaşam Döngüsü Mühendisliği", "desc": "Varlık ömrü boyunca performans ve maliyet optimizasyonuna ilişkin bulgular ile sizlere karar alma konusunda data sağlıyoruz."},
-        {"name": "Sürdürülebilirlik Danışmanlığı", "desc": "Çevresel ve sosyal etki değerlendirmeleri, yeşil sertifikasyon danışmanlığı sizlere sağlıyoruz."}
+        {"name": "Sürdürülebilirlik & ESG Danışmanlığı", "desc": "Karbon ayak izinden yeşil sertifikasyona kadar tüm süreçleri ESG kriterlerine uygun şekilde yönetiyoruz."}
       ]
     },
     "epc": {
       "title": "EPC & Kurulum, İnşaat",
       "items": [
-        {"name": "Elektrik & Mekanik İşler", "desc": "Projelerinizin kalbini oluşturan elektrik ve mekanik sistemleri, mühendislik mükemmeliyetiyle hayata geçiriyoruz."},
-        {"name": "Balance of Plant", "desc": "Tüm yardımcı sistemleri optimize eder, tesisinizin sorunsuz ve verimli çalışmasını garanti ederiz."},
-        {"name": "Şebeke Bağlantısı", "desc": "Şebeke entegrasyonunu sorunsuz yönetir, sistemleri tam performansla devreye alırız."},
-        {"name": "İnşaat & Trafo", "desc": "Altyapı ve trafo tesislerini sağlam mühendislik prensipleriyle inşa eder, güvenliği ve dayanıklılığı garanti ederiz."},
-        {"name": "Proje Yönetimi", "desc": "Projenizi zamanında ve bütçede tamamlamak için mühendislik odaklı stratejik planlama sunuyoruz."},
-        {"name": "Kalite Güvencesi", "desc": "Her aşamada kaliteyi mühendislik standartlarıyla güvence altına alıyoruz."},
-        {"name": "Tedarik Zinciri", "desc": "Kritik ekipman ve malzemeleri en uygun maliyet ve kaliteyle temin ediyoruz."},
-        {"name": "Saha Güvenliği", "desc": "Saha güvenliği ve riskleri mühendislik perspektifiyle önceden öngörüyor ve yönetiyoruz."},
+        {"name": "Elektrik & Mekanik İşler", "desc": "Projelerinizin kalbini oluşturan elektrik ve mekanik sistemleri, mühendislik mükemmeliyeti ve uluslararası standartlara uygun olarak hayata geçiriyoruz."},
+        {"name": "Balance of Plant Optimizasyonu", "desc": "Tüm yardımcı sistemleri projelendirir, optimize eder, tesisinizin sorunsuz ve verimli çalışmasını garanti ederiz."},
+        {"name": "Yüksek Gerilim & Şebeke Bağlantısı", "desc": "Karmaşık bağlantı süreçlerini teknik mükemmeliyetle yönetir, sistemi tam kapasite ile şebekeye hazırlarız."},
+        {"name": "İnşaat Mühendisliği & Altyapı", "desc": "Zorlu arazi koşullarında dahi sarsılmaz altyapı ve trafo merkezleri inşa ederek, güvenliği ve dayanıklılığı garanti ederiz."},
+        {"name": "Stratejik Proje Yönetimi", "desc": "Bütçe ve zaman hedeflerini mühendislik odaklı planlama ile yönetir, sapmaları proaktif olarak engelleriz."},
+        {"name": "Uluslararası Kalite Güvencesi (QA/QC)", "desc": "Her üretim ve montaj aşamasını küresel mühendislik standartlarıyla denetleyerek hatasız teslimat sağlıyoruz."},
+        {"name": "Tedarik Zinciri Yönetimi", "desc": "Kritik ekipman ve malzemeleri en uygun maliyet ve kaliteyle temin ediyoruz."},
+        {"name": "HSE & Saha Güvenliği", "desc": "İş güvenliğini bir kültür olarak sahaya yansıtır, riskleri mühendislik perspektifiyle sıfıra indirerek yönetiyoruz."},
         {"name": "Test & Devreye Alma", "desc": "Sistemlerin tam performansla devreye alınmasını sağlıyor, operasyonel başarıyı garanti ediyoruz."},
-        {"name": "Anahtar Teslim", "desc": "Anahtar teslim projelerde tüm mühendislik ve inşaat sürecini eksiksiz entegre yönetiyoruz."}
+        {"name": "Anahtar Teslim Entegrasyon", "desc": "Anahtar teslim projelerde tüm mühendislik ve inşaat sürecini eksiksiz tam sorumluluk ile  yönetiyoruz."}
       ]
     },
     "om": {
