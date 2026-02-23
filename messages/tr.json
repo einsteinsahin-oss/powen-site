@@ -176,12 +176,6 @@
   "Projects": {
     "title": "Projeler ve Deneyimlerimiz",
     "subtitle": "Bir şirketin gerçek değeri, sunduğu hizmet listesinde değil; teslim ettiği projelerin kalitesinde ve karmaşıklığında ölçülür. Aşağıdaki referans projeler, farklı teknolojiler, coğrafyalar ve operasyonel koşullar altında sergilediğimiz mühendislik derinliğinin ve uygulama disiplininin somut yansımalarıdır. Her proje, global standartlarda teknik karar alma kapasitemizin, risk yönetimi anlayışımızın ve müşterilerimize yarattığımız ölçülebilir değerin belgesidir.",
-    "labels": {
-      "capacity": "KURULU GÜÇ",
-      "scope of work": "KAPSAM",
-      "challenge": "ANA ZORLUK",
-      "result": "SONUÇ"
-    },
     "technology": {
       "capacity": "600+ MW rüzgar, 250 MW güneş, 950 MW hidro, 2400 diesel engine ve 2550 MW doğalgaz santrallerle küresel enerji tecrübelerimizi güçlendirdik.",
       "scope of work": "EPC, O&M ve danışmanlık hizmetleri ile projelerin tüm yaşam döngüsünü teknik ve mühendislik odaklı şekilde yönettik.",
