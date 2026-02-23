@@ -24,19 +24,27 @@ export default function Projects() {
               <div className="text-4xl mb-4">{cat.icon}</div>
               <div className="space-y-4">
                 <div>
-                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Kurulu Güç</div>
+                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">
+                    {t('labels.capacity')}
+                  </div>
                   <p className="text-base text-gray-700">{t(`${cat.id}.capacity`)}</p>
                 </div>
                 <div>
-                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Scope of Work</div>
+                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">
+                    {t('labels.scope')}
+                  </div>
                   <p className="text-base text-gray-700">{t(`${cat.id}.scope`)}</p>
                 </div>
                 <div>
-                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Key Challenge</div>
+                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">
+                    {t('labels.challenge')}
+                  </div>
                   <p className="text-base text-gray-700">{t(`${cat.id}.challenge`)}</p>
                 </div>
                 <div>
-                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">Result</div>
+                  <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-2">
+                    {t('labels.result')}
+                  </div>
                   <p className="text-base font-medium text-blue-600">{t(`${cat.id}.result`)}</p>
                 </div>
               </div>

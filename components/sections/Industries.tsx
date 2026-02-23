@@ -25,9 +25,7 @@ export default function Industries() {
               key={tech.id}
               onClick={() => setActiveTech(tech.id)}
               className={`p-6 text-center transition-all ${
-                activeTech === tech.id
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-white text-gray-900 hover:bg-gray-100'
+                activeTech === tech.id ? 'bg-blue-600 text-white' : 'bg-white text-gray-900 hover:bg-gray-100'
               }`}
             >
               <div className="text-4xl mb-2">{tech.icon}</div>
@@ -41,15 +39,21 @@ export default function Industries() {
           
           <div className="grid lg:grid-cols-3 gap-8">
             <div>
-              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">COMPLEXITY</div>
+              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">
+                {t('labels.complexity')}
+              </div>
               <p className="text-base text-gray-700 leading-relaxed">{t(`${activeTech}.complexity`)}</p>
             </div>
             <div>
-              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">RISK MANAGEMENT</div>
+              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">
+                {t('labels.risk')}
+              </div>
               <p className="text-base text-gray-700 leading-relaxed">{t(`${activeTech}.risk`)}</p>
             </div>
             <div>
-              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">OUTPUT IMPROVEMENT</div>
+              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">
+                {t('labels.output')}
+              </div>
               <p className="text-base text-gray-700 leading-relaxed">{t(`${activeTech}.output`)}</p>
             </div>
           </div>
