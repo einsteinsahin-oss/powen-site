@@ -150,9 +150,9 @@
     },
     "solar": {
       "title": "Güneş PV & Hibrit",
-      "complexity": "Güneş PV ve hibrit sistemler, farklı panel teknolojileri, inverter çeşitliliği ve enerji depolama entegrasyonu ile karmaşık bir yapıya sahiptir.",
-      "risk": "Panel performansını modül bazında izler, inverter arızalarını öngörülü bakım sistemleriyle minimize ederiz.",
-      "output": "Enerji üretimini artırmak için panel eğimi, izleme sistemleri ve inverter performans optimizasyonunu sürekli analiz ederiz."
+      "Varlık Yönetimi": "Güneş santrallerinizin ve hibrit sistemlerinizin her bileşenini — panel dizilerinden inverter altyapısına, enerji depolama ünitelerine kadar — yapay zeka destekli izleme platformlarımızla modül bazında takip ediyor, sistem davranışını gerçek zamanlı analiz ediyoruz. Geleneksel O&M sağlayıcılarının alarm yönettiği noktada biz arızayı henüz oluşmadan tespit ediyor, müdahale süreçlerini sahaya inmeden önce planlıyoruz. Böylece santralleriniz en yüksek kapasite faktöründe, kesintisiz çalışmaya devam ediyor.",
+      "İşletme ve Bakım": "Her ekipmanın kritikliğini analiz ediyor, bakım stratejisini varlığın gerçek yaşam döngüsüne ve saha koşullarına göre özelleştiriyoruz. RCM metodolojisini operasyonel mükemmellik standartlarıyla birleştirerek plansız duruşları minimize ediyor, üretim kayıplarını sistematik olarak ortadan kaldırıyoruz. Panel eğimi optimizasyonundan iz sürme sistemlerine, inverter performans yönetiminden önleyici bakım programlarına kadar her sürecimiz ölçülebilir üretim artışı hedefiyle tasarlanmıştır.",
+      "Fİnansal": "Santrallerinizin teknik performansı doğrudan yatırım getirinizi belirler. Biz, üretim kayıplarını minimize ederken ekipman ömrünü uzatıyor; her teknik müdahaleyi IRR ve LCOE üzerindeki somut etkisiyle birlikte raporluyoruz. Garanti kapsamı yönetiminden yaşam döngüsü planlama stratejilerine kadar tüm süreçleri entegre bir finansal perspektifle yönetiyor, santralinizin beklenen getirisini yatırım döneminin sonuna kadar korumasını sağlıyoruz."
     },
     "hydro": {
       "title": "Hidroelektrik",
