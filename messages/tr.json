@@ -178,25 +178,25 @@
     "subtitle": "Bir şirketin gerçek değeri, sunduğu hizmet listesinde değil; teslim ettiği projelerin kalitesinde ve karmaşıklığında ölçülür. Aşağıdaki referans projeler, farklı teknolojiler, coğrafyalar ve operasyonel koşullar altında sergilediğimiz mühendislik derinliğinin ve uygulama disiplininin somut yansımalarıdır. Her proje, global standartlarda teknik karar alma kapasitemizin, risk yönetimi anlayışımızın ve müşterilerimize yarattığımız ölçülebilir değerin belgesidir.",
     "labels": {
       "capacity": "KURULU GÜÇ",
-      "scope": "KAPSAM",
+      "scope of work": "KAPSAM",
       "challenge": "ANA ZORLUK",
       "result": "SONUÇ"
        },
     "technology": {
       "capacity": "600+ MW rüzgar, 250 MW güneş, 950 MW hidro, 2400 diesel engine ve 2550 MW doğalgaz santrallerle küresel enerji tecrübelerimizi güçlendirdik.",
-      "Scope": "EPC, O&M ve danışmanlık hizmetleri ile projelerin tüm yaşam döngüsünü teknik ve mühendislik odaklı şekilde yönettik.",
+      "Scope of work": "EPC, O&M ve danışmanlık hizmetleri ile projelerin tüm yaşam döngüsünü teknik ve mühendislik odaklı şekilde yönettik.",
       "challenge": "Değişken iklim koşulları, uzak lokasyon erişimi ve karmaşık ekipman entegrasyonu projelerde öne çıkan zorluklardı.",
       "Result": "Yüksek mühendislik standartları sayesinde santrallerde yüksek emre amadelik sağladık, enerji verimini %12–15 artırdık."
     },
     "geography": {
       "capacity": "Çeşitli kıtalarda toplam 3700 MW'ı aşan projelerle farklı iklim ve saha koşullarında deneyim kazandık.",
-      "Scope": "Yerel ve uluslararası regülasyonlar, izin süreçleri ve şebeke entegrasyonunu kapsayan kapsamlı mühendislik çözümleri sunduk.",
+      "Scope of work": "Yerel ve uluslararası regülasyonlar, izin süreçleri ve şebeke entegrasyonunu kapsayan kapsamlı mühendislik çözümleri sunduk.",
       "challenge": "Farklı coğrafyalarda lojistik, tedarik zinciri ve çevresel gerekliliklerin yönetimi ana zorluktu.",
       "Result": "Projelerimiz, bölgesel enerji taleplerine uygun şekilde yüksek emre amadelik ve yüksek performans gösterdi."
     },
     "service": {
       "capacity": "EPC ve O&M kapsamında 400+ MW, danışmanlık projelerinde 600+ MW eşdeğer kapasiteyi başarıyla yönettik.",
-      "Scope": "Anahtar teslim EPC, öngörücü bakım ve performans optimizasyonu ile tüm proje aşamalarına mühendislik mükemmeliyeti kattık.",
+      "Scope of work": "Anahtar teslim EPC, öngörücü bakım ve performans optimizasyonu ile tüm proje aşamalarına mühendislik mükemmeliyeti kattık.",
       "challenge": "Sözleşme ve garanti yönetimi, saha güvenliği ve teknik uyumluluk en kritik zorlukları oluşturdu.",
       "Result": "Yatırımcı ve işletme güveni artarken, enerji üretiminde yüksek verim artışı ve maksimum emre amadelik sağladık."
     }
