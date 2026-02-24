@@ -315,6 +315,11 @@
   },
   "Industries": {
     "title": "Technologies We Support",
+    "labels": {
+      "complexity": "COMPLEXITY",
+      "risk": "RISK MANAGEMENT",
+      "output": "OUTPUT IMPROVEMENT"
+    },
     "wind": {
       "title": "Wind Power Plants",
       "complexity": "Wind turbines are technically highly complex due to aerodynamic rotor systems, high-speed generators, and energy transmission infrastructure integration. Turbines are exposed to variable wind speeds, creating risks of aerodynamic loads, vibrations, and mechanical fatigue. Remote locations and access difficulties further complicate maintenance processes.",
@@ -349,6 +354,12 @@
   "Projects": {
     "title": "Track Record",
     "subtitle": "Selected projects demonstrating technical capability and execution excellence",
+    "labels": {
+      "capacity": "INSTALLED CAPACITY",
+      "scope": "SCOPE OF WORK",
+      "challenge": "KEY CHALLENGE",
+      "result": "RESULT"
+    },
     "technology": {
       "capacity": "100+ MW wind, 250 MW solar, and 150 MW hydro plants strengthened our global energy portfolio.",
       "scope": "Managed entire project lifecycles technically and engineering-focused with EPC, O&M, and consulting services.",

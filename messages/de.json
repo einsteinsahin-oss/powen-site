@@ -142,6 +142,11 @@
   },
   "Industries": {
     "title": "Unterstützte Technologien",
+    "labels": {
+      "complexity": "KOMPLEXITÄT",
+      "risk": "RISIKOMANAGEMENT",
+      "output": "AUSGABEVERBESSERUNG"
+    },
     "wind": {
       "title": "Windkraftanlagen",
       "complexity": "Windturbinen sind technisch hochkomplex aufgrund aerodynamischer Rotorsysteme, Hochgeschwindigkeitsgeneratoren und Energieübertragungsinfrastrukturintegration.",
@@ -176,6 +181,12 @@
   "Projects": {
     "title": "Erfolgsbilanz",
     "subtitle": "Ausgewählte Projekte, die technische Fähigkeit und Ausführungsexzellenz demonstrieren",
+    "labels": {
+      "capacity": "INSTALLIERTE LEISTUNG",
+      "scope": "ARBEITSUMFANG",
+      "challenge": "HAUPTHERAUSFORDERUNG",
+      "result": "ERGEBNIS"
+    },
     "technology": {
       "capacity": "Stärkung unseres globalen Energieportfolios mit 100+ MW Wind, 250 MW Solar und 150 MW Wasserkraft.",
       "scope": "Verwaltung gesamter Projektlebenszyklen technisch und engineering-fokussiert mit EPC, O&M und Beratungsdienstleistungen.",
