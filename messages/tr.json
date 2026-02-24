@@ -8,6 +8,19 @@
     "insights": "İçgörüler",
     "contact": "İletişim"
   },
+    },
+  "Footer": {
+    "tagline": "Enerji santrallerinde mühendislik mükemmeliyeti",
+    "quickLinks": "Hızlı Bağlantılar",
+    "capabilities": "Yetenekler",
+    "industries": "Teknolojiler",
+    "projects": "Projeler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "location": "İstanbul, Türkiye",
+    "rights": "Tüm hakları saklıdır."
+  }
+  }
   "Hero": {
     "slides": [
       {

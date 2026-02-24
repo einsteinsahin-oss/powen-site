@@ -8,6 +8,19 @@
     "insights": "Einblicke",
     "contact": "Kontakt"
   },
+  },
+  "Footer": {
+    "tagline": "Engineering-Exzellenz in Kraftwerken",
+    "quickLinks": "Schnelllinks",
+    "capabilities": "Fähigkeiten",
+    "industries": "Technologien",
+    "projects": "Projekte",
+    "about": "Über",
+    "contact": "Kontakt",
+    "location": "Istanbul, Türkei",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}
   "Hero": {
     "slides": [
       {
