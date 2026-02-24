@@ -306,7 +306,24 @@
       }
     ]
   },
-  "Footer": {
-    "rights": "Tüm hakları saklıdır."
+ "Footer": {
+    "tagline": "Enerji santrallerinde mühendislik mükemmeliyeti",
+    "quickLinks": "Hızlı Bağlantılar",
+    "capabilities": "Yetenekler",
+    "industries": "Teknolojiler",
+    "projects": "Projeler",
+    "about": "Hakkımızda",
+    "insights": "İçgörüler",
+    "services": "Hizmetlerimiz",
+    "advisory": "Danışmanlık",
+    "epc": "EPC & İnşaat",
+    "om": "İşletme & Bakım",
+    "asset": "Varlık Yönetimi",
+    "digital": "Dijital Çözümler",
+    "contact": "İletişim",
+    "location": "İstanbul, Türkiye",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları"
   }
 }

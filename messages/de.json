@@ -307,6 +307,23 @@
     ]
   },
   "Footer": {
-    "rights": "Alle Rechte vorbehalten."
+    "tagline": "Engineering-Exzellenz in Kraftwerken",
+    "quickLinks": "Schnelllinks",
+    "capabilities": "Fähigkeiten",
+    "industries": "Technologien",
+    "projects": "Projekte",
+    "about": "Über",
+    "insights": "Einblicke",
+    "services": "Unsere Dienstleistungen",
+    "advisory": "Beratung",
+    "epc": "EPC & Bau",
+    "om": "Betrieb & Wartung",
+    "asset": "Vermögensverwaltung",
+    "digital": "Digitale Lösungen",
+    "contact": "Kontakt",
+    "location": "Istanbul, Türkei",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
   }
 }
