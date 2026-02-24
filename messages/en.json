@@ -2,42 +2,43 @@
   "Nav": {
     "home": "Home",
     "capabilities": "Capabilities",
-    "industries": "Industries",
+    "industries": "Technologies",
     "projects": "Projects",
-    "about": "About",
+    "about": "About Us",
     "insights": "Insights",
     "contact": "Contact"
   },
   "Hero": {
     "slides": [
       {
-        "title": "Advisory & Consulting",
-        "subtitle": "We don't just deliver projects on time—we ensure they're built for long-term operational performance.",
-        "tagline": "We see the invisible, turn complexity into opportunity."
+        "title": "Strategic Consulting & Engineering Solutions",
+        "subtitle": "We focus not only on project delivery timelines, but on achieving maximum performance throughout the entire lifecycle of your project.",
+        "tagline": "We see the potential in the details and transform complex processes into lean, profitable outcomes."
       },
       {
-        "title": "EPC & Construction",
-        "subtitle": "Let us help you maximize performance, reliability, and ROI across all your renewable energy investments.",
-        "tagline": "We build your dreams with engineering; every element holds trust and quality."
+        "title": "EPC & Installation, Construction",
+        "subtitle": "We don't just bring your renewable energy investments to life; we elevate them to the highest level in terms of performance, durability, and profitability.",
+        "tagline": "We design the future with engineering discipline, building unwavering confidence and lasting value in every detail."
       },
       {
-        "title": "O&M Services",
-        "subtitle": "Connect with our team to explore our turnkey solutions, O&M services, or digital analytics platforms.",
-        "tagline": "No stopping—every system runs at peak performance."
+        "title": "Operations, Maintenance & Digital Monitoring (O&M)",
+        "subtitle": "With our Reliability Centered Maintenance (RCM) methodology and digital analytics platforms, we build sustainable excellence in your operational processes.",
+        "tagline": "Uninterrupted energy, flawless management: We keep your system performance at its peak with the power of digital analytics."
       },
       {
-        "title": "Asset Management",
-        "tagline": "We don't just manage your assets; we make them smarter, more valuable—creating real value."
+        "title": "Strategic Asset Management",
+        "subtitle": "Continuous Value Throughout the Lifecycle.",
+        "tagline": "We optimize the lifecycle of your assets with our operational excellence principles, minimizing risks while building the future value of your investment today."
       },
       {
-        "title": "Performance & Optimisation",
-        "subtitle": "At POWEN, we bridge the gap between engineering realities, operational data, and financial expectations. We don't produce presentations. We produce actionable technical truths.",
-        "tagline": "Pushing boundaries, redefining your efficiency."
+        "title": "Performance Engineering & Optimization",
+        "subtitle": "We bridge the gap between engineering discipline, operational data, and financial goals. We don't just present reports; we transform complex data into actionable technical insights and definitive decisions on the path to operational excellence.",
+        "tagline": "We push boundaries and redefine efficiency with the power of engineering."
       },
       {
-        "title": "Digital & Software Solutions",
-        "subtitle": "Every technology is different. But the real complexity isn't the technology—it's the cost of wrong decisions. We don't manage equipment. We manage risk, data, and results.",
-        "tagline": "Transforming data into intelligence, taking your operations to the future."
+        "title": "Digital Transformation & Smart Software Solutions",
+        "subtitle": "The real complexity is not the technological infrastructure, but the cost of wrong decisions and missed opportunities. We don't just manage equipment or code; we manage risk, data, and financial outcomes with the goal of operational excellence.",
+        "tagline": "We transform data into strategic insights and bring your operations up to the standards of the future."
       }
     ],
     "stats": {
@@ -49,267 +50,93 @@
   },
   "Capabilities": {
     "title": "What We Do",
-    "subtitle": "Comprehensive engineering and technical services across the power plant lifecycle",
+    "subtitle": "We provide end-to-end technical depth throughout the entire lifecycle of power plants; from strategic consulting to advanced engineering solutions. For us, engineering is not just a physical construction process; it is a digital and intellectual discipline where data transforms into intelligence and complexity transforms into operational excellence. We build not only assets and projects, but the insights of a sustainable future.",
     "advisory": {
-      "title": "Advisory & Consulting",
+      "title": "Strategic Consulting",
       "items": [
-        {
-          "name": "Feasibility & Site Selection",
-          "desc": "We identify the most suitable locations for your projects, guaranteeing technical and operational success."
-        },
-        {
-          "name": "Owner's Engineering",
-          "desc": "Engineering solutions from an investor's perspective, ensuring quality and assurance at every stage."
-        },
-        {
-          "name": "Tender & Contract Advisory",
-          "desc": "Simplifying technical complexities, minimizing contract risks, and maximizing opportunities."
-        },
-        {
-          "name": "Grid Compliance & Permitting",
-          "desc": "Managing grid compliance and permitting processes seamlessly for rapid project execution."
-        },
-        {
-          "name": "Due Diligence",
-          "desc": "Examining every detail to foresee technical and operational risks for informed decision-making."
-        },
-        {
-          "name": "Technology & Innovation Assessment",
-          "desc": "Evaluating new technologies for project suitability."
-        },
-        {
-          "name": "Risk Assessment & Mitigation",
-          "desc": "Foreseeing and solving technical and operational risks."
-        },
-        {
-          "name": "Financial & Performance Modelling",
-          "desc": "Project ROI and performance simulations."
-        },
-        {
-          "name": "Regulatory Strategy",
-          "desc": "Long-term regulation planning and compliance."
-        },
-        {
-          "name": "Lifecycle Engineering",
-          "desc": "Performance and cost optimization throughout asset life."
-        },
-        {
-          "name": "Sustainability & ESG Advisory",
-          "desc": "Environmental and social impact assessments, green certification consulting."
-        }
+        {"name": "Feasibility & Site Selection", "desc": "We identify the most suitable location for your projects, guaranteeing technical and operational success."},
+        {"name": "Employer's Engineering", "desc": "We provide engineering solutions from an investor's perspective, ensuring quality and assurance at every stage of your projects."},
+        {"name": "Tender & Contract Management", "desc": "We simplify technical complexities, minimize risks in contracts, and maximize opportunities."},
+        {"name": "Grid Integration & Regulatory Management", "desc": "We seamlessly manage grid compliance and permitting processes, enabling your projects to come to life quickly."},
+        {"name": "Technical Due Diligence", "desc": "We examine every detail, anticipating technical and operational risks to help you make informed decisions."},
+        {"name": "Technology Strategy", "desc": "We research the effectiveness of new technologies in your projects and evaluate their suitability."},
+        {"name": "Holistic Risk Management", "desc": "We develop proactive defense strategies that anticipate technical and operational risks before they arise, delivering solutions."},
+        {"name": "Advanced Financial Modeling", "desc": "We deliver investment return and performance simulation reports tailored to your project's financial criteria."},
+        {"name": "Regulation & Compliance Strategy", "desc": "By tracking changing energy market regulations, we guarantee the long-term compliance of projects."},
+        {"name": "Lifecycle Engineering", "desc": "We provide you with data on performance and cost optimization throughout the asset's lifetime to support decision-making."},
+        {"name": "Sustainability & ESG Consulting", "desc": "We manage all processes from carbon footprint to green certification in line with ESG criteria."}
       ]
     },
     "epc": {
-      "title": "EPC & Construction",
+      "title": "EPC & Installation, Construction",
       "items": [
-        {
-          "name": "Electrical & Mechanical Works",
-          "desc": "Bringing electrical and mechanical systems to life with engineering excellence."
-        },
-        {
-          "name": "Balance of Plant (BoP)",
-          "desc": "Optimizing all auxiliary systems to guarantee smooth and efficient facility operation."
-        },
-        {
-          "name": "Grid Connection & Commissioning",
-          "desc": "Managing grid integration seamlessly, commissioning systems at full performance."
-        },
-        {
-          "name": "Civil Works & Substations",
-          "desc": "Building infrastructure and transformer facilities with solid engineering principles."
-        },
-        {
-          "name": "Project Management & Scheduling",
-          "desc": "Engineering-focused strategic planning to complete projects on time and budget."
-        },
-        {
-          "name": "Quality Assurance & Control",
-          "desc": "Guaranteeing quality at every stage with engineering standards."
-        },
-        {
-          "name": "Procurement & Supply Chain",
-          "desc": "Sourcing critical equipment and materials at optimal cost and quality."
-        },
-        {
-          "name": "Construction Safety & Risk",
-          "desc": "Foreseeing and managing site safety and risks from an engineering perspective."
-        },
-        {
-          "name": "Testing & Commissioning",
-          "desc": "Ensuring systems are commissioned at full performance, guaranteeing operational success."
-        },
-        {
-          "name": "Turnkey Solutions",
-          "desc": "Comprehensive integrated management of all engineering and construction processes."
-        }
+        {"name": "Electrical & Mechanical Works", "desc": "We bring to life the electrical and mechanical systems that form the heart of your projects, in accordance with engineering excellence and international standards."},
+        {"name": "Balance of Plant Optimization", "desc": "We design and optimize all auxiliary systems, guaranteeing the smooth and efficient operation of your facility."},
+        {"name": "High Voltage & Grid Connection", "desc": "We manage complex connection processes with technical excellence, preparing the system for full-capacity grid connection."},
+        {"name": "Construction Engineering & Infrastructure", "desc": "Even in challenging terrain conditions, we build solid infrastructure and substations, guaranteeing safety and durability."},
+        {"name": "Strategic Project Management", "desc": "We manage budget and time targets with engineering-focused planning, proactively preventing deviations."},
+        {"name": "International Quality Assurance (QA/QC)", "desc": "We supervise every production and assembly phase according to global engineering standards, ensuring flawless delivery."},
+        {"name": "Supply Chain Management", "desc": "We procure critical equipment and materials at the best cost and quality."},
+        {"name": "HSE & Site Safety", "desc": "We reflect a safety culture on site and manage risks down to zero from an engineering perspective."},
+        {"name": "Testing & Commissioning", "desc": "We ensure systems are commissioned at full performance, guaranteeing operational success."},
+        {"name": "Turnkey Integration", "desc": "We manage the entire engineering and construction process in turnkey projects with full responsibility."}
       ]
     },
     "om": {
-      "title": "O&M Services",
+      "title": "Operations & Maintenance (O&M)",
       "items": [
-        {
-          "name": "Preventive & Corrective Maintenance",
-          "desc": "Managing systems with preventive and corrective engineering solutions for uninterrupted operations."
-        },
-        {
-          "name": "OEM Interface Management",
-          "desc": "Coordinating with equipment manufacturers to guarantee maximum performance and compliance."
-        },
-        {
-          "name": "Spare Parts & Logistics",
-          "desc": "Optimizing spare parts and logistics to secure operational continuity."
-        },
-        {
-          "name": "Availability & Reliability Engineering",
-          "desc": "Increasing system availability and reliability with engineering-based strategies."
-        },
-        {
-          "name": "Condition Monitoring & Diagnostics",
-          "desc": "Real-time monitoring and intelligent diagnostics to detect potential failures before they occur."
-        },
-        {
-          "name": "Performance Analysis & Optimization",
-          "desc": "Continuously optimizing performance with data-driven engineering analyses."
-        },
-        {
-          "name": "Lifecycle Management",
-          "desc": "Maximizing asset value throughout the entire lifecycle with engineering intelligence."
-        },
-        {
-          "name": "Technical Training",
-          "desc": "Empowering your operations team with engineering knowledge and competencies."
-        },
-        {
-          "name": "Predictive Maintenance",
-          "desc": "Minimizing downtime with sensor and data-driven predictive maintenance strategies."
-        },
-        {
-          "name": "Digital O&M Solutions",
-          "desc": "Making maintenance processes intelligent and efficient with IoT and digital platforms."
-        }
+        {"name": "Strategic Maintenance Management", "desc": "We manage preventive and corrective maintenance of your systems with engineering solutions for uninterrupted operation."},
+        {"name": "OEM Management", "desc": "We coordinate with equipment manufacturers, offering maximum performance and compliance guarantees."},
+        {"name": "Spare Parts & Logistics", "desc": "We optimize spare parts and logistics, safeguarding operational continuity."},
+        {"name": "Reliability Centered Maintenance (RCM)", "desc": "We improve system availability and reliability with engineering-based strategies."},
+        {"name": "24/7 Monitoring & Diagnostics", "desc": "We monitor system health with real-time data, resolving anomalies before they reach critical levels."},
+        {"name": "Advanced Performance Analytics", "desc": "By continuously processing field data, we bring facility efficiency to its designed maximum limits."},
+        {"name": "Asset Value Optimization", "desc": "We design the maintenance strategies of your assets to preserve their financial value and extend their lifespan."},
+        {"name": "Technical Training & Competency Management", "desc": "We empower your operations team with engineering knowledge and competency."},
+        {"name": "Predictive Maintenance", "desc": "We minimize downtime with sensor and data-driven predictive maintenance strategies."},
+        {"name": "Digital O&M Ecosystem", "desc": "By integrating field operations with IoT and smart platforms, we make maintenance transparent and measurable."}
       ]
     },
     "asset": {
       "title": "Asset Management",
       "items": [
-        {
-          "name": "Technical Asset Management",
-          "desc": "Continuously monitoring technical performance and providing engineering-focused optimization."
-        },
-        {
-          "name": "Contract & Warranty Management",
-          "desc": "Professionally managing contracts and warranties, minimizing risks."
-        },
-        {
-          "name": "Budgeting & Forecasting",
-          "desc": "Strengthening financial decisions with engineering data for budgeting and forecasting."
-        },
-        {
-          "name": "Lender & Investor Reporting",
-          "desc": "Providing reliable, technical, and operational reports to investors and financial institutions."
-        },
-        {
-          "name": "Lifecycle Cost Analysis",
-          "desc": "Creating long-term value by optimizing asset costs throughout their lifecycle."
-        },
-        {
-          "name": "Reliability-Centered Planning",
-          "desc": "Reliability-focused planning strategies for critical equipment."
-        },
-        {
-          "name": "Regulatory Compliance",
-          "desc": "Tracking regulations and certifications to guarantee project compliance."
-        },
-        {
-          "name": "Sustainability & ESG Tracking",
-          "desc": "Measuring environmental and social performance, achieving your sustainability goals."
-        },
-        {
-          "name": "Asset Health Indexing",
-          "desc": "Scoring technical and operational health of assets to detect risks proactively."
-        }
+        {"name": "Technical Asset Optimization", "desc": "We match asset performance data with financial outputs to maximize the profitability of the investment."},
+        {"name": "Contract & Warranty Management", "desc": "We professionally manage contract and warranty processes, minimizing risks."},
+        {"name": "Strategic Budgeting & Forecasting", "desc": "We strengthen financial decisions by budgeting and forecasting with engineering data."},
+        {"name": "Investor Reporting", "desc": "We transform complex technical data into strategic decision-support reports for financial institutions and investors."},
+        {"name": "Lifecycle Cost Analysis", "desc": "We optimize asset costs throughout their lifespan, creating long-term value."},
+        {"name": "Reliability Planning", "desc": "We plan with reliability-focused strategies for your critical equipment."},
+        {"name": "Regulatory & Certification Management", "desc": "We ensure local and international regulatory compliance, guaranteeing operational continuity."},
+        {"name": "ESG Performance Monitoring", "desc": "We measure environmental and social performance, helping you achieve your sustainability goals."},
+        {"name": "Asset Health Indexing", "desc": "We score the technical and operational health status of your assets, detecting risks in advance."}
       ]
     },
     "performance": {
-      "title": "Performance & Optimisation",
+      "title": "Performance & Optimization",
       "items": [
-        {
-          "name": "Production Loss Analysis",
-          "desc": "Analyzing production losses from an engineering perspective, minimizing efficiency losses."
-        },
-        {
-          "name": "Power Curve & Benchmarking",
-          "desc": "Optimizing performance by comparing your plant to industry standards."
-        },
-        {
-          "name": "SCADA Analytics",
-          "desc": "Deep SCADA data analysis enabling intelligent operational decisions."
-        },
-        {
-          "name": "Root Cause Failure Analysis",
-          "desc": "Identifying root causes of failures and preventing recurrence with engineering solutions."
-        },
-        {
-          "name": "Operational Efficiency Benchmarking",
-          "desc": "Comparing facility operational efficiency with industry best practices."
-        },
-        {
-          "name": "Energy Yield Forecasting",
-          "desc": "Strengthening strategic planning with energy production forecasts."
-        },
-        {
-          "name": "Capacity Utilisation Analysis",
-          "desc": "Analyzing capacity utilization rates to ensure maximum efficiency."
-        },
-        {
-          "name": "OEE Monitoring",
-          "desc": "Continuously monitoring equipment effectiveness to increase operational success."
-        },
-        {
-          "name": "Failure Mode & Effects Analysis",
-          "desc": "Foreseeing potential failures to minimize downtime."
-        }
+        {"name": "Production Loss Analysis", "desc": "We find the root causes of production losses with engineering precision and apply recovery strategies."},
+        {"name": "Benchmarking & Power Curve", "desc": "We benchmark your plant against industry standards to optimize performance."},
+        {"name": "Advanced SCADA Analytics", "desc": "We analyze SCADA data in depth, enabling you to make intelligent operational decisions."},
+        {"name": "Root Cause Analysis (RCA)", "desc": "We get to the source of chronic failures and ensure system stability with permanent engineering solutions."},
+        {"name": "Operational Efficiency Benchmarking", "desc": "We benchmark the operational efficiency and performance of your facilities against best practice examples to identify areas for improvement."},
+        {"name": "AI-Powered Production Forecasting", "desc": "We deliver high-accuracy production projections by combining meteorological and technical data."},
+        {"name": "Capacity & Limit Optimization", "desc": "We keep equipment capacity limits within safe zones while achieving maximum output."},
+        {"name": "Equipment Effectiveness Monitoring", "desc": "We continuously measure equipment-based availability and efficiency rates, increasing operational success."},
+        {"name": "Failure Mode & Effects Analysis (FMEA)", "desc": "We simulate potential failure modes in advance, eliminating risks at the design and operational stages."}
       ]
     },
     "digital": {
-      "title": "Digital & Software Solutions",
+      "title": "Digital Solutions",
       "items": [
-        {
-          "name": "Asset Management Platforms",
-          "desc": "Digitalizing asset management, providing engineering-based efficiency."
-        },
-        {
-          "name": "SCADA Integration",
-          "desc": "Integrating SCADA systems to increase operational visibility and control."
-        },
-        {
-          "name": "Performance Dashboards",
-          "desc": "Accelerating decision processes with real-time performance dashboards."
-        },
-        {
-          "name": "Predictive Maintenance Models",
-          "desc": "Preventing downtime with data and algorithms-based predictive maintenance models."
-        },
-        {
-          "name": "IoT Sensor Integration",
-          "desc": "Providing intelligent monitoring by integrating facility sensors with digital platforms."
-        },
-        {
-          "name": "AI & Machine Learning",
-          "desc": "Performance and maintenance prediction with intelligent algorithms."
-        },
-        {
-          "name": "Cloud-based Monitoring",
-          "desc": "Centrally monitoring operations with cloud-based data and control management."
-        },
-        {
-          "name": "Mobile Operations Apps",
-          "desc": "Real-time field operations management with mobile devices."
-        },
-        {
-          "name": "Digital Twin Modeling",
-          "desc": "Reducing risks with simulation and optimization by creating a digital twin of the plant."
-        }
+        {"name": "Digital Asset Management Platforms", "desc": "We migrate asset management processes to a digital ecosystem, providing full transparency and control."},
+        {"name": "End-to-End SCADA Integration", "desc": "We consolidate dispersed data sources in a single center, maximizing operational visibility."},
+        {"name": "Performance Dashboards", "desc": "We provide visualization solutions focused on decision support, making critical KPIs monitorable in real time."},
+        {"name": "Predictive Maintenance Algorithms", "desc": "We prevent downtime by offering predictive maintenance models with data and algorithms."},
+        {"name": "Industrial IoT Integration", "desc": "We connect field sensors to smart networks, extracting strategic data from every single piece of equipment."},
+        {"name": "AI & Machine Learning Solutions", "desc": "We achieve excellence in performance forecasting with artificial intelligence models that analyze complex datasets."},
+        {"name": "Cloud-Based Monitoring & Control", "desc": "We centrally monitor your operations with cloud-based data and control management."},
+        {"name": "Mobile Field Operations Management", "desc": "We connect field teams to the digital center with mobile applications, increasing response speed and quality."},
+        {"name": "Digital Twin Technology", "desc": "We create the digital twin of the plant to reduce risks through simulation and optimization."}
       ]
     }
   },
@@ -318,65 +145,65 @@
     "labels": {
       "complexity": "COMPLEXITY",
       "risk": "RISK MANAGEMENT",
-      "output": "OUTPUT IMPROVEMENT"
+      "output": "OUTPUT DEVELOPMENT"
     },
     "wind": {
       "title": "Wind Power Plants",
-      "complexity": "Wind turbines are technically highly complex due to aerodynamic rotor systems, high-speed generators, and energy transmission infrastructure integration. Turbines are exposed to variable wind speeds, creating risks of aerodynamic loads, vibrations, and mechanical fatigue. Remote locations and access difficulties further complicate maintenance processes.",
-      "risk": "To reduce risks, we collect real-time data with structural health monitoring, vibration, and performance sensors, and apply predictive maintenance algorithms. We predict critical component lifespan with turbine stress analyses and simulations, optimizing on-site maintenance plans. Environmental and grid integration risks are managed through SCADA-based control systems and advanced grid compliance testing.",
-      "output": "To maximize energy production, we continuously adjust rotor pitch, yaw control, and pitch optimization with data analytics. Through SCADA and IoT-based systems, we monitor turbine performance in real-time and minimize efficiency losses with anomaly detection. Operational efficiency improvement is supported by energy production forecasts and predictive maintenance strategies."
+      "complexity": "Wind turbines are the most complex rotating mechanical systems in the energy sector. Managing these assets — operating at approximately one hundred meters in height under constantly changing aerodynamic and mechanical loads — requires a level of expertise far beyond standard maintenance practices, where engineering depth and data intelligence intersect. We model each turbine as an independent asset, monitoring the wind regime, topographic load distribution, equipment age, and manufacturer engineering parameters in real time with our AI-powered platforms. Using digital twin technology, we simulate all critical components of the turbine — gearbox, main shaft bearings, pitch and yaw systems, rotor blades — in a virtual environment; we define our intervention strategy before the physical failure occurs and head to the field. By deeply knowing the SCADA infrastructure, control software logic, and OEM engineering documentation of all leading turbine manufacturers — primarily Siemens Gamesa, Vestas, GE, Nordex, and Enercon — we keep every asset at the limits of the capacity its manufacturer designed. Your plant is an investment — and we manage it to global standards.",
+      "risk": "Real operational excellence in wind farms is measured not by repairing failures, but by ensuring that failures never occur. By adapting the Reliability Centered Maintenance methodology to the unique failure modes of wind turbines, we manage each component individually according to its criticality level, operating conditions, and manufacturer service protocols. Using vibration analysis, oil analysis, acoustic diagnostics, and thermal imaging together, we catch gearbox bearing fatigue damage, blade erosion, and pitch system slippage before they occur, executing the intervention process in a planned, controlled, and cost-effective manner. Our 24/7 monitoring center continuously processes SCADA data, tracking the performance fingerprint of each turbine, and reflects even the smallest anomaly to the field before it reaches a critical level. All processes we conduct in line with operational excellence principles — from OEM coordination to spare parts logistics, from root cause analysis to FMEA applications — are designed with a single goal: every turbine in your plant produces at maximum availability, every day.",
+      "output": "The sustainability of the financial model in wind farms is directly linked to the quality of technical decisions. The cost of a single gearbox replacement can erase years of accumulated maintenance revenue overnight; unexpected rotor damage can shake your financing conditions and investor confidence. We manage these risks not reactively — but with actuarial precision and engineering foresight. By integrating the original design life parameters, warranty conditions, and component replacement thresholds of the turbine manufacturer into your financial model, we pre-budget every major intervention and eliminate cash flow surprises. With our lifecycle cost analysis, asset health indexing, and strategic budgeting tools, we evaluate every technical decision along with its impact on IRR and LCOE, transforming complex engineering data into strategic reports that your investors can understand. With our holistic approach covering ESG performance monitoring, regulatory compliance, and warranty management, we protect the value of your plant from its first day to its last — because in wind, real returns are achieved not by building the turbine right, but by managing it correctly throughout its lifetime."
     },
     "solar": {
-      "title": "Solar PV & Hybrid Systems",
-      "complexity": "Solar PV and hybrid systems have a complex structure with different panel technologies, inverter diversity, and energy storage integration. Systems are exposed to variable solar radiation, temperature effects, and AC/DC conversion losses. In hybrid systems, coordination of energy storage and production sources increases control algorithm precision.",
-      "risk": "We monitor panel performance at module level and minimize inverter failures with predictive maintenance systems. In hybrid systems, we apply advanced control algorithms and simulations for storage and production optimization. SCADA and digital twin models detect all system risks early, increasing operational security.",
-      "output": "To increase energy production, we continuously analyze panel tilt, tracking systems, and inverter performance optimization. In hybrid systems, we maximize production according to grid demand with energy storage strategies. Digital platforms and data analytics detect instant efficiency losses, ensuring production optimization."
+      "title": "Solar PV & Hybrid",
+      "complexity": "The real value of a solar plant emerges not just when the installation is complete, but in every passing year, in every hour of production. We view your assets not merely as technical systems, but as strategic investments that need to be managed. With digital twin technology, AI-powered monitoring platforms, and real-time performance analytics, we track every component of your plants at the module level, identifying deviations before they become critical. By matching technical asset data with financial outputs, we ensure your investment generates maximum returns under all conditions. We transform your asset into a living, evolving system that creates value.",
+      "risk": "Behind a production loss, there is often not a failure but a deterioration that is noticed too late. By combining the Reliability Centered Maintenance methodology with predictive maintenance algorithms and 24/7 real-time monitoring, we manage each piece of equipment according to its criticality level, systematically eliminating unplanned downtime. We carry out all operational processes — from SCADA analytics to FMEA, from root cause analysis to OEM coordination — to the standards of operational excellence. Every intervention in the field is designed for a measurable result — because for you, every stopped hour is lost revenue.",
+      "output": "The technical performance of your plants is the fulfillment of the promise you made to your investors. With our lifecycle cost analysis, strategic budgeting, and advanced financial modeling tools, we evaluate every technical decision along with its financial impact, transforming the reflections on IRR and LCOE into investor reports. We manage all processes — from warranty and contract management to ESG performance monitoring, from regulatory compliance to asset health indexing — from an integrated perspective. We protect your financial model from the first day to the last day of your plant, maximizing your return by extending the asset's lifespan."
     },
     "hydro": {
-      "title": "Hydro Power Plants",
-      "complexity": "Hydroelectric plants are complex systems due to water flow variability, turbine hydrodynamics, and dam structure engineering precision. Turbines, generators, and regulation equipment operate under high water pressure and vibration effects. Environmental factors and water management complicate operational control.",
-      "risk": "We collect real-time data with dam and turbine structure health monitoring systems, predicting equipment lifespan with hydrodynamic simulations. We apply automatic control systems and emergency scenarios for flow and level fluctuations. Maintenance and overhaul plans guarantee critical equipment reliability.",
-      "output": "We optimize performance with turbine efficiency analysis and energy production simulations. SCADA-based control systems dynamically manage flow and production balance. Digital twin and energy optimization algorithms convert water potential into maximum energy production."
+      "title": "Hydroelectric",
+      "complexity": "Hydroelectric power plants are the longest-lived and most capital-intensive assets in the energy sector. In these systems — expected to generate uninterrupted value for decades, from turbines and generators to gate and valve mechanisms, from civil structures to hydrological infrastructure — the health status of every component directly determines the financial performance of the entire plant. We model each plant together with its unique hydrological regime, equipment age, and manufacturer engineering parameters, and track the asset's status in real time with our AI-powered monitoring platforms and digital twin technology. Protecting the long-term value of each plant requires an asset management approach at global standards — and we provide exactly that.",
+      "risk": "Operational excellence in hydroelectric systems requires the mechanical, electrical, and civil disciplines to be managed simultaneously and flawlessly. By combining the vibration characteristics, cavitation risks, and bearing fatigue dynamics unique to each of the Kaplan, Francis, or Pelton turbines with the Reliability Centered Maintenance methodology, we capture failures before they occur and execute interventions in a planned and controlled manner. We manage all operational processes — from water passage control systems to generator windings, from automation and SCADA infrastructure to civil structure integrity — with our 24/7 monitoring capacity and root cause analysis discipline. Our goal is singular: every turbine must convert the full hydrological potential into electrical energy.",
+      "output": "The financial appeal of hydroelectric plants stems from operating lifetimes that, when properly managed, can exceed 40-50 years. Turning this potential into reality depends on every major renovation decision being made on time, with accurate cost foresight, and with minimized production loss. With our lifecycle cost analysis and strategic budgeting tools, we plan revision cycles in advance, integrate capital expenditures into the cash flow model, and eliminate unexpected costs. We report every technical decision along with its impact on IRR and LCOE, providing your investors with a transparent and reliable performance overview — we protect the value of your plant from the first turbine rotation to the last kilowatt-hour."
     },
     "gas": {
-      "title": "Gas & Thermal Power",
-      "complexity": "Gas and thermal plants are systems difficult to manage due to complex thermodynamic cycles, combined system integration, and high temperature/pressure conditions. Turbines, boilers, and generators operate with strict engineering tolerances. Fuel quality, environmental conditions, and grid demand affect production balance.",
-      "risk": "To minimize risks, we apply advanced control systems, thermal and mechanical monitoring sensors, and maintenance protocols. We optimize equipment lifespan by continuously modeling energy production processes. Emission and grid compliance is ensured through regulatory tracking and automatic control algorithms.",
-      "output": "We maximize production capacity with energy efficiency analyses and performance optimization. We continuously monitor process control with SCADA and digital twin systems, minimizing energy losses. Maximum energy conversion is achieved with combined heat and power (CHP) system integration."
+      "title": "Gas & Thermal",
+      "complexity": "Combined cycle natural gas power plants are the most technologically advanced and most sensitively balanced power generation systems in the energy sector. In these plants — where the gas turbine, heat recovery steam generator, steam turbine, and generator blocks operate in perfect thermodynamic harmony — any performance deviation in a component instantly affects the efficiency balance of the entire system. We model each CCGT plant together with the original engineering parameters of the turbine manufacturer — primarily GE, Siemens Energy, Mitsubishi, or Ansaldo — OEM service protocols, and design life data; and we monitor the health status of every major component in real time with our AI-powered monitoring platforms and digital twin technology. In plants operating at high cycle efficiency, the quality of asset management has a measurable impact directly on fuel cost and output efficiency — and we always keep this impact in the positive direction.",
+      "risk": "Operational excellence in CCGT plants covers an extremely broad and critical engineering area: from the management of gas turbine hot section components to steam cycle optimization, from combustion system calibration to the integrity of heat exchangers. Compressor blade erosion, combustion chamber temperature distribution, turbine stage bearing fatigue, and degradation in heat recovery steam generator tube bundles — we manage each of these components, each with its own failure dynamics, individually through the Reliability Centered Maintenance methodology; using thermal imaging, vibration analysis, exhaust gas analytics, and oil analysis in an integrated manner to detect critical damage before it occurs. We schedule planned maintenance cycles — combustion inspection, hot gas path inspection, and major overhaul — in alignment with production schedules and market price dynamics. Our 24/7 monitoring center continuously processes SCADA and DCS data, reflecting every anomaly to the field before it reaches a critical level; all processes we conduct in line with operational excellence principles are designed with a single goal: your plant produces at the limits of its designed cycle efficiency in every operating hour.",
+      "output": "The financial model of CCGT plants is built on an extremely sensitive balance, with high capital costs and fuel expenditure — which constitutes a large portion of operating costs. A one-percent loss in cycle efficiency can translate into millions of dollars in additional annual fuel costs; an unplanned hot gas path failure means both a major capital expenditure and a critical revenue loss. We manage these risks with engineering foresight and actuarial precision. By integrating OEM maintenance agreements, warranty conditions, and component replacement thresholds into your financial model, we pre-budget every major revision cycle and eliminate cash flow surprises. With our lifecycle cost analysis, thermal efficiency tracking, and strategic budgeting tools, we evaluate every technical decision along with its impact on LCOE and IRR, transforming complex engineering data into strategic reports that your investors can understand. We protect the value of your plant from the first ignition to the last operating hour — because in combined cycle, real returns are achieved by maintaining efficiency at the design point."
     },
     "bess": {
       "title": "Energy Storage (BESS)",
-      "complexity": "Battery energy storage systems are technically complex structures due to chemical cell management, thermal control, and grid integration. Performance differences between cells, thermal effects, and power electronics integration complicate management. Battery lifespan and capacity loss are another factor increasing operational complexity.",
-      "risk": "We monitor battery cells in real-time, applying thermal management and power control algorithms. We minimize potential failures and capacity losses with predictive maintenance and grid simulations. System security is supported by emergency and fault management protocols.",
-      "output": "We maximize energy storage capacity with battery optimization software and charge/discharge strategies. We optimize energy flow with SCADA and digital twin systems, instantly detecting efficiency losses. We continuously increase system performance with energy management algorithms."
+      "complexity": "Battery energy storage systems represent the fastest-growing and most dynamic asset class in the energy sector. From lithium-ion cell chemistry to power conversion systems, from thermal management infrastructure to energy management software, these deeply interconnected components require critical engineering integrity in terms of both instantaneous power balance and long-term capacity value. We model each BESS asset together with cell chemistry, system architecture, cycling strategy, and operating environment parameters; and we track State of Health, State of Charge, and State of Power metrics in real time with our AI-powered monitoring platforms and digital twin technology. By deeply knowing the system architectures and BMS protocols of leading manufacturers — primarily CATL, BYD, Samsung SDI, and LG Energy Solution — we keep every asset at the limits of its designed capacity and within the safe operating zone. Your battery asset is not just a storage unit, but a strategic energy investment that needs to be managed.",
+      "risk": "Operational excellence in BESS systems begins with managing battery degradation, maintaining thermal balance, and optimizing cycling strategy according to real-time market conditions. Cell-level capacity imbalances, thermal runaway risks, power conversion system losses, and BMS software anomalies — we manage each of these components, each with its own failure dynamics, individually through the Reliability Centered Maintenance methodology; using electrochemical impedance analysis, thermal imaging, and capacitance measurement methods in an integrated manner to capture critical degradation before it occurs. We carry out all operational processes — from cycle depth optimization to charge-discharge protocol calibration, from cooling system management to fire detection infrastructure — with our 24/7 monitoring capacity and operational excellence standards. Our goal is singular: your plant responds at full capacity to every call and minimizes degradation with every cycle.",
+      "output": "The financial success of BESS investments is directly linked to how well the capacity value can be preserved over the years. When battery degradation is not controlled, warranty coverage narrows, market capacity decreases, and the fundamental assumptions of the financial model collapse one by one. We manage this risk with engineering discipline and actuarial precision from the very beginning of the lifecycle. By integrating capacity warranty management, cycle life planning, and component replacement thresholds into your financial model, we pre-budget every major capital expenditure and eliminate cash flow surprises. With our lifecycle cost analysis, capacity degradation modeling, and market revenue optimization tools, we report every technical decision along with its impact on IRR and LCOE, providing your investors with a transparent and reliable performance overview. We protect the value of your plant from the first charge to the last cycle — because in storage, real returns are achieved not by preserving capacity for years, but by preserving it throughout its lifetime."
     }
   },
   "Projects": {
-    "title": "Track Record",
-    "subtitle": "Selected projects demonstrating technical capability and execution excellence",
+    "title": "Projects & Our Experience",
+    "subtitle": "The real value of a company is measured not in the list of services it offers, but in the quality and complexity of the projects it delivers. The following reference projects are tangible reflections of the engineering depth and implementation discipline we demonstrate under different technologies, geographies, and operational conditions. Each project is a document of our capacity for technical decision-making at global standards, our risk management approach, and the measurable value we create for our clients.",
     "labels": {
       "capacity": "INSTALLED CAPACITY",
       "scope": "SCOPE OF WORK",
-      "challenge": "KEY CHALLENGE",
+      "challenge": "MAIN CHALLENGE",
       "result": "RESULT"
     },
     "technology": {
-      "capacity": "100+ MW wind, 250 MW solar, and 150 MW hydro plants strengthened our global energy portfolio.",
-      "scope": "Managed entire project lifecycles technically and engineering-focused with EPC, O&M, and consulting services.",
-      "challenge": "Variable climate conditions, remote location access, and complex equipment integration were prominent project challenges.",
-      "result": "Through high engineering standards, achieved 98%+ availability in plants, increased energy efficiency by 12–15%."
+      "capacity": "We strengthened our global energy experience with 600+ MW wind, 250 MW solar, 950 MW hydro, 2400 diesel engine, and 2550 MW natural gas power plants.",
+      "scope": "We managed the full lifecycle of projects in a technical and engineering-focused manner with EPC, O&M, and consulting services.",
+      "challenge": "Variable climate conditions, remote location access, and complex equipment integration were the prominent challenges in the projects.",
+      "result": "Thanks to high engineering standards, we achieved high availability in the plants and increased energy efficiency by 12–15%."
     },
     "geography": {
-      "capacity": "Gained experience in different climate and site conditions with projects exceeding 500 MW total across various continents.",
-      "scope": "Provided comprehensive engineering solutions covering local and international regulations, permitting processes, and grid integration.",
+      "capacity": "We gained experience in different climate and site conditions with projects exceeding a total of 3700 MW across various continents.",
+      "scope": "We provided comprehensive engineering solutions covering local and international regulations, permitting processes, and grid integration.",
       "challenge": "Managing logistics, supply chain, and environmental requirements across different geographies was the main challenge.",
-      "result": "Our projects showed 99% availability and high performance suitable for regional energy demands."
+      "result": "Our projects demonstrated high availability and high performance in line with regional energy demands."
     },
     "service": {
-      "capacity": "Successfully managed 400+ MW under EPC and O&M, 600+ MW equivalent capacity in consulting projects.",
-      "scope": "Added engineering excellence to all project stages with turnkey EPC, predictive maintenance, and performance optimization.",
-      "challenge": "Contract and warranty management, site safety, and technical compliance formed the most critical challenges.",
-      "result": "Increased investor and operational confidence while achieving 10–15% efficiency increase and maximum availability in energy production."
+      "capacity": "We successfully managed 400+ MW in EPC and O&M scope and 600+ MW equivalent capacity in consulting projects.",
+      "scope": "We added engineering excellence to all project phases with turnkey EPC, predictive maintenance, and performance optimization.",
+      "challenge": "Contract and warranty management, site safety, and technical compliance constituted the most critical challenges.",
+      "result": "While investor and operational confidence increased, we achieved high efficiency gains and maximum availability in energy production."
     }
   },
   "WhyUs": {
@@ -386,25 +213,25 @@
         "number": "01",
         "title": "Lifecycle Mindset",
         "subtitle": "End-to-End Excellence",
-        "desc": "We don't just deliver a project; we design and optimize the entire lifecycle. From design to digitalized operations, maintenance, and performance analysis, every step is structured for sustainable efficiency and maximum ROI. Our global projects are designed to deliver predictable results and long-term reliability."
+        "desc": "We don't just deliver a project; we design and optimize an entire lifecycle."
       },
       {
         "number": "02",
         "title": "OEM-Independent Engineering",
-        "subtitle": "Freedom to Innovate",
-        "desc": "Our engineering is independent; we're not limited to any supplier or technology. This freedom allows us to provide customized, optimized, high-performance solutions for each client. Our approaches that exceed industry standards and global best practices combine with innovative engineering and digital integration, making every solution future-ready."
+        "subtitle": "Freedom of Innovation",
+        "desc": "Our engineering is independent; we are not limited by any supplier or technology."
       },
       {
         "number": "03",
         "title": "Data-Driven Decisions",
-        "subtitle": "Intelligence at Scale",
-        "desc": "Our decisions are supported by data and artificial intelligence. With real-time field data, AI-based prediction models, and simulations, we produce solutions that foresee risks and optimize opportunities. This enables our clients to minimize uncertainties, maximize performance, and rapidly embrace digital transformation."
+        "subtitle": "Scaled Intelligence",
+        "desc": "Our decisions are supported by data and artificial intelligence. We produce solutions with real-time field data, AI-based forecasting models, and simulations."
       },
       {
         "number": "04",
-        "title": "Field-Proven Teams",
-        "subtitle": "Experience Meets Innovation",
-        "desc": "Our team consists of engineers with proven experience in global projects who deliver results in the field. We're solution-oriented professionals who transform theory into practice, optimizing field operations with AI-powered digital tools. Our clients can be sure they're always working with a safe, agile, and advanced technology-equipped team."
+        "title": "Proven Teams",
+        "subtitle": "Experience and Innovation",
+        "desc": "Our team consists of engineers with proven experience in global projects who deliver results in the field."
       }
     ]
   },
@@ -413,69 +240,69 @@
     "vision": {
       "title": "Vision & Values",
       "subtitle": "Guiding Principles for Global Impact",
-      "desc": "Our vision isn't just to execute energy projects, but to make a difference in the sector with sustainable, digital, and data-driven solutions. Each of our values is built on excellence, transparency, innovation, and client success. Our strategies are designed to create meaningful and long-term impacts not just for today, but for future generations."
+      "desc": "Our vision is not just to carry out energy projects, but to make a difference in the industry with sustainable, digital, and data-driven solutions."
     },
     "leadership": {
       "title": "Leadership Team",
-      "subtitle": "Strategic, Proven, Inspirational",
-      "desc": "Our leadership team has proven experience in global energy and engineering projects. Strategic visions combine with practical field solutions; our decision processes are structured for data-driven, innovative, and rapid action. Our clients can be assured they're always working with reliable, experienced, and forward-thinking leaders."
+      "subtitle": "Strategic, Proven, Inspiring",
+      "desc": "Our leadership team has proven experience in global energy and engineering projects."
     },
     "culture": {
       "title": "Engineering Culture",
-      "subtitle": "Innovation Meets Precision",
-      "desc": "Our engineering culture is shaped by creativity, systematic analysis, and digital solutions. Every project is designed beyond industry standards and optimized with AI, simulation, and data analytics. This culture ensures projects produce maximum value in cost, performance, and sustainability."
+      "subtitle": "Innovation and Precision",
+      "desc": "Our engineering culture is shaped by creativity, systematic analysis, and digital solutions."
     },
     "hse": {
       "title": "HSE & Quality",
-      "subtitle": "Safety and Excellence Embedded",
-      "desc": "Occupational health, safety, and quality are the cornerstones of our operations. Every process is meticulously monitored within the framework of global best practices and international standards. We proactively manage risks, guarantee quality, and offer our clients zero-tolerance safety and excellence."
+      "subtitle": "Safety and Excellence",
+      "desc": "Occupational health, safety, and quality are the cornerstones of our operations."
     }
   },
   "Insights": {
     "title": "Knowledge & Insights",
     "items": [
       {
-        "title": "O&M Lessons Learned",
+        "title": "Operations & Maintenance Lessons",
         "subtitle": "Turning Experience into Advantage",
-        "desc": "Lessons from our field experience provide our clients with solutions that minimize risks and increase operational efficiency. Each learning carries not just theoretical, but practical, field-tested, and applicable value."
+        "desc": "The lessons learned from our field experiences provide our clients with solutions that minimize risks and increase operational efficiency."
       },
       {
-        "title": "Performance Engineering Articles",
-        "subtitle": "Knowledge Powered by Data",
-        "desc": "Our performance engineering articles are supported by data-driven analysis and advanced simulation techniques. We provide our clients with innovative and technically reliable information to increase efficiency in energy production processes."
+        "title": "Performance Engineering",
+        "subtitle": "Data-Supported Knowledge",
+        "desc": "Our performance engineering articles are supported by data-driven analysis and advanced simulation techniques."
       },
       {
-        "title": "Grid & Regulation Insights",
-        "subtitle": "Navigating Complexity",
-        "desc": "Energy markets and regulations are constantly changing. We foresee this complexity with global experience and AI-powered analyses, providing our clients with the capacity to make strategic and compliant decisions."
+        "title": "Grid & Regulation",
+        "subtitle": "Guiding Through Complexity",
+        "desc": "Energy markets and regulations are constantly changing. We anticipate this complexity with global experience and AI-supported analysis."
       },
       {
         "title": "Failure Analysis Case Studies",
         "subtitle": "Learning from Every Challenge",
-        "desc": "Every failure is an opportunity for future success. We learn from mistakes with systematic analysis and data-backed approaches, offering our clients secure, optimized, and sustainable operations."
+        "desc": "Every failure is an opportunity for future success. We learn from mistakes through systematic analysis and data-driven approaches."
       }
     ]
   },
   "Contact": {
-    "title": "Talk to Us",
+    "title": "Get in Touch with Us",
     "items": [
       {
-        "title": "Project Enquiry",
+        "title": "Project Inquiry",
         "subtitle": "Your Vision, Our Expertise",
-        "desc": "In your new projects, we're with you at every stage from idea to implementation with global experience and engineering excellence. Whatever your need, we provide solution-oriented and rapid communication support.",
-        "email": "projects@@powerenerlytics.com"
+        "desc": "In your new projects, we are by your side at every stage from idea to implementation with global experience and engineering excellence.",
+        "email": "projects@powerenerlytics.com"
       },
       {
-        "title": "Investor / Lender Contact",
+        "title": "Investor Relations",
         "subtitle": "Transparent and Strategic",
-        "desc": "Our relationships with investors and financial institutions are built on full transparency, trust, and strategic perspective. Every information sharing is supported by analytical and verifiable data, making collaboration secure and efficient.",
-        "email": "investors@@powerenerlytics.com"
+        "desc": "Our relationships with investors and financial institutions are built on full transparency, trust, and strategic perspective.",
+        "email": "investors@powerenerlytics.com"
       },
       {
         "title": "Technical Support",
-        "subtitle": "Expert Assistance When You Need It",
-        "desc": "Our technical support team consists of experienced engineers in the field and digital environment. With AI-powered monitoring, real-time data analysis, and rapid intervention processes, we quickly solve problems and guarantee your operational continuity.",
-        "email": "support@@powerenerlytics.com"
+        "subtitle": "Expert Help When You Need It",
+        "desc": "Our technical support team consists of experienced engineers both in the field and in the digital environment.",
+        "email": "support@powerenerlytics.com"
       }
     ]
   }
