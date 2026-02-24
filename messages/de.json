@@ -1,13 +1,107 @@
 {
   "Nav": {
     "home": "Startseite",
-    "capabilities": "Kompetenzen",
+    "capabilities": "Fähigkeiten",
     "industries": "Technologien",
     "projects": "Projekte",
     "about": "Über uns",
     "insights": "Einblicke",
     "contact": "Kontakt"
   },
+  "Hero": {
+    "slides": [
+      {"title": "Strategische Beratung", "subtitle": "Maximale Leistung.", "tagline": "Wir sehen Details."},
+      {"title": "EPC & Bau", "subtitle": "Leistungsmaximierung.", "tagline": "Zukunft bauen."},
+      {"title": "Betrieb", "subtitle": "Nachhaltige Exzellenz.", "tagline": "Ununterbrochen."},
+      {"title": "Vermögensverwaltung", "subtitle": "Kontinuierlicher Wert.", "tagline": "Optimierung."},
+      {"title": "Leistung", "subtitle": "Technik und Finanzen.", "tagline": "Grenzen verschieben."},
+      {"title": "Digital", "subtitle": "Risiko und Daten.", "tagline": "Intelligenz."}
+    ],
+    "stats": {"capacity": "GW Verwaltet", "availability": "Verfügbarkeit", "projects": "Projekte", "countries": "Länder"}
+  },
+  "Capabilities": {
+    "title": "Was wir tun",
+    "subtitle": "Umfassende Technik",
+    "advisory": {"title": "Beratung", "items": [{"name": "Machbarkeit", "desc": "Erfolg."}]},
+    "epc": {"title": "EPC", "items": [{"name": "Elektrik", "desc": "Exzellenz."}]},
+    "om": {"title": "Betrieb", "items": [{"name": "Wartung", "desc": "Kontinuierlich."}]},
+    "asset": {"title": "Vermögen", "items": [{"name": "Optimierung", "desc": "Leistung."}]},
+    "performance": {"title": "Leistung", "items": [{"name": "Analyse", "desc": "Optimierung."}]},
+    "digital": {"title": "Digital", "items": [{"name": "Plattform", "desc": "Digitalisierung."}]}
+  },
+  "Industries": {
+    "title": "Unterstützte Technologien",
+    "labels": {
+      "complexity": "KOMPLEXITÄT",
+      "risk": "RISIKOMANAGEMENT",
+      "output": "AUSGABEVERBESSERUNG"
+    },
+    "wind": {"title": "Wind", "complexity": "Komplexe Systeme.", "risk": "Datenerfassung.", "output": "Kontinuierliche Anpassung."},
+    "solar": {"title": "Solar", "complexity": "Komplexe Struktur.", "risk": "Panel-Überwachung.", "output": "Optimierung."},
+    "hydro": {"title": "Hydro", "complexity": "Komplexe Systeme.", "risk": "Gesundheitsüberwachung.", "output": "Analyse."},
+    "gas": {"title": "Gas", "complexity": "Schwierige Verwaltung.", "risk": "Kontrollsysteme.", "output": "Effizienz."},
+    "bess": {"title": "Speicherung", "complexity": "Komplexe Struktur.", "risk": "Zellüberwachung.", "output": "Software."}
+  },
+  "Projects": {
+    "title": "Projekte",
+    "subtitle": "Ausgewählte Projekte",
+    "labels": {
+      "capacity": "INSTALLIERTE LEISTUNG",
+      "scope": "ARBEITSUMFANG",
+      "challenge": "HAUPTHERAUSFORDERUNG",
+      "result": "ERGEBNIS"
+    },
+    "technology": {
+      "capacity": "600+ MW Wind, 250 MW Solar, 950 MW Hydro.",
+      "scope": "EPC, O&M und Beratung.",
+      "challenge": "Variables Klima und komplexe Integration.",
+      "result": "Hohe Effizienz 12-15% Steigerung."
+    },
+    "geography": {
+      "capacity": "3700+ MW über Kontinente.",
+      "scope": "Vorschriften und Netz.",
+      "challenge": "Logistik und Versorgung.",
+      "result": "Hohe Leistung."
+    },
+    "service": {
+      "capacity": "400+ MW EPC/O&M.",
+      "scope": "Schlüsselfertig und Optimierung.",
+      "challenge": "Vertrag und Sicherheit.",
+      "result": "Investorenvertrauen und Effizienz."
+    }
+  },
+  "WhyUs": {
+    "title": "Unser Ansatz",
+    "items": [
+      {"number": "01", "title": "Lebenszyklus", "subtitle": "Ende-zu-Ende", "desc": "Optimierung."},
+      {"number": "02", "title": "Unabhängig", "subtitle": "Freiheit", "desc": "Unbegrenzt."},
+      {"number": "03", "title": "Datengesteuert", "subtitle": "Intelligenz", "desc": "KI-gestützt."},
+      {"number": "04", "title": "Bewährt", "subtitle": "Erfahrung", "desc": "Global."}
+    ]
+  },
+  "About": {
+    "title": "Über",
+    "vision": {"title": "Vision", "subtitle": "Prinzipien", "desc": "Nachhaltig."},
+    "leadership": {"title": "Führung", "subtitle": "Strategisch", "desc": "Erfahrung."},
+    "culture": {"title": "Kultur", "subtitle": "Innovation", "desc": "Kreativität."},
+    "hse": {"title": "HSE", "subtitle": "Sicherheit", "desc": "Grundlage."}
+  },
+  "Insights": {
+    "title": "Einblicke",
+    "items": [
+      {"title": "Betrieb", "subtitle": "Erfahrung", "desc": "Risiko."},
+      {"title": "Leistung", "subtitle": "Daten", "desc": "Analyse."},
+      {"title": "Netz", "subtitle": "Führung", "desc": "Prognose."},
+      {"title": "Fehler", "subtitle": "Lernen", "desc": "Fehler."}
+    ]
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "items": [
+      {"title": "Projekt", "subtitle": "Vision", "desc": "Erfahrung.", "email": "projects@powerenerlytics.com"},
+      {"title": "Investor", "subtitle": "Transparent", "desc": "Vertrauen.", "email": "investors@powerenerlytics.com"},
+      {"title": "Support", "subtitle": "Experte", "desc": "Ingenieur.", "email": "support@powerenerlytics.com"}
+    ]
   },
   "Footer": {
     "tagline": "Engineering-Exzellenz in Kraftwerken",
@@ -19,304 +113,5 @@
     "contact": "Kontakt",
     "location": "Istanbul, Türkei",
     "rights": "Alle Rechte vorbehalten."
-  }
-}
-  "Hero": {
-    "slides": [
-      {
-        "title": "Strategische Beratung & Ingenieurlösungen",
-        "subtitle": "Wir konzentrieren uns nicht nur auf den Projektzeitplan, sondern auf maximale Leistung über den gesamten Lebenszyklus Ihres Projekts.",
-        "tagline": "Wir erkennen das Potenzial in den Details und verwandeln komplexe Prozesse in schlanke, rentable Ergebnisse."
-      },
-      {
-        "title": "EPC & Installation, Bau",
-        "subtitle": "Wir setzen Ihre Investitionen in erneuerbare Energien nicht nur um, sondern heben sie auf höchstem Niveau in Bezug auf Leistung, Haltbarkeit und Rentabilität.",
-        "tagline": "Wir gestalten die Zukunft mit ingenieurtechnischer Disziplin und bauen in jedem Detail unerschütterliches Vertrauen und dauerhaften Wert."
-      },
-      {
-        "title": "Betrieb, Wartung & Digitale Überwachung (O&M)",
-        "subtitle": "Mit unserer Methodik der zuverlässigkeitsorientierten Instandhaltung (RCM) und unseren digitalen Analyseplattformen bauen wir nachhaltige Exzellenz in Ihren Betriebsprozessen auf.",
-        "tagline": "Unterbrechungsfreie Energie, fehlerlose Verwaltung: Wir halten Ihre Systemleistung mit der Kraft der digitalen Analytik auf dem Höchststand."
-      },
-      {
-        "title": "Strategisches Asset-Management",
-        "subtitle": "Kontinuierlicher Wert über den gesamten Lebenszyklus.",
-        "tagline": "Wir optimieren den Lebenszyklus Ihrer Assets mit unseren Prinzipien der betrieblichen Exzellenz, minimieren Risiken und bauen dabei den zukünftigen Wert Ihrer Investition bereits heute auf."
-      },
-      {
-        "title": "Leistungstechnik & Optimierung",
-        "subtitle": "Wir überbrücken die Lücke zwischen ingenieurtechnischer Disziplin, Betriebsdaten und finanziellen Zielen. Wir präsentieren nicht nur Berichte; wir verwandeln komplexe Daten in umsetzbare technische Erkenntnisse und eindeutige Entscheidungen auf dem Weg zur betrieblichen Exzellenz.",
-        "tagline": "Wir überschreiten Grenzen und definieren Effizienz mit der Kraft der Ingenieurwissenschaft neu."
-      },
-      {
-        "title": "Digitale Transformation & Intelligente Softwarelösungen",
-        "subtitle": "Die wahre Komplexität ist nicht die technologische Infrastruktur, sondern die Kosten falscher Entscheidungen und verpasster Chancen. Wir verwalten nicht nur Geräte oder Code; wir verwalten Risiken, Daten und finanzielle Ergebnisse mit dem Ziel der betrieblichen Exzellenz.",
-        "tagline": "Wir verwandeln Daten in strategische Erkenntnisse und bringen Ihre Abläufe auf den Standard der Zukunft."
-      }
-    ],
-    "stats": {
-      "capacity": "GW unter Verwaltung",
-      "availability": "Durchschn. Verfügbarkeit",
-      "projects": "Aktive Projekte",
-      "countries": "Länder"
-    }
-  },
-  "Capabilities": {
-    "title": "Was wir tun",
-    "subtitle": "Wir bieten End-to-End technische Tiefe über den gesamten Lebenszyklus von Kraftwerken hinweg; von der strategischen Beratung bis hin zu fortgeschrittenen Ingenieurlösungen. Für uns ist Ingenieurwesen kein rein physischer Bauprozess; es ist eine digitale und intellektuelle Disziplin, in der Daten zu Intelligenz und Komplexität zu betrieblicher Exzellenz werden. Wir bauen nicht nur Assets und Projekte, sondern die Erkenntnisse einer nachhaltigen Zukunft.",
-    "advisory": {
-      "title": "Strategische Beratung",
-      "items": [
-        {"name": "Machbarkeit & Standortauswahl", "desc": "Wir ermitteln den geeignetsten Standort für Ihre Projekte und garantieren technischen und betrieblichen Erfolg."},
-        {"name": "Bauherrenvertretung", "desc": "Wir bieten Ingenieurlösungen aus der Investorenperspektive und gewährleisten Qualität und Sicherheit in jeder Phase Ihrer Projekte."},
-        {"name": "Ausschreibungs- & Vertragsmanagement", "desc": "Wir vereinfachen technische Komplexitäten, minimieren Risiken in Verträgen und maximieren Chancen."},
-        {"name": "Netzintegration & Regulierungsmanagement", "desc": "Wir verwalten Netzkonformität und Genehmigungsverfahren nahtlos und ermöglichen eine schnelle Realisierung Ihrer Projekte."},
-        {"name": "Technische Due Diligence", "desc": "Wir prüfen jedes Detail und antizipieren technische und betriebliche Risiken, um Ihnen fundierte Entscheidungen zu ermöglichen."},
-        {"name": "Technologiestrategie", "desc": "Wir erforschen die Effektivität neuer Technologien in Ihren Projekten und bewerten ihre Eignung."},
-        {"name": "Ganzheitliches Risikomanagement", "desc": "Wir entwickeln proaktive Abwehrstrategien, die technische und betriebliche Risiken antizipieren, bevor sie entstehen, und liefern Lösungen."},
-        {"name": "Fortgeschrittene Finanzmodellierung", "desc": "Wir liefern Investitionsrendite- und Leistungssimulationsberichte, die auf die finanziellen Kriterien Ihres Projekts abgestimmt sind."},
-        {"name": "Regulierungs- & Compliance-Strategie", "desc": "Durch die Verfolgung sich ändernder Energiemarktvorschriften garantieren wir die langfristige Konformität der Projekte."},
-        {"name": "Lebenszyklustechnik", "desc": "Wir liefern Ihnen Daten zur Leistungs- und Kostenoptimierung über die gesamte Lebensdauer des Assets zur Unterstützung der Entscheidungsfindung."},
-        {"name": "Nachhaltigkeits- & ESG-Beratung", "desc": "Wir verwalten alle Prozesse vom CO2-Fußabdruck bis zur Grünzertifizierung gemäß den ESG-Kriterien."}
-      ]
-    },
-    "epc": {
-      "title": "EPC & Installation, Bau",
-      "items": [
-        {"name": "Elektro- & Mechanikarbeiten", "desc": "Wir realisieren die Elektro- und Mechanikanlagen, die das Herzstück Ihrer Projekte bilden, in Übereinstimmung mit ingenieurtechnischer Exzellenz und internationalen Standards."},
-        {"name": "Balance-of-Plant-Optimierung", "desc": "Wir planen und optimieren alle Hilfssysteme und garantieren den reibungslosen und effizienten Betrieb Ihrer Anlage."},
-        {"name": "Hochspannung & Netzanschluss", "desc": "Wir managen komplexe Anschlussverfahren mit technischer Exzellenz und bereiten das System für den Netzanschluss mit voller Kapazität vor."},
-        {"name": "Bauingenieurwesen & Infrastruktur", "desc": "Selbst unter schwierigen Geländebedingungen bauen wir solide Infrastrukturen und Umspannwerke und garantieren Sicherheit und Haltbarkeit."},
-        {"name": "Strategisches Projektmanagement", "desc": "Wir managen Budget- und Zeitziele mit ingenieurgetriebenem Planen und verhindern Abweichungen proaktiv."},
-        {"name": "Internationale Qualitätssicherung (QA/QC)", "desc": "Wir überwachen jede Produktions- und Montagephase nach globalen Ingenieursstandards und gewährleisten fehlerfreie Lieferung."},
-        {"name": "Lieferkettenmanagement", "desc": "Wir beschaffen kritische Geräte und Materialien zu besten Kosten und Qualität."},
-        {"name": "HSE & Baustellensicherheit", "desc": "Wir spiegeln eine Sicherheitskultur auf der Baustelle wider und reduzieren Risiken aus ingenieurtechnischer Perspektive auf null."},
-        {"name": "Test & Inbetriebnahme", "desc": "Wir stellen sicher, dass Systeme mit voller Leistung in Betrieb genommen werden, und garantieren betrieblichen Erfolg."},
-        {"name": "Schlüsselfertige Integration", "desc": "Wir managen den gesamten Ingenieur- und Bauprozess in schlüsselfertigen Projekten mit voller Verantwortung."}
-      ]
-    },
-    "om": {
-      "title": "Betrieb & Wartung (O&M)",
-      "items": [
-        {"name": "Strategisches Wartungsmanagement", "desc": "Wir managen die vorbeugende und korrektive Wartung Ihrer Systeme mit Ingenieurlösungen für einen ununterbrochenen Betrieb."},
-        {"name": "OEM-Management", "desc": "Wir koordinieren mit Geräteherstellern und bieten maximale Leistungs- und Konformitätsgarantien."},
-        {"name": "Ersatzteile & Logistik", "desc": "Wir optimieren Ersatzteile und Logistik und sichern die Betriebskontinuität."},
-        {"name": "Zuverlässigkeitsorientierte Instandhaltung (RCM)", "desc": "Wir verbessern Systemverfügbarkeit und -zuverlässigkeit mit ingenieurtechnisch basierten Strategien."},
-        {"name": "24/7-Überwachung & Diagnose", "desc": "Wir überwachen den Systemzustand mit Echtzeit-Daten und lösen Anomalien, bevor sie kritische Niveaus erreichen."},
-        {"name": "Fortgeschrittene Leistungsanalytik", "desc": "Durch kontinuierliche Verarbeitung von Felddaten bringen wir die Anlageneffizienz auf ihre konzipierten Höchstgrenzen."},
-        {"name": "Asset-Wertoptimierung", "desc": "Wir gestalten die Wartungsstrategien Ihrer Assets, um ihren finanziellen Wert zu erhalten und ihre Lebensdauer zu verlängern."},
-        {"name": "Technische Schulung & Kompetenzmanagement", "desc": "Wir stärken Ihr Betriebsteam mit Ingenieurwissen und Kompetenz."},
-        {"name": "Vorausschauende Wartung", "desc": "Wir minimieren Ausfallzeiten mit sensor- und datengesteuerten Strategien zur vorausschauenden Wartung."},
-        {"name": "Digitales O&M-Ökosystem", "desc": "Durch die Integration von Feldoperationen mit IoT und intelligenten Plattformen machen wir die Wartung transparent und messbar."}
-      ]
-    },
-    "asset": {
-      "title": "Asset-Management",
-      "items": [
-        {"name": "Technische Asset-Optimierung", "desc": "Wir gleichen Asset-Leistungsdaten mit finanziellen Ergebnissen ab, um die Rentabilität der Investition zu maximieren."},
-        {"name": "Vertrags- & Garantiemanagement", "desc": "Wir verwalten Vertrags- und Garantieprozesse professionell und minimieren Risiken."},
-        {"name": "Strategische Budgetierung & Prognose", "desc": "Wir stärken finanzielle Entscheidungen durch Budgetierung und Prognose mit Ingenieurdaten."},
-        {"name": "Investorenberichte", "desc": "Wir verwandeln komplexe technische Daten in strategische Entscheidungsunterstützungsberichte für Finanzinstitute und Investoren."},
-        {"name": "Lebenszykluskosten-Analyse", "desc": "Wir optimieren Asset-Kosten über ihre gesamte Lebensdauer hinweg und schaffen langfristigen Wert."},
-        {"name": "Zuverlässigkeitsplanung", "desc": "Wir planen mit zuverlässigkeitsorientierten Strategien für Ihre kritischen Geräte."},
-        {"name": "Regulierungs- & Zertifizierungsmanagement", "desc": "Wir stellen lokale und internationale Regulierungskonformität sicher und garantieren Betriebskontinuität."},
-        {"name": "ESG-Leistungsüberwachung", "desc": "Wir messen Umwelt- und Sozialleistung und helfen Ihnen, Ihre Nachhaltigkeitsziele zu erreichen."},
-        {"name": "Asset-Gesundheitsindexierung", "desc": "Wir bewerten den technischen und betrieblichen Gesundheitszustand Ihrer Assets und erkennen Risiken im Voraus."}
-      ]
-    },
-    "performance": {
-      "title": "Leistung & Optimierung",
-      "items": [
-        {"name": "Produktionsverlustanalyse", "desc": "Wir finden die Grundursachen von Produktionsverlusten mit ingenieurtechnischer Präzision und wenden Wiederherstellungsstrategien an."},
-        {"name": "Benchmarking & Leistungskurve", "desc": "Wir benchmarken Ihre Anlage anhand von Branchenstandards, um die Leistung zu optimieren."},
-        {"name": "Fortgeschrittene SCADA-Analytik", "desc": "Wir analysieren SCADA-Daten eingehend und ermöglichen Ihnen intelligente Betriebsentscheidungen."},
-        {"name": "Ursachenanalyse (RCA)", "desc": "Wir gehen dem Ursprung chronischer Fehler auf den Grund und gewährleisten Systemstabilität mit dauerhaften Ingenieurlösungen."},
-        {"name": "Betriebseffizienz-Benchmarking", "desc": "Wir benchmarken die Betriebseffizienz und Leistung Ihrer Anlagen anhand von Best-Practice-Beispielen, um Verbesserungsbereiche zu identifizieren."},
-        {"name": "KI-gestützte Produktionsprognose", "desc": "Wir liefern hochgenaue Produktionsprojektionen durch die Kombination meteorologischer und technischer Daten."},
-        {"name": "Kapazitäts- & Grenzwertoptimierung", "desc": "Wir halten die Kapazitätsgrenzen der Geräte in sicheren Zonen und erzielen dabei maximale Leistung."},
-        {"name": "Geräteeffektivitätsüberwachung", "desc": "Wir messen kontinuierlich gerätebezogene Verfügbarkeits- und Effizienzraten und steigern den betrieblichen Erfolg."},
-        {"name": "Fehlermöglichkeits- und Einflussanalyse (FMEA)", "desc": "Wir simulieren potenzielle Fehlermodi im Voraus und eliminieren Risiken in der Konstruktions- und Betriebsphase."}
-      ]
-    },
-    "digital": {
-      "title": "Digitale Lösungen",
-      "items": [
-        {"name": "Digitale Asset-Management-Plattformen", "desc": "Wir migrieren Asset-Management-Prozesse in ein digitales Ökosystem und bieten volle Transparenz und Kontrolle."},
-        {"name": "End-to-End SCADA-Integration", "desc": "Wir konsolidieren verteilte Datenquellen in einem zentralen System und maximieren die betriebliche Transparenz."},
-        {"name": "Leistungs-Dashboards", "desc": "Wir bieten entscheidungsunterstützende Visualisierungslösungen, die kritische KPIs in Echtzeit überwachbar machen."},
-        {"name": "Algorithmen für vorausschauende Wartung", "desc": "Wir verhindern Ausfallzeiten, indem wir Modelle für vorausschauende Wartung mit Daten und Algorithmen anbieten."},
-        {"name": "Industrie-IoT-Integration", "desc": "Wir verbinden Feldsensoren mit intelligenten Netzwerken und gewinnen strategische Daten aus jedem einzelnen Gerät."},
-        {"name": "KI- & Maschinenlernlösungen", "desc": "Wir erreichen Exzellenz in der Leistungsprognose mit künstlichen Intelligenzmodellen, die komplexe Datensätze analysieren."},
-        {"name": "Cloud-basierte Überwachung & Steuerung", "desc": "Wir überwachen Ihre Abläufe zentral mit Cloud-basiertem Daten- und Steuerungsmanagement."},
-        {"name": "Mobile Feldbetriebsverwaltung", "desc": "Wir verbinden Feldteams mit mobilen Anwendungen mit dem digitalen Zentrum und steigern Reaktionsgeschwindigkeit und -qualität."},
-        {"name": "Digitaler Zwilling (Digital Twin) Technologie", "desc": "Wir erstellen den digitalen Zwilling der Anlage, um Risiken durch Simulation und Optimierung zu reduzieren."}
-      ]
-    }
-  },
-  "Industries": {
-    "title": "Technologien, die wir unterstützen",
-    "labels": {
-      "complexity": "KOMPLEXITÄT",
-      "risk": "RISIKOMANAGEMENT",
-      "output": "LEISTUNGSENTWICKLUNG"
-    },
-    "wind": {
-      "title": "Windkraftanlagen",
-      "complexity": "Windturbinen sind die komplexesten rotierenden mechanischen Systeme im Energiesektor. Die Verwaltung dieser Assets — die in etwa hundert Metern Höhe unter ständig wechselnden aerodynamischen und mechanischen Belastungen arbeiten — erfordert ein weit über die Standard-Wartungspraxis hinausgehendes Fachwissen, bei dem ingenieurtechnische Tiefe und Datenintelligenz zusammentreffen. Wir modellieren jede Turbine als unabhängiges Asset und überwachen das Windregime, die topografische Lastverteilung, das Gerätealter und die Herstellerparameter in Echtzeit mit unseren KI-gestützten Plattformen. Mit der Digital-Twin-Technologie simulieren wir alle kritischen Komponenten der Turbine — Getriebe, Hauptwellenlager, Pitch- und Gier-Systeme, Rotorblätter — in einer virtuellen Umgebung; wir definieren unsere Interventionsstrategie vor dem physischen Ausfall und begeben uns auf das Feld. Durch die tiefe Kenntnis der SCADA-Infrastruktur, der Steuerungssoftware-Logik und der OEM-Ingenieurdokumentation aller führenden Turbinenhersteller — vor allem Siemens Gamesa, Vestas, GE, Nordex und Enercon — halten wir jeden Asset an den Grenzen der vom Hersteller konzipierten Kapazität. Ihre Anlage ist eine Investition — und wir verwalten sie nach globalen Standards.",
-      "risk": "Echte betriebliche Exzellenz in Windparks wird nicht daran gemessen, Ausfälle zu reparieren, sondern daran sicherzustellen, dass Ausfälle nie auftreten. Durch die Anpassung der Methodik der zuverlässigkeitsorientierten Instandhaltung an die einzigartigen Fehlermodi von Windturbinen verwalten wir jede Komponente individuell nach ihrem Kritikalitätsniveau, den Betriebsbedingungen und den Herstellerserviceprotokollen. Durch den kombinierten Einsatz von Schwingungsanalyse, Ölanalyse, akustischer Diagnose und Wärmebildgebung erfassen wir Ermüdungsschäden an Getriebelagern, Blatterosion und Pitchsystem-Schlupf, bevor sie auftreten, und führen den Interventionsprozess geplant, kontrolliert und kosteneffektiv durch. Unser 24/7-Überwachungszentrum verarbeitet kontinuierlich SCADA-Daten, verfolgt den Leistungs-Fingerabdruck jeder Turbine und spiegelt selbst die kleinste Anomalie auf das Feld wider, bevor sie ein kritisches Niveau erreicht. Alle Prozesse, die wir gemäß den Prinzipien der betrieblichen Exzellenz durchführen — von der OEM-Koordination bis zur Ersatzteillogistik, von der Ursachenanalyse bis zu FMEA-Anwendungen — sind mit einem einzigen Ziel konzipiert: Jede Turbine Ihrer Anlage produziert täglich mit maximaler Verfügbarkeit.",
-      "output": "Die Nachhaltigkeit des Finanzmodells in Windparks ist direkt mit der Qualität der technischen Entscheidungen verknüpft. Die Kosten eines einzigen Getriebetauschs können jahrelang angesammelten Wartungsertrag über Nacht zunichte machen; unerwartete Rotorschäden können Ihre Finanzierungsbedingungen und das Vertrauen der Investoren erschüttern. Wir managen diese Risiken nicht reaktiv — sondern mit versicherungsmathematischer Präzision und ingenieurtechnischer Voraussicht. Durch die Integration der originalen Designlebensdauerparameter, Garantiebedingungen und Bauteilaustauschs-Schwellenwerte des Turbinenherstellers in Ihr Finanzmodell budgetieren wir jede größere Intervention im Voraus und eliminieren Überraschungen beim Cashflow. Mit unseren Tools zur Lebenszykluskosten-Analyse, Asset-Gesundheitsindexierung und strategischen Budgetierung bewerten wir jede technische Entscheidung zusammen mit ihrer Auswirkung auf IRR und LCOE und wandeln komplexe Ingenieurdaten in strategische Berichte um, die Ihre Investoren verstehen. Mit unserem ganzheitlichen Ansatz, der ESG-Leistungsüberwachung, Regulierungskonformität und Garantiemanagement umfasst, schützen wir den Wert Ihrer Anlage von ihrem ersten bis zu ihrem letzten Tag — denn bei Wind werden echte Renditen nicht durch den richtigen Aufbau der Turbine erzielt, sondern durch ihre korrekte Verwaltung über die gesamte Lebensdauer."
-    },
-    "solar": {
-      "title": "Solar PV & Hybrid",
-      "complexity": "Der wirkliche Wert einer Solaranlage zeigt sich nicht nur bei Abschluss der Installation, sondern in jedem vergehenden Jahr, in jeder Produktionsstunde. Wir betrachten Ihre Assets nicht nur als technische Systeme, sondern als strategische Investitionen, die verwaltet werden müssen. Mit Digital-Twin-Technologie, KI-gestützten Überwachungsplattformen und Echtzeit-Leistungsanalytik verfolgen wir jede Komponente Ihrer Anlagen auf Modulebene und identifizieren Abweichungen, bevor sie kritisch werden. Durch den Abgleich technischer Asset-Daten mit finanziellen Ergebnissen stellen wir sicher, dass Ihre Investition unter allen Bedingungen maximale Renditen erzielt. Wir verwandeln Ihren Asset in ein lebendes, sich entwickelndes System, das Wert schöpft.",
-      "risk": "Hinter einem Produktionsverlust steckt oft keine Fehlfunktion, sondern eine zu spät bemerkte Verschlechterung. Durch die Kombination der Methodik der zuverlässigkeitsorientierten Instandhaltung mit Algorithmen für vorausschauende Wartung und 24/7-Echtzeit-Überwachung verwalten wir jedes Gerät nach seinem Kritikalitätsniveau und eliminieren systematisch ungeplante Ausfallzeiten. Wir führen alle Betriebsprozesse — von der SCADA-Analytik bis zur FMEA, von der Ursachenanalyse bis zur OEM-Koordination — nach den Standards der betrieblichen Exzellenz durch. Jede Intervention im Feld ist auf ein messbares Ergebnis ausgerichtet — denn für Sie ist jede Stunde mit Stillstand verlorener Umsatz.",
-      "output": "Die technische Leistung Ihrer Anlagen ist die Einlösung des Versprechens, das Sie Ihren Investoren gegeben haben. Mit unseren Tools zur Lebenszykluskosten-Analyse, strategischen Budgetierung und fortgeschrittenen Finanzmodellierung bewerten wir jede technische Entscheidung zusammen mit ihrer finanziellen Auswirkung und wandeln die Auswirkungen auf IRR und LCOE in Investorenberichte um. Wir verwalten alle Prozesse — vom Garantie- und Vertragsmanagement bis zur ESG-Leistungsüberwachung, von der Regulierungskonformität bis zur Asset-Gesundheitsindexierung — aus einer integrierten Perspektive. Wir schützen Ihr Finanzmodell vom ersten bis zum letzten Tag Ihrer Anlage und maximieren Ihre Rendite durch die Verlängerung der Asset-Lebensdauer."
-    },
-    "hydro": {
-      "title": "Wasserkraft",
-      "complexity": "Wasserkraftwerke sind die langlebigsten und kapitalintensivsten Assets im Energiesektor. In diesen Systemen — die Jahrzehnte lang ununterbrochen Wert erzeugen sollen, von Turbinen und Generatoren bis zu Schieber- und Ventilmechanismen, von Baustrukturen bis zur hydrologischen Infrastruktur — bestimmt der Gesundheitszustand jeder Komponente direkt die finanzielle Leistung der gesamten Anlage. Wir modellieren jedes Kraftwerk zusammen mit seinem einzigartigen hydrologischen Regime, dem Gerätealter und den Herstellerparametern und verfolgen den Asset-Zustand in Echtzeit mit unseren KI-gestützten Überwachungsplattformen und Digital-Twin-Technologie. Der Schutz des langfristigen Werts jedes Kraftwerks erfordert einen Asset-Management-Ansatz nach globalen Standards — und genau das bieten wir.",
-      "risk": "Betriebliche Exzellenz in Wasserkraftsystemen erfordert, dass mechanische, elektrische und Baudisziplinen gleichzeitig und fehlerfrei verwaltet werden. Durch die Kombination der Schwingungscharakteristika, Kavitationsrisiken und Lagermüdigungsdynamiken, die jeweils einzigartig für Kaplan-, Francis- oder Pelton-Turbinen sind, mit der Methodik der zuverlässigkeitsorientierten Instandhaltung, erfassen wir Ausfälle vor ihrem Auftreten und führen Interventionen geplant und kontrolliert durch. Wir verwalten alle Betriebsprozesse — von Wasserführungs-Steuersystemen bis zu Generatorwicklungen, von Automatisierungs- und SCADA-Infrastruktur bis zur Integrität der Baustruktur — mit unserer 24/7-Überwachungskapazität und Ursachenanalysedisziplin. Unser Ziel ist einzig: Jede Turbine muss das volle hydrologische Potenzial in elektrische Energie umwandeln.",
-      "output": "Die finanzielle Attraktivität von Wasserkraftwerken ergibt sich aus Betriebslebensdauern, die bei richtiger Verwaltung 40-50 Jahre überschreiten können. Dieses Potenzial in die Realität umzusetzen hängt davon ab, dass jede größere Renovierungsentscheidung rechtzeitig, mit präziser Kostenschätzung und minimiertem Produktionsverlust getroffen wird. Mit unseren Tools zur Lebenszykluskosten-Analyse und strategischen Budgetierung planen wir Revisionszyklen im Voraus, integrieren Investitionsausgaben in das Cashflow-Modell und eliminieren unerwartete Kosten. Wir berichten jede technische Entscheidung zusammen mit ihrer Auswirkung auf IRR und LCOE und bieten Ihren Investoren einen transparenten und zuverlässigen Leistungsüberblick — wir schützen den Wert Ihrer Anlage von der ersten Turbinenrotation bis zur letzten Kilowattstunde."
-    },
-    "gas": {
-      "title": "Gas & Wärme",
-      "complexity": "Kombikraftwerke mit Erdgas sind die technologisch fortschrittlichsten und empfindlichsten Stromerzeugungssysteme im Energiesektor. In diesen Kraftwerken — wo Gasturbine, Abhitzekessel, Dampfturbine und Generatorblöcke in perfekter thermodynamischer Harmonie arbeiten — beeinflusst jede Leistungsabweichung in einer Komponente sofort das Wirkungsgradgleichgewicht des gesamten Systems. Wir modellieren jedes CCGT-Kraftwerk zusammen mit den originalen Ingenieursparametern des Turbinenherstellers — vor allem GE, Siemens Energy, Mitsubishi oder Ansaldo — OEM-Serviceprotokollen und Designlebensdauerdaten; und wir überwachen den Gesundheitszustand jeder Hauptkomponente in Echtzeit mit unseren KI-gestützten Überwachungsplattformen und Digital-Twin-Technologie. In Kraftwerken, die mit hohem Kreislaufwirkungsgrad arbeiten, hat die Qualität des Asset-Managements direkte messbare Auswirkungen auf Kraftstoffkosten und Ausgangswirkungsgrad — und wir halten diese Auswirkung stets in die positive Richtung.",
-      "risk": "Betriebliche Exzellenz in CCGT-Kraftwerken umfasst ein äußerst breites und kritisches Ingenieurfeld: von der Verwaltung der Heißgasweg-Komponenten der Gasturbine bis zur Dampfkreislaufoptimierung, von der Kalibrierung der Verbrennungssysteme bis zur Integrität der Wärmetauscher. Kompressorklingen-Erosion, Temperaturverteilung in der Brennkammer, Turbinenstufen-Lagermüdigkeit und Verschlechterung in den Rohrbündeln des Abhitzekessels — wir verwalten jede dieser Komponenten, jede mit ihrer eigenen Ausfalldynamik, individuell durch die Methodik der zuverlässigkeitsorientierten Instandhaltung; durch integriertes Verwenden von Wärmebildgebung, Schwingungsanalyse, Abgasanalytik und Ölanalyse erfassen wir kritische Schäden vor ihrem Auftreten. Wir planen geplante Wartungszyklen — Verbrennungsinspektion, Heißgasweg-Inspektion und Hauptüberholung — in Abstimmung mit Produktionsplänen und Marktpreisdynamiken. Unser 24/7-Überwachungszentrum verarbeitet kontinuierlich SCADA- und DCS-Daten und spiegelt jede Anomalie auf das Feld wider, bevor sie ein kritisches Niveau erreicht; alle Prozesse, die wir gemäß den Prinzipien der betrieblichen Exzellenz durchführen, sind mit einem einzigen Ziel konzipiert: Ihre Anlage produziert in jeder Betriebsstunde an den Grenzen ihres konzipierten Kreislaufwirkungsgrades.",
-      "output": "Das Finanzmodell von CCGT-Kraftwerken ist auf einem äußerst empfindlichen Gleichgewicht aufgebaut, mit hohen Kapitalkosten und Kraftstoffausgaben — die einen großen Teil der Betriebskosten ausmachen. Ein einprozentiger Verlust beim Kreislaufwirkungsgrad kann sich in Millionen von Dollar zusätzlichen jährlichen Kraftstoffkosten verwandeln; ein ungeplanter Heißgasweg-Ausfall bedeutet sowohl eine große Investitionsausgabe als auch einen kritischen Umsatzverlust. Wir managen diese Risiken mit ingenieurtechnischer Voraussicht und versicherungsmathematischer Präzision. Durch die Integration von OEM-Wartungsvereinbarungen, Garantiebedingungen und Bauteilaustauschs-Schwellenwerten in Ihr Finanzmodell budgetieren wir jeden größeren Revisionszyklus im Voraus und eliminieren Überraschungen beim Cashflow. Mit unseren Tools zur Lebenszykluskosten-Analyse, Wärmeeffizienz-Verfolgung und strategischen Budgetierung bewerten wir jede technische Entscheidung zusammen mit ihrer Auswirkung auf LCOE und IRR und wandeln komplexe Ingenieurdaten in strategische Berichte um, die Ihre Investoren verstehen. Wir schützen den Wert Ihrer Anlage von der ersten Zündung bis zur letzten Betriebsstunde — denn beim Kombibetrieb werden echte Renditen durch die Aufrechterhaltung des Wirkungsgrads am Auslegungspunkt erzielt."
-    },
-    "bess": {
-      "title": "Energiespeicherung (BESS)",
-      "complexity": "Batterie-Energiespeichersysteme stellen die am schnellsten wachsende und dynamischste Asset-Klasse im Energiesektor dar. Von der Lithium-Ionen-Zellchemie bis zu Leistungsumwandlungssystemen, von der Thermomanagement-Infrastruktur bis zur Energiemanagementsoftware erfordern diese tief miteinander verbundenen Komponenten kritische ingenieurtechnische Integrität sowohl hinsichtlich des sofortigen Leistungsgleichgewichts als auch des langfristigen Kapazitätswerts. Wir modellieren jeden BESS-Asset zusammen mit Zellchemie, Systemarchitektur, Zyklusstrategie und Betriebsumgebungsparametern; und wir verfolgen State-of-Health-, State-of-Charge- und State-of-Power-Metriken in Echtzeit mit unseren KI-gestützten Überwachungsplattformen und Digital-Twin-Technologie. Durch die tiefe Kenntnis der Systemarchitekturen und BMS-Protokolle führender Hersteller — vor allem CATL, BYD, Samsung SDI und LG Energy Solution — halten wir jeden Asset an den Grenzen seiner konzipierten Kapazität und innerhalb der sicheren Betriebszone. Ihr Batterie-Asset ist nicht nur eine Speichereinheit, sondern eine strategische Energieinvestition, die verwaltet werden muss.",
-      "risk": "Betriebliche Exzellenz in BESS-Systemen beginnt mit der Verwaltung der Batteriedegeneration, der Aufrechterhaltung des thermischen Gleichgewichts und der Optimierung der Zyklusstrategie entsprechend den Echtzeit-Marktbedingungen. Kapazitätsungleichgewichte auf Zellebene, Wärmeschlag-Risiken, Verluste im Leistungsumwandlungssystem und BMS-Software-Anomalien — wir verwalten jede dieser Komponenten, jede mit ihrer eigenen Ausfalldynamik, individuell durch die Methodik der zuverlässigkeitsorientierten Instandhaltung; durch integriertes Verwenden von elektrochemischer Impedanzanalyse, Wärmebildgebung und Kapazitanzmessung erfassen wir kritischen Abbau vor seinem Auftreten. Wir führen alle Betriebsprozesse — von der Zyklustiefen-Optimierung bis zur Lade-Entlade-Protokoll-Kalibrierung, vom Kühlsystemmanagement bis zur Brandmeldeinfrastruktur — mit unserer 24/7-Überwachungskapazität und unseren Standards der betrieblichen Exzellenz durch. Unser Ziel ist einzig: Ihre Anlage antwortet bei jedem Aufruf mit voller Kapazität und minimiert die Degradation bei jedem Zyklus.",
-      "output": "Der finanzielle Erfolg von BESS-Investitionen ist direkt damit verknüpft, wie gut der Kapazitätswert über die Jahre erhalten werden kann. Wenn die Batteriedegeneration nicht kontrolliert wird, verengt sich der Garantieumfang, die Marktkapazität nimmt ab, und die grundlegenden Annahmen des Finanzmodells kollabieren eine nach der anderen. Wir managen dieses Risiko mit ingenieurtechnischer Disziplin und versicherungsmathematischer Präzision von Beginn des Lebenszyklus an. Durch die Integration von Kapazitätsgarantiemanagement, Zykluslebensdauerplanung und Bauteilaustauschs-Schwellenwerten in Ihr Finanzmodell budgetieren wir jede größere Investitionsausgabe im Voraus und eliminieren Überraschungen beim Cashflow. Mit unseren Tools zur Lebenszykluskosten-Analyse, Kapazitätsdegradationsmodellierung und Markterlösoptimierung berichten wir jede technische Entscheidung zusammen mit ihrer Auswirkung auf IRR und LCOE und bieten Ihren Investoren einen transparenten und zuverlässigen Leistungsüberblick. Wir schützen den Wert Ihrer Anlage von der ersten Ladung bis zum letzten Zyklus — denn bei der Speicherung werden echte Renditen nicht durch die Erhaltung der Kapazität über Jahre, sondern durch ihre Erhaltung über die gesamte Lebensdauer erzielt."
-    }
-  },
-  "Projects": {
-    "title": "Projekte & Unsere Erfahrung",
-    "subtitle": "Der wahre Wert eines Unternehmens wird nicht in der Liste der angebotenen Dienstleistungen gemessen, sondern in der Qualität und Komplexität der gelieferten Projekte. Die folgenden Referenzprojekte sind greifbare Widerspiegelungen der ingenieurtechnischen Tiefe und Implementierungsdisziplin, die wir unter verschiedenen Technologien, Geographien und Betriebsbedingungen demonstrieren. Jedes Projekt ist ein Dokument unserer Kapazität zur technischen Entscheidungsfindung nach globalen Standards, unseres Risikomanagement-Ansatzes und des messbaren Werts, den wir für unsere Kunden schaffen.",
-    "labels": {
-      "capacity": "INSTALLIERTE KAPAZITÄT",
-      "scope": "LEISTUNGSUMFANG",
-      "challenge": "HAUPTHERAUSFORDERUNG",
-      "result": "ERGEBNIS"
-    },
-    "technology": {
-      "capacity": "Wir haben unsere globale Energieerfahrung mit 600+ MW Wind, 250 MW Solar, 950 MW Wasser, 2400 Dieselmotoren und 2550 MW Erdgaskraftwerken gestärkt.",
-      "scope": "Wir haben den vollständigen Lebenszyklus der Projekte auf technische und ingenieurtechnische Weise mit EPC-, O&M- und Beratungsdienstleistungen verwaltet.",
-      "challenge": "Variable klimatische Bedingungen, Zugang zu abgelegenen Standorten und komplexe Geräteintegration waren die herausragenden Herausforderungen in den Projekten.",
-      "result": "Dank hoher Ingenieursstandards haben wir in den Anlagen eine hohe Verfügbarkeit erreicht und die Energieeffizienz um 12–15 % gesteigert."
-    },
-    "geography": {
-      "capacity": "Wir haben Erfahrung unter verschiedenen klimatischen und Standortbedingungen mit Projekten gewonnen, die auf verschiedenen Kontinenten insgesamt 3700 MW überschreiten.",
-      "scope": "Wir haben umfassende Ingenieurlösungen bereitgestellt, die lokale und internationale Vorschriften, Genehmigungsverfahren und Netzintegration abdecken.",
-      "challenge": "Die Verwaltung von Logistik, Lieferkette und Umweltanforderungen in verschiedenen Geographien war die Hauptherausforderung.",
-      "result": "Unsere Projekte zeigten hohe Verfügbarkeit und hohe Leistung entsprechend dem regionalen Energiebedarf."
-    },
-    "service": {
-      "capacity": "Wir haben erfolgreich 400+ MW im EPC- und O&M-Bereich und eine entsprechende Kapazität von 600+ MW in Beratungsprojekten verwaltet.",
-      "scope": "Wir haben allen Projektphasen mit schlüsselfertiger EPC, vorausschauender Wartung und Leistungsoptimierung ingenieurtechnische Exzellenz hinzugefügt.",
-      "challenge": "Vertrags- und Garantiemanagement, Baustellensicherheit und technische Compliance stellten die kritischsten Herausforderungen dar.",
-      "result": "Während das Vertrauen von Investoren und Betrieb zunahm, erzielten wir hohe Effizienzsteigerungen und maximale Verfügbarkeit in der Energieproduktion."
-    }
-  },
-  "WhyUs": {
-    "title": "Unser Ansatz",
-    "items": [
-      {
-        "number": "01",
-        "title": "Lebenszyklus-Denkweise",
-        "subtitle": "End-to-End Exzellenz",
-        "desc": "Wir liefern nicht nur ein Projekt; wir gestalten und optimieren einen gesamten Lebenszyklus."
-      },
-      {
-        "number": "02",
-        "title": "OEM-unabhängiges Ingenieurwesen",
-        "subtitle": "Freiheit der Innovation",
-        "desc": "Unser Ingenieurwesen ist unabhängig; wir sind nicht durch einen bestimmten Lieferanten oder eine bestimmte Technologie eingeschränkt."
-      },
-      {
-        "number": "03",
-        "title": "Datengestützte Entscheidungen",
-        "subtitle": "Skalierte Intelligenz",
-        "desc": "Unsere Entscheidungen werden durch Daten und künstliche Intelligenz unterstützt. Wir erarbeiten Lösungen mit Echtzeit-Felddaten, KI-basierten Prognosemodellen und Simulationen."
-      },
-      {
-        "number": "04",
-        "title": "Bewährte Teams",
-        "subtitle": "Erfahrung und Innovation",
-        "desc": "Unser Team besteht aus Ingenieuren mit nachgewiesener Erfahrung in globalen Projekten, die Ergebnisse im Feld erzielen."
-      }
-    ]
-  },
-  "About": {
-    "title": "Über POWEN",
-    "vision": {
-      "title": "Vision & Werte",
-      "subtitle": "Leitprinzipien für globale Wirkung",
-      "desc": "Unsere Vision ist es nicht nur, Energieprojekte durchzuführen, sondern mit nachhaltigen, digitalen und datengesteuerten Lösungen einen Unterschied in der Branche zu machen."
-    },
-    "leadership": {
-      "title": "Führungsteam",
-      "subtitle": "Strategisch, Bewährt, Inspirierend",
-      "desc": "Unser Führungsteam verfügt über nachgewiesene Erfahrung in globalen Energie- und Ingenieurprojekten."
-    },
-    "culture": {
-      "title": "Ingenieurskultur",
-      "subtitle": "Innovation und Präzision",
-      "desc": "Unsere Ingenieurskultur wird durch Kreativität, systematische Analyse und digitale Lösungen geprägt."
-    },
-    "hse": {
-      "title": "HSE & Qualität",
-      "subtitle": "Sicherheit und Exzellenz",
-      "desc": "Arbeitssicherheit, Gesundheitsschutz und Qualität sind die Grundpfeiler unserer Abläufe."
-    }
-  },
-  "Insights": {
-    "title": "Wissen & Einblicke",
-    "items": [
-      {
-        "title": "Betriebs- & Wartungslektionen",
-        "subtitle": "Erfahrung in Vorteile umwandeln",
-        "desc": "Die Lektionen aus unseren Felderfahrungen liefern unseren Kunden Lösungen, die Risiken minimieren und die Betriebseffizienz steigern."
-      },
-      {
-        "title": "Leistungstechnik",
-        "subtitle": "Datengestütztes Wissen",
-        "desc": "Unsere Artikel zur Leistungstechnik werden durch datengesteuerte Analyse und fortgeschrittene Simulationstechniken unterstützt."
-      },
-      {
-        "title": "Netz & Regulierung",
-        "subtitle": "Wegweisend durch Komplexität",
-        "desc": "Energiemärkte und Vorschriften ändern sich ständig. Wir antizipieren diese Komplexität mit globaler Erfahrung und KI-gestützter Analyse."
-      },
-      {
-        "title": "Fallstudien zur Fehleranalyse",
-        "subtitle": "Von jeder Herausforderung lernen",
-        "desc": "Jedes Scheitern ist eine Chance für zukünftigen Erfolg. Wir lernen aus Fehlern durch systematische Analyse und datengesteuerte Ansätze."
-      }
-    ]
-  },
-  "Contact": {
-    "title": "Nehmen Sie Kontakt mit uns auf",
-    "items": [
-      {
-        "title": "Projektanfrage",
-        "subtitle": "Ihre Vision, Unsere Expertise",
-        "desc": "Bei Ihren neuen Projekten stehen wir Ihnen in jeder Phase von der Idee bis zur Umsetzung mit globaler Erfahrung und ingenieurtechnischer Exzellenz zur Seite.",
-        "email": "projects@powerenerlytics.com"
-      },
-      {
-        "title": "Investor Relations",
-        "subtitle": "Transparent und Strategisch",
-        "desc": "Unsere Beziehungen zu Investoren und Finanzinstituten basieren auf vollständiger Transparenz, Vertrauen und strategischer Perspektive.",
-        "email": "investors@powerenerlytics.com"
-      },
-      {
-        "title": "Technischer Support",
-        "subtitle": "Fachkundige Hilfe, wenn Sie sie brauchen",
-        "desc": "Unser technisches Support-Team besteht aus erfahrenen Ingenieuren sowohl im Feld als auch in der digitalen Umgebung.",
-        "email": "support@powerenerlytics.com"
-      }
-    ]
   }
 }

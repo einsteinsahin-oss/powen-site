@@ -9,18 +9,6 @@
     "contact": "Contact"
   },
   },
-  "Footer": {
-    "tagline": "Engineering excellence in power plants",
-    "quickLinks": "Quick Links",
-    "capabilities": "Capabilities",
-    "industries": "Industries",
-    "projects": "Projects",
-    "about": "About",
-    "contact": "Contact",
-    "location": "Istanbul, Turkey",
-    "rights": "All rights reserved."
-  }
-  }
   "Hero": {
     "slides": [
       {
