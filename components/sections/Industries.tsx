@@ -39,22 +39,22 @@ export default function Industries() {
           
           <div className="grid lg:grid-cols-3 gap-8">
             <div>
-              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">
+              <div className="text-sm font-mono uppercase tracking-wider text-gray-500 mb-3">
                 {t('labels.complexity')}
               </div>
-              <p className="text-base text-gray-700 leading-relaxed">{t(`${activeTech}.complexity`)}</p>
+              <p className="text-base text-gray-900 leading-relaxed text-justify">{t(`${activeTech}.complexity`)}</p>
             </div>
             <div>
-              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">
+              <div className="text-sm font-mono uppercase tracking-wider text-gray-500 mb-3">
                 {t('labels.risk')}
               </div>
-              <p className="text-base text-gray-700 leading-relaxed">{t(`${activeTech}.risk`)}</p>
+              <p className="text-base text-gray-900 leading-relaxed text-justify">{t(`${activeTech}.risk`)}</p>
             </div>
             <div>
-              <div className="text-xs font-mono uppercase tracking-wider text-gray-500 mb-3">
+              <div className="text-sm font-mono uppercase tracking-wider text-gray-500 mb-3">
                 {t('labels.output')}
               </div>
-              <p className="text-base text-gray-700 leading-relaxed">{t(`${activeTech}.output`)}</p>
+              <p className="text-base text-gray-900 leading-relaxed text-justify">{t(`${activeTech}.output`)}</p>
             </div>
           </div>
         </div>
