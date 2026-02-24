@@ -1,4 +1,5 @@
 import {NextIntlClientProvider} from 'next-intl';
+import Footer from '@/components/Footer';
 import {unstable_setRequestLocale} from 'next-intl/server';
 import type { Metadata } from 'next'
 import StructuredData from '@/components/StructuredData';
@@ -33,6 +34,7 @@ export default async function LocaleLayout({children, params: {locale}}: {childr
       <body>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
+          <Footer />
         </NextIntlClientProvider>
         <Analytics />
       </body>

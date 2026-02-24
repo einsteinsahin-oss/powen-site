@@ -307,4 +307,9 @@
       }
     ]
   }
+},
+  "Footer": {
+    "rights": "All rights reserved."
+  }
+}  
 }
