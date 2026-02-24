@@ -8,7 +8,6 @@
     "insights": "Insights",
     "contact": "Contact"
   },
-  },
   "Hero": {
     "slides": [
       {
@@ -306,10 +305,8 @@
         "email": "support@powerenerlytics.com"
       }
     ]
-  }
-},
+  },
   "Footer": {
     "rights": "All rights reserved."
-  }
-}  
+  }  
 }
