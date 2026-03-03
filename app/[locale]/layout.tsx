@@ -8,6 +8,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({params: {locale}}: {params: {locale: string}}) {
+  const baseUrl = 'https://powerenerlytics.com';
   const titles = {
     en: 'POWEN - Power Plant Engineering & Asset Management',
     tr: 'POWEN - Enerji Santrali Mühendisliği ve Varlık Yönetimi',
@@ -19,20 +20,56 @@ export async function generateMetadata({params: {locale}}: {params: {locale: str
     tr: 'Yenilenebilir enerjide mühendislik mükemmeliyeti: Rüzgar, güneş, hidro, gaz ve BESS santralleri için danışmanlık, EPC ve işletme-bakım.',
     de: 'Engineering-Exzellenz: Beratung, EPC, O&M für Wind-, Solar-, Wasserkraft-, Gas- und BESS-Kraftwerke.'
   };
-
+  const ogLocale = { en: 'en_US', tr: 'tr_TR', de: 'de_DE' };//çalışmayabilir ilk kontrol
   return {
     title: titles[locale as keyof typeof titles],
     description: descriptions[locale as keyof typeof descriptions],
+
+    // ── Canonical & hreflang ──────────────────────────────────────────────
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        'en': `${baseUrl}/en`,
+        'tr': `${baseUrl}/tr`,
+        'de': `${baseUrl}/de`,
+        'x-default': `${baseUrl}/en`,
+      },
+    },
+
+    // ── Open Graph (LinkedIn, Facebook, WhatsApp) ─────────────────────────
     openGraph: {
       title: titles[locale as keyof typeof titles],
       description: descriptions[locale as keyof typeof descriptions],
-      url: `https://powen-site.vercel.app/${locale}`,
+      url: `${baseUrl}/${locale}`,
       siteName: 'POWEN',
-      locale: locale,
+      locale: ogLocale[locale as keyof typeof ogLocale],
       type: 'website',
+      images: [
+        {
+          url: `${baseUrl}/images/og/powen-og.jpg`, // ← 1200×630px görsel ekleyin (aşağıda açıklandı)
+          width: 1200,
+          height: 630,
+          alt: 'POWEN - Power Plant Engineering & Asset Management',
+        },
+      ],
+    },
+
+    // ── Twitter / X Card ──────────────────────────────────────────────────
+    twitter: {
+      card: 'summary_large_image',
+      title: titles[locale as keyof typeof titles],
+      description: descriptions[locale as keyof typeof descriptions],
+      images: [`${baseUrl}/images/og/powen-og.jpg`],
+    },
+
+    // ── Robots ────────────────────────────────────────────────────────────
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
+
 
 export default async function LocaleLayout({
   children,
