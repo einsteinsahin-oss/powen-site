@@ -46,7 +46,7 @@ export async function generateMetadata({params: {locale}}: {params: {locale: str
       type: 'website',
       images: [
         {
-          url: `${baseUrl}/images/og/powen-og.jpg`, // ← 1200×630px görsel ekleyin (aşağıda açıklandı)
+          url: `${baseUrl}/images/og/powen-og.jpeg`, // ← 1200×630px görsel ekleyin (aşağıda açıklandı)
           width: 1200,
           height: 630,
           alt: 'POWEN - Power Plant Engineering & Asset Management',
