@@ -44,6 +44,14 @@ export async function generateMetadata({params: {locale}}: {params: {locale: str
       siteName: 'POWEN',
       locale: ogLocale[locale as keyof typeof ogLocale],
       type: 'website',
+        images: [
+    {
+      url: `${baseUrl}/${locale}/opengraph-image`,  // ← değişen sadece bu
+      width: 1200,
+      height: 630,
+      alt: 'POWEN - Power Plant Engineering & Asset Management',
+    },
+  ],
     },
 
     // ── Twitter / X Card ──────────────────────────────────────────────────
@@ -51,6 +59,7 @@ export async function generateMetadata({params: {locale}}: {params: {locale: str
       card: 'summary_large_image',
       title: titles[locale as keyof typeof titles],
       description: descriptions[locale as keyof typeof descriptions],
+      images: [`${baseUrl}/en/opengraph-image`],  // ← ve bu
     },
 
     // ── Robots ────────────────────────────────────────────────────────────
