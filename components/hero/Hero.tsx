@@ -32,6 +32,16 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen bg-gray-900 overflow-hidden">
+
+      {/* ── SEO: Sabit H1 — görsel olarak gizli, Google tarafından okunur ── */}
+      <h1 className="sr-only">
+        {locale === 'tr'
+          ? 'POWEN — Enerji Santrali Mühendisliği, EPC, O&M ve Varlık Yönetimi'
+          : locale === 'de'
+          ? 'POWEN — Kraftwerkstechnik, EPC, Betrieb & Instandhaltung und Asset Management'
+          : 'POWEN — Power Plant Engineering, EPC, O&M and Asset Management'}
+      </h1>
+
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
           <div
@@ -53,9 +63,11 @@ export default function Hero() {
       <div className="relative z-10 pt-36 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl min-h-[60vh] flex flex-col justify-center">
-            <h1 className="text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
+
+            {/* ── h1 → h2 olarak değiştirildi ── */}
+            <h2 className="text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
               {slides[currentSlide].title}
-            </h1>
+            </h2>
             
             {slides[currentSlide].subtitle && (
               <p className="text-2xl lg:text-3xl text-gray-100 mb-8 leading-relaxed max-w-3xl drop-shadow-lg font-medium">
