@@ -53,7 +53,7 @@ export default function Hero() {
               src={slide.image}
               alt={slide.title}
               className="w-full h-full object-cover"
-              style={{filter: 'brightness(1.2) contrast(1.1)'}}
+              style={{filter: 'brightness(0,9) contrast(1.1)'}}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />
           </div>
