@@ -280,6 +280,11 @@
         "title": "Arıza Analizi Vaka Çalışmaları",
         "subtitle": "Her Zorluktan Öğrenme",
         "desc": "Her başarısızlık, gelecekteki başarı için bir fırsattır. Sistematik analiz ve veri destekli yaklaşımlar ile hatalardan öğreniyoruz."
+      },
+         {
+        "title": "Arıza Öncüsü Sinyaller",
+        "subtitle": "Arıza Bir Olay Değil, Bir Süreçtir",
+        "desc": "Condition-based ve reliability-centered yaklaşımlarla arızaları aylar öncesinden öngörmek, geleneksel alarm-driven O&M'den çok daha güçlü bir stratejidir."
       }
     ]
   },

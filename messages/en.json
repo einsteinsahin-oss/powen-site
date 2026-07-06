@@ -280,6 +280,11 @@
         "title": "Failure Analysis Case Studies",
         "subtitle": "Learning from Every Challenge",
         "desc": "Every failure is an opportunity for future success. We learn from mistakes through systematic analysis and data-driven approaches."
+      },
+       {
+        "title": "Failure Precursor Signals",
+        "subtitle": "Failure Is a Process, Not an Event",
+        "desc": "Condition-based, reliability-centered approaches that catch failure precursors months in advance are a far stronger strategy than traditional alarm-driven O&M."
       }
     ]
   },

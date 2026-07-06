@@ -1,8 +1,20 @@
 'use client'
 import {useTranslations} from 'next-intl'
+import {useParams} from 'next/navigation'
+import Link from 'next/link'
+
+const slugs = [
+  'om-lessons',
+  'performance-engineering',
+  'grid-regulation',
+  'failure-analysis',
+  'om-failure-precursors',
+]
 
 export default function Insights() {
   const t = useTranslations('Insights')
+  const params = useParams()
+  const locale = params?.locale as string
 
   return (
     <section id="insights" className="py-24 lg:py-32 bg-gray-50">
@@ -10,15 +22,23 @@ export default function Insights() {
         <h2 className="text-5xl font-bold text-gray-900 mb-16">{t('title')}</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {[0,1,2,3].map((idx) => {
+          {[0,1,2,3,4].map((idx) => {
             try {
               const item = t.raw(`items.${idx}`)
+              const slug = slugs[idx]
               return (
-                <div key={idx} className="bg-white p-8 border-l-4 border-blue-600">
+                <Link
+                  key={idx}
+                  href={`/${locale}/insights/${slug}`}
+                  className="block bg-white p-8 border-l-4 border-blue-600 hover:shadow-lg transition-shadow"
+                >
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
                   <div className="text-base text-teal-500 font-medium mb-3">{item.subtitle}</div>
-                  <p className="text-base text-gray-600 leading-relaxed">{item.desc}</p>
-                </div>
+                  <p className="text-base text-gray-600 leading-relaxed mb-4">{item.desc}</p>
+                  <span className="text-teal-600 font-semibold text-sm">
+                    {locale === 'tr' ? 'Devamını Oku' : locale === 'de' ? 'Weiterlesen' : 'Read More'} →
+                  </span>
+                </Link>
               )
             } catch {
               return null

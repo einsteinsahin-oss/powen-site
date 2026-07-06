@@ -280,6 +280,11 @@
         "title": "Fallstudien zur Fehleranalyse",
         "subtitle": "Von jeder Herausforderung lernen",
         "desc": "Jedes Scheitern ist eine Chance für zukünftigen Erfolg. Wir lernen aus Fehlern durch systematische Analyse und datengesteuerte Ansätze."
+      },
+      {
+        "title": "Ausfall-Vorläufersignale",
+        "subtitle": "Ein Ausfall ist ein Prozess, kein Ereignis",
+        "desc": "Zustandsbasierte, zuverlässigkeitszentrierte Ansätze, die Ausfall-Vorläufer Monate im Voraus erkennen, sind einer traditionellen alarmgesteuerten O&M weit überlegen."
       }
     ]
   },
