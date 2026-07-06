@@ -139,6 +139,7 @@ function renderBody(paragraphs: readonly string[]) {
 }
 
 export default function OmLessonsPage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
   const c = content[locale as Locale] ?? content.en;
 
   return (
