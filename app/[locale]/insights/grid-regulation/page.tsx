@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import Navigation from '@/components/navigation/Navigation';
 
 const baseUrl = 'https://powerenerlytics.com';
@@ -115,6 +116,7 @@ function renderBody(paragraphs: readonly string[]) {
 }
 
 export default function GridRegulationPage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
   const c = content[locale as Locale] ?? content.en;
 
   return (
