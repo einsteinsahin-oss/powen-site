@@ -141,6 +141,9 @@ export async function generateMetadata({params: {locale}}: {params: {locale: str
       index: true,
       follow: true,
     },
+     verification: {
+      google: '2d7-4hILCJpX1T5AJtFeX6HbIi-TI79R1Jt7pfsGAKU',
+    },
   };
 }
 
