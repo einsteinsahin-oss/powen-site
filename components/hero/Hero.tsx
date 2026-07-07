@@ -1,6 +1,7 @@
 'use client'
 import {useState, useEffect} from 'react'
 import {useTranslations, useLocale} from 'next-intl'
+import Image from 'next/image'
 
 export default function Hero() {
   const t = useTranslations('Hero')
@@ -49,11 +50,16 @@ export default function Hero() {
             className="absolute inset-0 transition-opacity duration-1000"
             style={{opacity: currentSlide === index ? 1 : 0}}
           >
-            <img
+            <Image
               src={slide.image}
               alt={slide.title}
-              className="w-full h-full object-cover"
-              style={{filter: 'brightness(0,9) contrast(1.1)'}}
+              fill
+              sizes="100vw"
+              quality={70}
+              priority={index === 0}
+              loading={index === 0 ? 'eager' : 'lazy'}
+              className="object-cover"
+              style={{filter: 'brightness(0.9) contrast(1.1)'}}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />
           </div>
