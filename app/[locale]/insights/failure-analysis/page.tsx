@@ -1,9 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { unstable_setRequestLocale } from 'next-intl/server';
 import Navigation from '@/components/navigation/Navigation';
 
 const baseUrl = 'https://powerenerlytics.com';
+const slug = 'failure-analysis';
+
+const relatedArticles = [
+  { slug: 'om-failure-precursors', label: { en: 'Failure Precursor Signals', tr: 'Arıza Öncüsü Sinyaller', de: 'Ausfall-Vorläufersignale' } },
+  { slug: 'performance-engineering', label: { en: "The Turbine's Digital Nervous System", tr: 'Türbinin Dijital Sinir Sistemi', de: 'Das digitale Nervensystem der Turbine' } },
+];
 
 const content = {
   en: {
@@ -11,6 +16,7 @@ const content = {
     metaDesc: 'How remote monitoring, AI-driven predictive maintenance, and digital twins are becoming the strongest lever for power plant production gains.',
     back: '← Back to Insights',
     title: 'The New Efficiency Threshold in Power Plants: Remote Monitoring, AI, and Reliability-Centered Maintenance',
+    related: 'Related Articles',
     body: [
       `Competition in power generation no longer runs solely on installed capacity or equipment quality. Today, the real differentiator is how assets are monitored, how they're maintained, and how data is converted into action.`,
       `Recent studies make it clear: remote monitoring, AI-driven predictive maintenance, and digital twin applications have become one of the strongest levers for production gains in power plants.`,
@@ -40,6 +46,7 @@ const content = {
     metaDesc: 'Uzaktan izleme, yapay zeka destekli kestirimci bakım ve dijital ikizlerin enerji santrallerinde üretim artışının en güçlü kaldıraçları haline gelişi.',
     back: '← İçgörülere Dön',
     title: 'Enerji Santrallerinde Yeni Verimlilik Eşiği: Remote Monitoring, AI ve Reliability-Centered Maintenance',
+    related: 'İlgili Makaleler',
     body: [
       `Enerji üretiminde rekabet artık yalnızca kurulu güç veya ekipman kalitesi üzerinden yürümüyor. Bugün asıl fark yaratan unsur, varlıkların nasıl izlendiği, nasıl bakımı yapıldığı ve verinin nasıl aksiyona dönüştürüldüğüdür.`,
       `Son dönemde yapılan çalışmalar, remote monitoring, AI-driven predictive maintenance ve digital twin uygulamalarının, enerji santrallerinde üretim artışının en güçlü kaldıraçlarından biri haline geldiğini net biçimde ortaya koyuyor.`,
@@ -69,6 +76,7 @@ const content = {
     metaDesc: 'Wie Remote Monitoring, KI-gestützte vorausschauende Wartung und Digital Twins zum stärksten Hebel für Produktionssteigerungen in Kraftwerken werden.',
     back: '← Zurück zu den Insights',
     title: 'Die neue Effizienzschwelle bei Kraftwerken: Remote Monitoring, KI und zuverlässigkeitszentrierte Instandhaltung',
+    related: 'Verwandte Artikel',
     body: [
       `Der Wettbewerb in der Energieerzeugung läuft längst nicht mehr allein über installierte Leistung oder Anlagenqualität. Der entscheidende Unterschied liegt heute darin, wie Anlagen überwacht werden, wie ihre Wartung erfolgt und wie Daten in Handlungen umgesetzt werden.`,
       `Aktuelle Studien zeigen deutlich: Remote Monitoring, KI-gestützte vorausschauende Wartung und Digital-Twin-Anwendungen sind zu einem der stärksten Hebel für Produktionssteigerungen in Kraftwerken geworden.`,
@@ -103,16 +111,16 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
   const c = content[locale as Locale] ?? content.en;
-  const url = `${baseUrl}/${locale}/insights/failure-analysis`;
+  const url = `${baseUrl}/${locale}/insights/${slug}`;
   return {
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: {
       canonical: url,
       languages: {
-        en: `${baseUrl}/en/insights/failure-analysis`,
-        tr: `${baseUrl}/tr/insights/failure-analysis`,
-        de: `${baseUrl}/de/insights/failure-analysis`,
+        en: `${baseUrl}/en/insights/${slug}`,
+        tr: `${baseUrl}/tr/insights/${slug}`,
+        de: `${baseUrl}/de/insights/${slug}`,
       },
     },
     openGraph: { title: c.metaTitle, description: c.metaDesc, url, type: 'article' },
@@ -147,11 +155,30 @@ function renderBody(paragraphs: readonly string[]) {
 }
 
 export default function FailureAnalysisPage({ params: { locale } }: { params: { locale: string } }) {
-  unstable_setRequestLocale(locale);
   const c = content[locale as Locale] ?? content.en;
+  const l = locale as 'en' | 'tr' | 'de';
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: c.title,
+    description: c.metaDesc,
+    author: { '@type': 'Organization', name: 'POWEN', url: baseUrl },
+    publisher: {
+      '@type': 'Organization',
+      name: 'POWEN',
+      logo: { '@type': 'ImageObject', url: `${baseUrl}/images/logo.png` },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${baseUrl}/${locale}/insights/${slug}` },
+    inLanguage: locale === 'en' ? 'en-US' : locale === 'tr' ? 'tr-TR' : 'de-DE',
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Navigation />
       <article className="py-24 lg:py-32 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -167,6 +194,21 @@ export default function FailureAnalysisPage({ params: { locale } }: { params: { 
             <a href="mailto:info@powerenerlytics.com" className="text-teal-600 font-semibold hover:underline">
               {c.ctaLink} →
             </a>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <h3 className="text-lg font-bold text-gray-900 mb-4">{c.related}</h3>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {relatedArticles.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/${locale}/insights/${r.slug}`}
+                  className="block bg-gray-50 p-5 border-l-4 border-teal-500 hover:shadow-md transition-shadow"
+                >
+                  <span className="text-teal-600 font-semibold">{r.label[l]} →</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </article>

@@ -1,9 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { unstable_setRequestLocale } from 'next-intl/server';
 import Navigation from '@/components/navigation/Navigation';
 
 const baseUrl = 'https://powerenerlytics.com';
+const slug = 'om-lessons';
+
+const relatedArticles = [
+  { slug: 'om-failure-precursors', label: { en: 'Failure Precursor Signals', tr: 'Arıza Öncüsü Sinyaller', de: 'Ausfall-Vorläufersignale' } },
+  { slug: 'performance-engineering', label: { en: "The Turbine's Digital Nervous System", tr: 'Türbinin Dijital Sinir Sistemi', de: 'Das digitale Nervensystem der Turbine' } },
+];
 
 const content = {
   en: {
@@ -11,6 +16,7 @@ const content = {
     metaDesc: 'What 20+ years in the field teach us about preventive maintenance, spare parts strategy, and asset reliability in power plants.',
     back: '← Back to Insights',
     title: 'Operations & Maintenance Lessons: What 20+ Years in the Field Teach Us About Keeping Power Plants Running',
+    related: 'Related Articles',
     body: [
       `Power plants — whether wind, solar, hydro, gas, or battery storage — are only as profitable as their uptime. A turbine that isn't spinning or a solar array that isn't producing is a stranded asset, no matter how well it was designed or built. After two decades of supporting operations and maintenance (O&M) programs across commercial, industrial, and utility-scale renewable projects, a few hard-earned lessons stand out — the kind that don't show up in a datasheet but show up in a P&L.`,
       `## 1. Preventive Maintenance Is Cheaper Than Corrective Maintenance — Every Time`,
@@ -39,6 +45,7 @@ const content = {
     metaDesc: '20+ yıllık saha deneyiminin bize öğrettikleri: önleyici bakım, yedek parça stratejisi ve enerji santrallerinde varlık güvenilirliği.',
     back: '← İçgörülere Dön',
     title: 'İşletme & Bakım Dersleri: 20+ Yıllık Saha Deneyimi Bize Ne Öğretiyor?',
+    related: 'İlgili Makaleler',
     body: [
       `Enerji santralleri — ister rüzgar, ister güneş, hidro, gaz ya da batarya depolama olsun — yalnızca çalışma süreleri (uptime) kadar kârlıdır. Dönmeyen bir türbin ya da üretim yapmayan bir güneş paneli dizisi, ne kadar iyi tasarlanmış veya inşa edilmiş olursa olsun, atıl bir varlıktır. Ticari, endüstriyel ve şebeke ölçekli yenilenebilir enerji projelerinde iki yıllık dönem boyunca işletme ve bakım (O&M) programlarına destek verdikten sonra, bazı zor kazanılmış dersler öne çıkıyor — veri sayfasında görünmeyen ama kâr-zarar tablosunda kendini gösteren türden dersler.`,
       `## 1. Önleyici Bakım Her Zaman Düzeltici Bakımdan Daha Ucuzdur`,
@@ -67,6 +74,7 @@ const content = {
     metaDesc: 'Was 20+ Jahre Felderfahrung über vorbeugende Wartung, Ersatzteilstrategie und Anlagenzuverlässigkeit in Kraftwerken lehren.',
     back: '← Zurück zu den Insights',
     title: 'Betriebs- und Wartungserkenntnisse: Was 20+ Jahre Felderfahrung über den Betrieb von Kraftwerken lehren',
+    related: 'Verwandte Artikel',
     body: [
       `Kraftwerke — ob Wind, Solar, Wasserkraft, Gas oder Batteriespeicher — sind nur so profitabel wie ihre Verfügbarkeit. Eine Turbine, die nicht dreht, oder ein Solarpark, der nicht produziert, ist ein gestrandeter Vermögenswert, egal wie gut er konzipiert oder gebaut wurde. Nach zwei Jahrzehnten der Unterstützung von Betriebs- und Wartungsprogrammen (O&M) in gewerblichen, industriellen und Utility-Scale-Projekten für erneuerbare Energien kristallisieren sich einige hart erarbeitete Erkenntnisse heraus — jene Art, die in keinem Datenblatt steht, aber in der Gewinn- und Verlustrechnung sichtbar wird.`,
       `## 1. Vorbeugende Wartung ist immer günstiger als korrektive Wartung`,
@@ -100,16 +108,16 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
   const c = content[locale as Locale] ?? content.en;
-  const url = `${baseUrl}/${locale}/insights/om-lessons`;
+  const url = `${baseUrl}/${locale}/insights/${slug}`;
   return {
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: {
       canonical: url,
       languages: {
-        en: `${baseUrl}/en/insights/om-lessons`,
-        tr: `${baseUrl}/tr/insights/om-lessons`,
-        de: `${baseUrl}/de/insights/om-lessons`,
+        en: `${baseUrl}/en/insights/${slug}`,
+        tr: `${baseUrl}/tr/insights/${slug}`,
+        de: `${baseUrl}/de/insights/${slug}`,
       },
     },
     openGraph: {
@@ -139,11 +147,40 @@ function renderBody(paragraphs: readonly string[]) {
 }
 
 export default function OmLessonsPage({ params: { locale } }: { params: { locale: string } }) {
-  unstable_setRequestLocale(locale);
   const c = content[locale as Locale] ?? content.en;
+  const l = locale as 'en' | 'tr' | 'de';
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: c.title,
+    description: c.metaDesc,
+    author: {
+      '@type': 'Organization',
+      name: 'POWEN',
+      url: baseUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'POWEN',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/images/logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${baseUrl}/${locale}/insights/${slug}`,
+    },
+    inLanguage: locale === 'en' ? 'en-US' : locale === 'tr' ? 'tr-TR' : 'de-DE',
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Navigation />
       <article className="py-24 lg:py-32 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -156,12 +193,24 @@ export default function OmLessonsPage({ params: { locale } }: { params: { locale
           <div>{renderBody(c.body)}</div>
           <div className="mt-12 border-l-4 border-blue-600 bg-gray-50 p-6">
             <p className="text-base text-gray-700 mb-2">{c.cta}</p>
-            <a
-              href="mailto:info@powerenerlytics.com"
-              className="text-teal-600 font-semibold hover:underline"
-            >
+            <a href="mailto:info@powerenerlytics.com" className="text-teal-600 font-semibold hover:underline">
               {c.ctaLink} →
             </a>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <h3 className="text-lg font-bold text-gray-900 mb-4">{c.related}</h3>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {relatedArticles.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/${locale}/insights/${r.slug}`}
+                  className="block bg-gray-50 p-5 border-l-4 border-teal-500 hover:shadow-md transition-shadow"
+                >
+                  <span className="text-teal-600 font-semibold">{r.label[l]} →</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </article>

@@ -1,9 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { unstable_setRequestLocale } from 'next-intl/server';
 import Navigation from '@/components/navigation/Navigation';
 
 const baseUrl = 'https://powerenerlytics.com';
+const slug = 'om-failure-precursors';
+
+const relatedArticles = [
+  { slug: 'om-lessons', label: { en: 'Operations & Maintenance Lessons', tr: 'İşletme & Bakım Dersleri', de: 'Betriebs- und Wartungserkenntnisse' } },
+  { slug: 'failure-analysis', label: { en: 'Remote Monitoring, AI & Reliability-Centered Maintenance', tr: 'Remote Monitoring, AI ve Reliability-Centered Maintenance', de: 'Remote Monitoring, KI und zuverlässigkeitszentrierte Instandhaltung' } },
+];
 
 const content = {
   en: {
@@ -11,6 +16,7 @@ const content = {
     metaDesc: 'Why failure is a process, not an event — and how condition-based, reliability-centered O&M catches precursors months in advance.',
     back: '← Back to Insights',
     title: 'The Real Problem in O&M Isn\'t Failures: It\'s What We Don\'t Measure, Trend, or Take Seriously',
+    related: 'Related Articles',
     body: [
       `The real problem in O&M isn't failures themselves. It's everything we didn't measure, trend, or take seriously before the failure occurred. A failure doesn't simply appear out of nowhere — failure is not an event, it's a process.`,
       `## Failures Begin Quietly`,
@@ -35,6 +41,7 @@ const content = {
     metaDesc: 'Arıza bir olay değil bir süreçtir — condition-based ve reliability-centered O&M yaklaşımı arıza öncüsü sinyalleri aylar öncesinden nasıl yakalar.',
     back: '← İçgörülere Dön',
     title: 'O&M\'de Asıl Sorun Arızalar Değil: Neyi Ölçmediğimiz, Trendlemediğimiz ve Ciddiye Almadığımız',
+    related: 'İlgili Makaleler',
     body: [
       `O&M'de asıl sorun arızalar değil. Arızaya gelene kadar neyi ölçmediğimiz, trendlemediğimiz ve ciddiye almadığımızdır. Bir anda herhangi bir arızanın ortaya çıkması beklenemez — arıza bir olay değil, bir süreçtir.`,
       `## Arızalar Aslında Sessizce Başlar`,
@@ -59,6 +66,7 @@ const content = {
     metaDesc: 'Warum ein Ausfall ein Prozess ist, kein Ereignis — und wie zustandsbasierte, zuverlässigkeitszentrierte O&M Vorläufersignale Monate im Voraus erkennt.',
     back: '← Zurück zu den Insights',
     title: 'Das eigentliche Problem in der O&M sind nicht die Ausfälle: Es ist das, was wir nicht messen, tracken oder ernst nehmen',
+    related: 'Verwandte Artikel',
     body: [
       `Das eigentliche Problem in der O&M sind nicht die Ausfälle selbst. Es ist alles, was wir bis zum Ausfall nicht gemessen, getrendet oder ernst genommen haben. Ein Ausfall entsteht nicht plötzlich aus dem Nichts — ein Ausfall ist kein Ereignis, sondern ein Prozess.`,
       `## Ausfälle beginnen leise`,
@@ -88,16 +96,16 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
   const c = content[locale as Locale] ?? content.en;
-  const url = `${baseUrl}/${locale}/insights/om-failure-precursors`;
+  const url = `${baseUrl}/${locale}/insights/${slug}`;
   return {
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: {
       canonical: url,
       languages: {
-        en: `${baseUrl}/en/insights/om-failure-precursors`,
-        tr: `${baseUrl}/tr/insights/om-failure-precursors`,
-        de: `${baseUrl}/de/insights/om-failure-precursors`,
+        en: `${baseUrl}/en/insights/${slug}`,
+        tr: `${baseUrl}/tr/insights/${slug}`,
+        de: `${baseUrl}/de/insights/${slug}`,
       },
     },
     openGraph: { title: c.metaTitle, description: c.metaDesc, url, type: 'article' },
@@ -142,11 +150,30 @@ function renderBody(paragraphs: readonly string[]) {
 }
 
 export default function OmFailurePrecursorsPage({ params: { locale } }: { params: { locale: string } }) {
-  unstable_setRequestLocale(locale);
   const c = content[locale as Locale] ?? content.en;
+  const l = locale as 'en' | 'tr' | 'de';
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: c.title,
+    description: c.metaDesc,
+    author: { '@type': 'Organization', name: 'POWEN', url: baseUrl },
+    publisher: {
+      '@type': 'Organization',
+      name: 'POWEN',
+      logo: { '@type': 'ImageObject', url: `${baseUrl}/images/logo.png` },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${baseUrl}/${locale}/insights/${slug}` },
+    inLanguage: locale === 'en' ? 'en-US' : locale === 'tr' ? 'tr-TR' : 'de-DE',
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Navigation />
       <article className="py-24 lg:py-32 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -162,6 +189,21 @@ export default function OmFailurePrecursorsPage({ params: { locale } }: { params
             <a href="mailto:info@powerenerlytics.com" className="text-teal-600 font-semibold hover:underline">
               {c.ctaLink} →
             </a>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <h3 className="text-lg font-bold text-gray-900 mb-4">{c.related}</h3>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {relatedArticles.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/${locale}/insights/${r.slug}`}
+                  className="block bg-gray-50 p-5 border-l-4 border-teal-500 hover:shadow-md transition-shadow"
+                >
+                  <span className="text-teal-600 font-semibold">{r.label[l]} →</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </article>

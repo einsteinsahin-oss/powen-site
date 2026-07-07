@@ -1,9 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { unstable_setRequestLocale } from 'next-intl/server';
 import Navigation from '@/components/navigation/Navigation';
 
 const baseUrl = 'https://powerenerlytics.com';
+const slug = 'grid-regulation';
+
+const relatedArticles = [
+  { slug: 'performance-engineering', label: { en: "The Turbine's Digital Nervous System", tr: 'Türbinin Dijital Sinir Sistemi', de: 'Das digitale Nervensystem der Turbine' } },
+  { slug: 'failure-analysis', label: { en: 'Remote Monitoring, AI & Reliability-Centered Maintenance', tr: 'Remote Monitoring, AI ve Reliability-Centered Maintenance', de: 'Remote Monitoring, KI und zuverlässigkeitszentrierte Instandhaltung' } },
+];
 
 const content = {
   en: {
@@ -11,6 +16,7 @@ const content = {
     metaDesc: 'Why storage and grid integration — not generation capacity — are becoming the real constraint on energy strategy.',
     back: '← Back to Insights',
     title: 'The Overlooked Shift in the Energy Sector: Is Grid Access Becoming the New Bottleneck?',
+    related: 'Related Articles',
     body: [
       `We keep focusing on the surge in electricity demand driven by data centers and AI investments. But a far more critical transformation is unfolding quietly across the energy sector. The issue is no longer just building new generation capacity — it's making that capacity accessible where and when it's actually needed.`,
       `## A New Definition of Energy Security`,
@@ -33,6 +39,7 @@ const content = {
     metaDesc: 'Enerji stratejisinde asıl kısıtlayıcı unsurun neden artık üretim kapasitesi değil depolama ve şebeke entegrasyonu olduğu.',
     back: '← İçgörülere Dön',
     title: 'Enerji Sektöründe Gözden Kaçan Bir Değişim: Şebeke Erişimi Yeni Darboğaz mı Oluyor?',
+    related: 'İlgili Makaleler',
     body: [
       `Veri merkezleri ve yapay zekâ yatırımlarının yarattığı elektrik talebindeki artışa odaklanıyoruz. Ancak enerji sektöründe çok daha kritik bir dönüşüm sessizce yaşanıyor. Artık mesele yalnızca yeni üretim kapasitesi kurmak değil; o kapasiteyi ihtiyaç duyulan yerde, ihtiyaç duyulan anda erişilebilir kılmak.`,
       `## Enerji Güvenliğinin Yeni Tanımı`,
@@ -55,6 +62,7 @@ const content = {
     metaDesc: 'Warum nicht Erzeugungskapazität, sondern Speicher- und Netzintegration zur eigentlichen Beschränkung der Energiestrategie werden.',
     back: '← Zurück zu den Insights',
     title: 'Der übersehene Wandel im Energiesektor: Wird der Netzzugang zum neuen Engpass?',
+    related: 'Verwandte Artikel',
     body: [
       `Wir konzentrieren uns weiterhin auf den durch Rechenzentren und KI-Investitionen verursachten Anstieg der Stromnachfrage. Doch im Energiesektor vollzieht sich still ein weitaus kritischerer Wandel. Es geht nicht mehr nur darum, neue Erzeugungskapazität aufzubauen — sondern darum, diese Kapazität dort und dann zugänglich zu machen, wo und wann sie tatsächlich gebraucht wird.`,
       `## Eine neue Definition von Energiesicherheit`,
@@ -82,16 +90,16 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
   const c = content[locale as Locale] ?? content.en;
-  const url = `${baseUrl}/${locale}/insights/grid-regulation`;
+  const url = `${baseUrl}/${locale}/insights/${slug}`;
   return {
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: {
       canonical: url,
       languages: {
-        en: `${baseUrl}/en/insights/grid-regulation`,
-        tr: `${baseUrl}/tr/insights/grid-regulation`,
-        de: `${baseUrl}/de/insights/grid-regulation`,
+        en: `${baseUrl}/en/insights/${slug}`,
+        tr: `${baseUrl}/tr/insights/${slug}`,
+        de: `${baseUrl}/de/insights/${slug}`,
       },
     },
     openGraph: { title: c.metaTitle, description: c.metaDesc, url, type: 'article' },
@@ -116,11 +124,30 @@ function renderBody(paragraphs: readonly string[]) {
 }
 
 export default function GridRegulationPage({ params: { locale } }: { params: { locale: string } }) {
-  unstable_setRequestLocale(locale);
   const c = content[locale as Locale] ?? content.en;
+  const l = locale as 'en' | 'tr' | 'de';
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: c.title,
+    description: c.metaDesc,
+    author: { '@type': 'Organization', name: 'POWEN', url: baseUrl },
+    publisher: {
+      '@type': 'Organization',
+      name: 'POWEN',
+      logo: { '@type': 'ImageObject', url: `${baseUrl}/images/logo.png` },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${baseUrl}/${locale}/insights/${slug}` },
+    inLanguage: locale === 'en' ? 'en-US' : locale === 'tr' ? 'tr-TR' : 'de-DE',
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Navigation />
       <article className="py-24 lg:py-32 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -136,6 +163,21 @@ export default function GridRegulationPage({ params: { locale } }: { params: { l
             <a href="mailto:info@powerenerlytics.com" className="text-teal-600 font-semibold hover:underline">
               {c.ctaLink} →
             </a>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <h3 className="text-lg font-bold text-gray-900 mb-4">{c.related}</h3>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {relatedArticles.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/${locale}/insights/${r.slug}`}
+                  className="block bg-gray-50 p-5 border-l-4 border-teal-500 hover:shadow-md transition-shadow"
+                >
+                  <span className="text-teal-600 font-semibold">{r.label[l]} →</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </article>

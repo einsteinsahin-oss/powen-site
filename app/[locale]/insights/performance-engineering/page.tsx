@@ -1,9 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { unstable_setRequestLocale } from 'next-intl/server';
 import Navigation from '@/components/navigation/Navigation';
 
 const baseUrl = 'https://powerenerlytics.com';
+const slug = 'performance-engineering';
+
+const relatedArticles = [
+  { slug: 'om-lessons', label: { en: 'Operations & Maintenance Lessons', tr: 'İşletme & Bakım Dersleri', de: 'Betriebs- und Wartungserkenntnisse' } },
+  { slug: 'failure-analysis', label: { en: 'Remote Monitoring, AI & Reliability-Centered Maintenance', tr: 'Remote Monitoring, AI ve Reliability-Centered Maintenance', de: 'Remote Monitoring, KI und zuverlässigkeitszentrierte Instandhaltung' } },
+];
 
 const content = {
   en: {
@@ -11,6 +16,7 @@ const content = {
     metaDesc: 'How open architecture control, PLC/SCADA modernization, and pitch/torque optimization unlock hidden performance in wind turbines.',
     back: '← Back to Insights',
     title: 'The New Frontier in Performance Engineering: The Turbine\'s Digital Nervous System',
+    related: 'Related Articles',
     body: [
       `During our field visits over the past week, standing in front of those massive nacelles, one thing became clear once again: the future of the sector isn't only about bigger blades, taller towers, or more powerful components. The real revolution is happening deep inside that massive body — in its "digital nervous system," the PLC and SCADA layers.`,
       `These enormous machines withstand storm after storm, snow and winter — yet they sometimes struggle to tell us what's wrong.`,
@@ -35,6 +41,7 @@ const content = {
     metaDesc: 'Açık mimarili kontrol sistemleri, PLC/SCADA modernizasyonu ve pitch/tork optimizasyonu rüzgar türbinlerindeki gizli performansı nasıl açığa çıkarır.',
     back: '← İçgörülere Dön',
     title: 'Performans Mühendisliğinde Yeni Cephe: Türbinin Dijital Sinir Sistemi',
+    related: 'İlgili Makaleler',
     body: [
       `Geçtiğimiz hafta gerçekleştirdiğimiz saha ziyaretlerinde, o devasa gövdelerin karşısında dururken bir kez daha emin olduk: sektörün geleceği sadece daha büyük kanatlarda, daha yüksek kulelerde veya daha güçlü komponentlerde değil. Asıl devrim, o muazzam gövdenin en derinindeki "dijital sinir sisteminde" — yani PLC ve SCADA katmanlarında yaşanıyor.`,
       `Bu dev makineler onca fırtınaya, kara ve kışa göğüs geriyor; ancak dertlerini bize anlatmakta bazen zorlanıyorlar.`,
@@ -59,6 +66,7 @@ const content = {
     metaDesc: 'Wie offene Steuerungsarchitektur, PLC/SCADA-Modernisierung und Pitch-/Drehmomentoptimierung verborgene Leistung in Windturbinen freisetzen.',
     back: '← Zurück zu den Insights',
     title: 'Die neue Front im Performance Engineering: Das digitale Nervensystem der Turbine',
+    related: 'Verwandte Artikel',
     body: [
       `Bei unseren Feldbesuchen in der vergangenen Woche wurde uns vor diesen gewaltigen Gondeln erneut klar: Die Zukunft der Branche liegt nicht nur in größeren Rotorblättern, höheren Türmen oder stärkeren Komponenten. Die eigentliche Revolution findet im Innersten dieses gewaltigen Körpers statt — im "digitalen Nervensystem", also in den PLC- und SCADA-Ebenen.`,
       `Diese gewaltigen Maschinen trotzen Sturm um Sturm, Schnee und Winter — doch manchmal fällt es ihnen schwer, uns mitzuteilen, was ihnen fehlt.`,
@@ -88,16 +96,16 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
   const c = content[locale as Locale] ?? content.en;
-  const url = `${baseUrl}/${locale}/insights/performance-engineering`;
+  const url = `${baseUrl}/${locale}/insights/${slug}`;
   return {
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: {
       canonical: url,
       languages: {
-        en: `${baseUrl}/en/insights/performance-engineering`,
-        tr: `${baseUrl}/tr/insights/performance-engineering`,
-        de: `${baseUrl}/de/insights/performance-engineering`,
+        en: `${baseUrl}/en/insights/${slug}`,
+        tr: `${baseUrl}/tr/insights/${slug}`,
+        de: `${baseUrl}/de/insights/${slug}`,
       },
     },
     openGraph: { title: c.metaTitle, description: c.metaDesc, url, type: 'article' },
@@ -132,11 +140,30 @@ function renderBody(paragraphs: readonly string[]) {
 }
 
 export default function PerformanceEngineeringPage({ params: { locale } }: { params: { locale: string } }) {
-  unstable_setRequestLocale(locale);
   const c = content[locale as Locale] ?? content.en;
+  const l = locale as 'en' | 'tr' | 'de';
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: c.title,
+    description: c.metaDesc,
+    author: { '@type': 'Organization', name: 'POWEN', url: baseUrl },
+    publisher: {
+      '@type': 'Organization',
+      name: 'POWEN',
+      logo: { '@type': 'ImageObject', url: `${baseUrl}/images/logo.png` },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${baseUrl}/${locale}/insights/${slug}` },
+    inLanguage: locale === 'en' ? 'en-US' : locale === 'tr' ? 'tr-TR' : 'de-DE',
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Navigation />
       <article className="py-24 lg:py-32 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -152,6 +179,21 @@ export default function PerformanceEngineeringPage({ params: { locale } }: { par
             <a href="mailto:info@powerenerlytics.com" className="text-teal-600 font-semibold hover:underline">
               {c.ctaLink} →
             </a>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <h3 className="text-lg font-bold text-gray-900 mb-4">{c.related}</h3>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {relatedArticles.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/${locale}/insights/${r.slug}`}
+                  className="block bg-gray-50 p-5 border-l-4 border-teal-500 hover:shadow-md transition-shadow"
+                >
+                  <span className="text-teal-600 font-semibold">{r.label[l]} →</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </article>
