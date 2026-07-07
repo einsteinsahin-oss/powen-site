@@ -147,6 +147,7 @@ export async function generateMetadata({params: {locale}}: {params: {locale: str
       other: {
     'msvalidate.01': '73C998095B2F0D18FAAA28C44618B94C',
     },
+    },
   };
 }
 
