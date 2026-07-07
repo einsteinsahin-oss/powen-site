@@ -2,6 +2,7 @@
 import {useState} from 'react'
 import {useTranslations, useLocale} from 'next-intl'
 import {usePathname, useRouter} from 'next/navigation'
+import Image from 'next/image'
 
 export default function Navigation() {
   const t = useTranslations('Nav')
@@ -11,12 +12,12 @@ export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const navLinks = [
-    {name: t('capabilities'), href: '#capabilities'},
-    {name: t('industries'), href: '#industries'},
-    {name: t('projects'), href: '#projects'},
-    {name: t('about'), href: '#about'},
-    {name: t('insights'), href: '#insights'},
-    {name: t('contact'), href: '#contact'},
+    {name: t('capabilities'), href: `/${locale}#capabilities`},
+    {name: t('industries'), href: `/${locale}#industries`},
+    {name: t('projects'), href: `/${locale}#projects`},
+    {name: t('about'), href: `/${locale}#about`},
+    {name: t('insights'), href: `/${locale}#insights`},
+    {name: t('contact'), href: `/${locale}#contact`},
   ]
 
   const languages = [
@@ -33,12 +34,15 @@ export default function Navigation() {
     <nav className="fixed top-0 w-full bg-white backdrop-blur-sm border-b border-gray-200 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
-          <a href="#home" className="flex items-center py-3">
-            <img 
+          <a href={`/${locale}#home`} className="flex items-center py-3">
+            <Image
               src="/images/logo.png"
-              alt="POWEN" 
+              alt="POWEN"
+              width={400}
+              height={80}
               className="h-20 w-auto object-contain"
               style={{maxWidth: '400px'}}
+              priority
             />
           </a>
 
@@ -69,7 +73,7 @@ export default function Navigation() {
               ))}
             </div>
 
-            <a href="#contact" className="px-8 py-4 bg-blue-600 text-white font-bold text-base hover:bg-teal-500 transition-all">
+            <a href={`/${locale}#contact`} className="px-8 py-4 bg-blue-600 text-white font-bold text-base hover:bg-teal-500 transition-all">
               {t('contact')}
             </a>
           </div>
