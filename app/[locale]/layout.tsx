@@ -144,6 +144,8 @@ export async function generateMetadata({params: {locale}}: {params: {locale: str
     },
      verification: {
       google: '2d7-4hILCJpX1T5AJtFeX6HbIi-TI79R1Jt7pfsGAKU',
+      other: {
+    'msvalidate.01': '73C998095B2F0D18FAAA28C44618B94C',
     },
   };
 }
