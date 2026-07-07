@@ -41,7 +41,7 @@ function JsonLd({ locale }: { locale: string }) {
       },
       {
         '@type': 'ContactPoint',
-        email: 'projects@powerenerlytics.com',
+        email: 'info@powerenerlytics.com',
         contactType: 'sales',
         availableLanguage: ['English', 'Turkish', 'German'],
       },
