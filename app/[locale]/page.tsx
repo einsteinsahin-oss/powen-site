@@ -2,6 +2,7 @@ import {unstable_setRequestLocale} from 'next-intl/server';
 import Navigation from '@/components/navigation/Navigation';
 import Hero from '@/components/hero/Hero';
 import Capabilities from '@/components/sections/Capabilities';
+import WhyChooseUs from '@/components/sections/WhyChooseUs';
 import Industries from '@/components/sections/Industries';
 import Projects from '@/components/sections/Projects';
 import WhyUs from '@/components/sections/WhyUs';
@@ -20,6 +21,7 @@ export default function HomePage({params: {locale}}: {params: {locale: string}})
       <Navigation />
       <Hero />
       <Capabilities />
+      <WhyChooseUs />
       <Industries />
       <Projects />
       <WhyUs />

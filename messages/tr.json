@@ -11,42 +11,52 @@
   "Hero": {
     "slides": [
       {
-        "title": "Stratejik Danışmanlık & Mühendislik Çözümleri",
-        "subtitle": "Sadece proje teslimat takvimine değil, projenizin yaşam döngüsü boyunca sergileyeceği maksimum performansa odaklanıyoruz.",
-        "tagline": "Detaylardaki potansiyeli görür, karmaşık süreçleri yalın ve kârlı sonuçlara dönüştürürüz."
+        "title": "Fikirden İşletmeye: Enerji Yatırımlarında Uçtan Uca Mühendislik ve Danışmanlık",
+        "subtitle": "Fizibilite ve finansal modellemeden EPC ve devreye almaya, İşletme & Bakım (O&M) ve dijital varlık yönetimine kadar — rüzgar, güneş, hidro, gaz ve depolama santrallerinde yatırımcının, finansörün ve geliştiricinin teknik karar ortağıyız.",
+        "tagline": "Bağımsız mühendislik, bankalanabilir sonuçlar."
       },
       {
-        "title": "EPC & Kurulum, İnşaat",
-        "subtitle": "Yenilenebilir enerji yatırımlarınızı sadece hayata geçirmekle kalmıyor; performans, dayanıklılık ve kârlılık ekseninde en üst düzeye taşıyoruz.",
-        "tagline": "Geleceği mühendislik disipliniyle tasarlıyor, her detayda sarsılmaz bir güven ve kalıcı bir değer inşa ediyoruz."
+        "title": "EPC & Kurulum: Uluslararası Standartlarda, İlk Seferde Doğru",
+        "subtitle": "Elektrik-mekanik işlerden devreye almaya, tam sorumlulukla yönetiyoruz.",
+        "tagline": "Tek muhatap, tam sorumluluk."
       },
       {
         "title": "İşletme, Bakım & Dijital İzleme (O&M)",
-        "subtitle": "Güvenilirlik Merkezli Bakım (RCM) metodolojimiz ve dijital analitik platformlarımızla, operasyonel süreçlerinizde sürdürülebilir bir mükemmeliyet inşa ediyoruz.",
-        "tagline": "Kesintisiz enerji, kusursuz yönetim: Dijital analitiğin gücüyle sistem performansınızı zirvede tutuyoruz."
+        "subtitle": "Güvenilirlik Merkezli Bakım (RCM) ve 7/24 izleme ile kesintisiz operasyon.",
+        "tagline": "Arıza beklemeden yönetin."
       },
       {
         "title": "Stratejik Varlık Yönetimi",
-        "subtitle": "Yaşam Döngüsü Boyunca Kesintisiz Değer.",
-        "tagline": "Operasyonel mükemmeliyet ilkelerimizle varlıklarınızın yaşam döngüsünü optimize ediyor, riskleri minimize ederek yatırımınızın gelecekteki değerini bugünden inşa ediyoruz."
+        "subtitle": "Teknik performansı finansal sonuca bağlıyoruz — yatırımınızın kârlılığını maksimize ediyoruz.",
+        "tagline": "Yaşam döngüsü boyunca kesintisiz değer."
       },
       {
         "title": "Performans Mühendisliği & Optimizasyon",
-        "subtitle": "Mühendislik disiplini, operasyonel veriler ve finansal hedefler arasındaki boşluğu köprüleriz. Biz sadece rapor sunmuyoruz; karmaşık verileri, operasyonel mükemmeliyete giden yolda uygulanabilir teknik içgörülere (insights) ve kesin kararlara dönüştürüyoruz.",
-        "tagline": "Sınırları zorluyor, mühendisliğin gücüyle verimliliği yeniden kurguluyoruz."
+        "subtitle": "Kayıp üretimin nedenini buluyor, geri kazanım planını biz kuruyoruz.",
+        "tagline": "Veriyle görün, mühendislikle çözün."
       },
       {
         "title": "Dijital Dönüşüm & Akıllı Yazılım Çözümleri",
-        "subtitle": "Gerçek karmaşıklık teknolojik altyapı değil, hatalı kararların ve kaçırılan fırsatların maliyetidir. Biz sadece ekipman veya kod yönetmiyoruz; operasyonel mükemmeliyet hedefiyle riski, veriyi ve finansal sonuçları yönetiyoruz.",
-        "tagline": "Veriyi stratejik içgörüye (insight) dönüştürüyor, operasyonlarınızı geleceğin standartlarına taşıyoruz."
+        "subtitle": "SCADA'dan dijital ikize, veriyi stratejik karara çeviriyoruz.",
+        "tagline": "Veri, stratejik içgörüye dönüşür."
       }
     ],
     "stats": {
       "capacity": "GW Yönetim Altında",
       "availability": "Ort. Kullanılabilirlik",
       "projects": "Aktif Proje",
-      "countries": "Ülke"
-    }
+      "countries": "Ülke",
+      "experience": "Yıl Deneyim"
+    },
+    "roles": [
+      "Independent Engineering",
+      "Owner's Engineer",
+      "EPC & Commissioning",
+      "O&M & Asset Management",
+      "Lender's Technical Advisor",
+      "Bankable Reports"
+    ],
+    "ctaPrimary": "Teknik Görüşme Talep Edin"
   },
   "Capabilities": {
     "title": "Neler Yapıyoruz",
@@ -54,128 +64,379 @@
     "advisory": {
       "title": "Stratejik Danışmanlık",
       "items": [
-        {"name": "Fizibilite & Saha Seçimi", "desc": "Projeleriniz için en uygun lokasyonu belirler, teknik ve operasyonel başarıyı garanti altına alıyoruz."},
-        {"name": "İşveren Mühendisliği", "desc": "Yatırımcı gözüyle mühendislik çözümleri sunar, projelerinizin her aşamasında kalite ve güvence sağlıyoruz."},
-        {"name": "İhale & Sözleşme Yönetimi", "desc": "Teknik karmaşıklıkları basitleştirir, sözleşmelerde riskleri minimize eder ve fırsatları maksimize ediyoruz."},
-        {"name": "Şebeke Entegrasyonu & Mevzuat Yönetimi", "desc": "Şebeke uyumluluğu ve izin süreçlerini sorunsuz yönetir, projelerinizin hızla hayata geçmesini sağlıyoruz."},
-        {"name": "Teknik Due Diligence", "desc": "Her detayı inceler, teknik ve operasyonel riskleri öngörerek bilinçli kararlar almanızı sağlıyoruz."},
-        {"name": "Teknoloji Stratejisi", "desc": "Yeni teknolojilerin projelerinizde kullanılmasının etkinliklerini araştırır, uygunluğunu değerlendiriyoruz."},
-        {"name": "Bütünsel Risk Yönetimi", "desc": "Teknik ve operasyonel riskleri henüz oluşmadan öngören proaktif savınma stratejileri geliştiriyoruz,çözümler sunuyoruz."},
-        {"name": "İleri Finansal Modelleme", "desc": "Proje finansal kriterlerinize uygun olarak, yatırım geri dönüşü ve performans simülasyonları raporlarını sunuyoruz."},
-        {"name": "Regülasyon ve Uyunluluk Stratejisi", "desc": "Değişen enerji piyasası mevzuatlarını takip ederek projelerin uzun vadeli uyumluluğunu garanti altına alıyoruz."},
-        {"name": "Yaşam Döngüsü Mühendisliği", "desc": "Varlık ömrü boyunca performans ve maliyet optimizasyonuna ilişkin bulgular ile sizlere karar alma konusunda data sağlıyoruz."},
-        {"name": "Sürdürülebilirlik & ESG Danışmanlığı", "desc": "Karbon ayak izinden yeşil sertifikasyona kadar tüm süreçleri ESG kriterlerine uygun şekilde yönetiyoruz."}
+        {
+          "name": "Fizibilite & Saha Seçimi",
+          "desc": "Doğru sahayı, doğru veriyle seçin — yatırım kararınızı teknik riskten arındırın."
+        },
+        {
+          "name": "İşveren Mühendisliği",
+          "desc": "Sahada gözünüz, masada temsilciniz — projenin her aşamasında yatırımcı çıkarını koruyoruz."
+        },
+        {
+          "name": "İhale & Sözleşme Yönetimi",
+          "desc": "Teknik karmaşayı sözleşme maddesine çevirmeden önce biz çözeriz — daha az risk, daha iyi şartlar."
+        },
+        {
+          "name": "Şebeke Entegrasyonu & Mevzuat Yönetimi",
+          "desc": "İzin ve şebeke süreçlerinde kaybedilen zamanı ortadan kaldırın; projeniz daha hızlı devreye girsin."
+        },
+        {
+          "name": "Teknik Due Diligence",
+          "desc": "Yatırım kararınızdan önce, gizli teknik riskleri gün yüzüne çıkarıyoruz."
+        },
+        {
+          "name": "Teknoloji Stratejisi",
+          "desc": "Hangi teknoloji gerçekten getiri sağlar? Bağımsız değerlendirmeyle karar verin."
+        },
+        {
+          "name": "Bütünsel Risk Yönetimi",
+          "desc": "Riskler oluşmadan görün, oluşmadan çözün — proaktif teknik risk yönetimi."
+        },
+        {
+          "name": "İleri Finansal Modelleme",
+          "desc": "IRR ve LCOE'nizi teknik gerçeklerle test edin — varsayım değil, mühendislik temelli finansal model."
+        },
+        {
+          "name": "Regülasyon ve Uyunluluk Stratejisi",
+          "desc": "Mevzuat değişse de projeniz uyumlu kalsın — sürekli takip, sürekli güvence."
+        },
+        {
+          "name": "Yaşam Döngüsü Mühendisliği",
+          "desc": "Varlığınızın tüm ömrü boyunca hangi kararın ne zaman verileceğini veriyle biliyoruz."
+        },
+        {
+          "name": "Sürdürülebilirlik & ESG Danışmanlığı",
+          "desc": "ESG uyumluluğunu maliyet değil, değer artışı olarak yönetin."
+        }
       ]
     },
     "epc": {
       "title": "EPC & Kurulum, İnşaat",
       "items": [
-        {"name": "Elektrik & Mekanik İşler", "desc": "Projelerinizin kalbini oluşturan elektrik ve mekanik sistemleri, mühendislik mükemmeliyeti ve uluslararası standartlara uygun olarak hayata geçiriyoruz."},
-        {"name": "Balance of Plant Optimizasyonu", "desc": "Tüm yardımcı sistemleri projelendirir, optimize eder, tesisinizin sorunsuz ve verimli çalışmasını garanti ederiz."},
-        {"name": "Yüksek Gerilim & Şebeke Bağlantısı", "desc": "Karmaşık bağlantı süreçlerini teknik mükemmeliyetle yönetir, sistemi tam kapasite ile şebekeye hazırlarız."},
-        {"name": "İnşaat Mühendisliği & Altyapı", "desc": "Zorlu arazi koşullarında dahi sarsılmaz altyapı ve trafo merkezleri inşa ederek, güvenliği ve dayanıklılığı garanti ederiz."},
-        {"name": "Stratejik Proje Yönetimi", "desc": "Bütçe ve zaman hedeflerini mühendislik odaklı planlama ile yönetir, sapmaları proaktif olarak engelleriz."},
-        {"name": "Uluslararası Kalite Güvencesi (QA/QC)", "desc": "Her üretim ve montaj aşamasını küresel mühendislik standartlarıyla denetleyerek hatasız teslimat sağlıyoruz."},
-        {"name": "Tedarik Zinciri Yönetimi", "desc": "Kritik ekipman ve malzemeleri en uygun maliyet ve kaliteyle temin ediyoruz."},
-        {"name": "HSE & Saha Güvenliği", "desc": "İş güvenliğini bir kültür olarak sahaya yansıtır, riskleri mühendislik perspektifiyle sıfıra indirerek yönetiyoruz."},
-        {"name": "Test & Devreye Alma", "desc": "Sistemlerin tam performansla devreye alınmasını sağlıyor, operasyonel başarıyı garanti ediyoruz."},
-        {"name": "Anahtar Teslim Entegrasyon", "desc": "Anahtar teslim projelerde tüm mühendislik ve inşaat sürecini eksiksiz tam sorumluluk ile  yönetiyoruz."}
+        {
+          "name": "Elektrik & Mekanik İşler",
+          "desc": "Santralinizin kalbini uluslararası standartlarda, ilk seferde doğru kuruyoruz."
+        },
+        {
+          "name": "Balance of Plant Optimizasyonu",
+          "desc": "Yardımcı sistemlerdeki küçük verimsizlikler, yıllar içinde büyük kayıplara dönüşür — biz baştan önlüyoruz."
+        },
+        {
+          "name": "Yüksek Gerilim & Şebeke Bağlantısı",
+          "desc": "Şebeke bağlantısında gecikme yaşamayın — süreci baştan sona biz yönetiriz."
+        },
+        {
+          "name": "İnşaat Mühendisliği & Altyapı",
+          "desc": "En zorlu arazi koşullarında bile, on yıllarca dayanacak altyapı."
+        },
+        {
+          "name": "Stratejik Proje Yönetimi",
+          "desc": "Bütçe ve takvim sapmalarını, oluşmadan önce mühendislikle engelliyoruz."
+        },
+        {
+          "name": "Uluslararası Kalite Güvencesi (QA/QC)",
+          "desc": "Her aşamada küresel standart denetimi — hatasız teslimat, garantili kalite."
+        },
+        {
+          "name": "Tedarik Zinciri Yönetimi",
+          "desc": "Doğru ekipmanı doğru maliyetle, doğru zamanda — tedarik riskini biz taşıyoruz."
+        },
+        {
+          "name": "HSE & Saha Güvenliği",
+          "desc": "Sıfır kaza hedefi bir slogan değil, mühendislik disiplinimizin sonucu."
+        },
+        {
+          "name": "Test & Devreye Alma",
+          "desc": "Santraliniz ilk günden itibaren tam performansla çalışsın — devreye alma garantimiz bu."
+        },
+        {
+          "name": "Anahtar Teslim Entegrasyon",
+          "desc": "Tek muhatap, tam sorumluluk — fikirden işletmeye kadar biz yönetiyoruz."
+        }
       ]
     },
     "om": {
       "title": "İşletme, Bakım (O&M)",
       "items": [
-        {"name": "Stratejik Bakım Yönetimi", "desc": "Kesintisiz operasyon için sistemlerinizi önleyici ve düzeltici bakımlarını mühendislik çözümleriyle yönetiyoruz."},
-        {"name": "OEM Yönetimi", "desc": "Ekipman üreticileriyle koordinasyonu sağlayarak maksimum performans ve uyumluluk garantisi sunuyoruz."},
-        {"name": "Yedek Parça & Lojistik", "desc": "Yedek parça ve lojistiği optimize ederek operasyonel sürekliliği güvence altına alıyoruz."},
-        {"name": "Güvenilirlik Merkezli Bakım (RCM)", "desc": "Sistem kullanılabilirliğini ve güvenilirliğini mühendislik temelli stratejilerle artırıyoruz."},
-        {"name": "7/24 İzleme & Teşhis", "desc": "Gerçek zamanlı verilerle sistem sağlığını takip eder, anormallikleri kritik seviyeye gelmeden çözüyoruz."},
-        {"name": "İleri Performans Analitiği", "desc": "Saha verilerini sürekli işleyerek tesis verimliliğini tasarlanan en üst limitlere taşıyoruz."},
-        {"name": "Varlık Değer Optimizasyonu", "desc": "Varlıklarınızın bakım stratejilerini, varlığın finansal değerini koruyacak ve ömrünü uzatacak şekilde kurguluyoruz."},
-        {"name": "Teknik Eğitim & Yetkinlik Yönetimi", "desc": "Operasyon ekibinizi mühendislik bilgi ve yetkinliğiyle güçlendiriyoruz."},
-        {"name": "Öngörücü Bakım", "desc": "Sensör ve veri odaklı öngörücü bakım stratejileriyle kesintileri minimize ediyoruz."},
-        {"name": "Dijital O&M Ekosistemi", "desc": "Saha operasyonlarını, IoT ve akıllı platformlarla entegre ederek bakımı şeffaf ve ölçülebilir kılıyoruz."}
+        {
+          "name": "Stratejik Bakım Yönetimi",
+          "desc": "Arıza beklemeden yönetin — önleyici bakım stratejisiyle kesintisiz operasyon."
+        },
+        {
+          "name": "OEM Yönetimi",
+          "desc": "Üreticiyle sizin aranızdaki teknik köprü — garanti ve performansı biz takip ederiz."
+        },
+        {
+          "name": "Yedek Parça & Lojistik",
+          "desc": "Doğru parça, doğru zamanda — duruş süresi sıfıra yakın."
+        },
+        {
+          "name": "Güvenilirlik Merkezli Bakım (RCM)",
+          "desc": "Hangi ekipmana ne zaman müdahale edileceğini veriyle biliyoruz, tahminle değil."
+        },
+        {
+          "name": "7/24 İzleme & Teşhis",
+          "desc": "Sorunu santral durmadan önce görüyoruz — 7/24 gerçek zamanlı izleme."
+        },
+        {
+          "name": "İleri Performans Analitiği",
+          "desc": "Santraliniz tasarım kapasitesinin neresinde? Veriyle gösteriyor, farkı kapatıyoruz."
+        },
+        {
+          "name": "Varlık Değer Optimizasyonu",
+          "desc": "Her bakım kararını finansal etkisiyle birlikte değerlendiriyoruz — varlığınızın değerini korumak için."
+        },
+        {
+          "name": "Teknik Eğitim & Yetkinlik Yönetimi",
+          "desc": "Saha ekibiniz, mühendislik bilgimizle daha güçlü karar alsın."
+        },
+        {
+          "name": "Öngörücü Bakım",
+          "desc": "Arıza olmadan önce müdahale — sensör verisiyle beslenen öngörücü bakım."
+        },
+        {
+          "name": "Dijital O&M Ekosistemi",
+          "desc": "Sahadaki her veri, tek ekranda — bakımı şeffaf, ölçülebilir, yönetilebilir kılıyoruz."
+        }
       ]
     },
     "asset": {
       "title": "Varlık Yönetimi",
       "items": [
-        {"name": "Teknik Varlık Optimizasyonu", "desc": "Varlıkların performans verilerini finansal çıktılarla eşleştirerek yatırımın kârlılığını maksimize ederiz."},
-        {"name": "Kontrat & Garanti Yönetimi", "desc": "Sözleşme ve garanti süreçlerini profesyonelce yönetir, riskleri minimize ederiz."},
-        {"name": "Stratejik Bütçeleme & Tahminleme", "desc": "Mühendislik verileriyle bütçe ve tahminleme yaparak finansal kararları güçlendiririz."},
-        {"name": "Yatırımcı Raporlamaları", "desc": "Karmaşık teknik verileri, finans kuruluşları ve yatırımcılar için stratejik karar destek raporlarına dönüştürürüz."},
-        {"name": "Yaşam Döngüsü Maliyet Analizi", "desc": "Varlık maliyetlerini ömrü boyunca optimize ederek uzun vadeli değer yaratıyoruz."},
-        {"name": "Güvenilirlik Planlaması", "desc": "Kritik ekipmanlarınız için güvenilirlik odaklı stratejilerle planlama yapıyoruz."},
-        {"name": "Mevzuat & Sertifikasyon Yönetimi", "desc": "Yerel ve uluslararası regülasyon uyumluluğunu sağlayarak operasyonel sürekliliği garanti ederiz."},
-        {"name": "ESG Performans İzleme", "desc": "Çevresel ve sosyal performansı ölçer, sürdürülebilirlik hedeflerinize ulaşmanızı sağlıyoruz."},
-        {"name": "Varlık Sağlık İndeksleme", "desc": "Varlıklarınızın teknik ve operasyonel sağlık durumunu skorlayarak riskleri önceden tespit ediyoruz."}
+        {
+          "name": "Teknik Varlık Optimizasyonu",
+          "desc": "Teknik performansı finansal sonuca bağlıyoruz — yatırımınızın kârlılığını maksimize ediyoruz."
+        },
+        {
+          "name": "Kontrat & Garanti Yönetimi",
+          "desc": "Garanti haklarınızı kaybetmeyin — sözleşme takibini biz üstleniyoruz."
+        },
+        {
+          "name": "Stratejik Bütçeleme & Tahminleme",
+          "desc": "Bütçenizi tahminle değil, mühendislik verisiyle planlayın."
+        },
+        {
+          "name": "Yatırımcı Raporlamaları",
+          "desc": "Karmaşık teknik veriyi, yatırımcınızın anlayacağı ve güveneceği rapora dönüştürüyoruz."
+        },
+        {
+          "name": "Yaşam Döngüsü Maliyet Analizi",
+          "desc": "Bugünün küçük tasarrufu, yarının büyük maliyeti olmasın — ömür boyu maliyet optimizasyonu."
+        },
+        {
+          "name": "Güvenilirlik Planlaması",
+          "desc": "Kritik ekipmanınızın arıza yapmasını beklemeyin — güvenilirlik odaklı planlama."
+        },
+        {
+          "name": "Mevzuat & Sertifikasyon Yönetimi",
+          "desc": "Regülasyon takibi sizin değil, bizim işimiz — operasyonel sürekliliği garanti ediyoruz."
+        },
+        {
+          "name": "ESG Performans İzleme",
+          "desc": "ESG hedeflerinize ne kadar yakınsınız? Ölçüyoruz, gösteriyoruz."
+        },
+        {
+          "name": "Varlık Sağlık İndeksleme",
+          "desc": "Varlığınızın sağlık skorunu görün — riskler büyümeden, biz görüyoruz."
+        }
       ]
     },
     "performance": {
       "title": "Performans & Optimizasyon",
       "items": [
-        {"name": "Üretim Kaybı Analizi", "desc": "Üretim kayıplarının kök nedenlerini mühendislik hassasiyetiyle bulur ve geri kazanım stratejileri uygularız."},
-        {"name": "Benchmark & Güç Eğrisi", "desc": "Santralinizi endüstri standartlarıyla kıyaslayarak performansı optimize ediyoruz."},
-        {"name": "İleri SCADA Analitiği", "desc": "SCADA verilerini derinlemesine analiz ederek akıllı operasyon kararları almanızı sağlıyoruz."},
-        {"name": "Kök Neden Analizi (RCA)", "desc": "Kronik arızaların kaynağına iner, kalıcı mühendislik çözümleriyle sistem kararlılığını sağlıyoruz."},
-        {"name": "Operasyonel Verimlilik Kıyaslama", "desc": "Tesislerinizin operasyonel verimliliğini, performansını en iyi uygulama örnekleri (Best Practices) ile kıyaslayarak gelişim alanlarını belirliyoruz."},
-        {"name": "Yapay Zeka Destekli Üretim Tahmini", "desc": "Meteorolojik ve teknik verileri harmanlayarak yüksek doğrulukta üretim projeksiyonları sunuyoruz."},
-        {"name": "Kapasite & Limit Optimizasyonu", "desc": "Ekipmanların kapasite sınırlarını güvenli bölgede tutarak maksimum çıktı elde edilmesini sağlıyoruz."},
-        {"name": "Ekipman Etkinliğiİzleme", "desc": "Ekipman bazlı kullanılabilirlik ve verimlilik oranlarını sürekli ölçerek operasyonel başarıyı artırıyoruz."},
-        {"name": "Hata Türleri Etki Analizi (FMEA)", "desc": "Potansiyel hata modlarını önceden simüle ederek riskleri tasarım ve işletme aşamasında elimine ediyoruz."}
+        {
+          "name": "Üretim Kaybı Analizi",
+          "desc": "Kayıp üretimin nedenini buluyor, geri kazanım planını biz kuruyoruz."
+        },
+        {
+          "name": "Benchmark & Güç Eğrisi",
+          "desc": "Santraliniz sektöre göre nerede duruyor? Kıyaslıyoruz, farkı kapatıyoruz."
+        },
+        {
+          "name": "İleri SCADA Analitiği",
+          "desc": "SCADA verinizde gizli kalan fırsatları ortaya çıkarıyoruz."
+        },
+        {
+          "name": "Kök Neden Analizi (RCA)",
+          "desc": "Tekrar eden arızanın kök nedenini buluyoruz — geçici çözüm değil, kalıcı çözüm."
+        },
+        {
+          "name": "Operasyonel Verimlilik Kıyaslama",
+          "desc": "En iyi uygulamalara göre nerede kaldığınızı gösteriyor, gelişim alanlarını netleştiriyoruz."
+        },
+        {
+          "name": "Yapay Zeka Destekli Üretim Tahmini",
+          "desc": "Yarının üretimini bugünden, yüksek doğrulukla öngörüyoruz."
+        },
+        {
+          "name": "Kapasite & Limit Optimizasyonu",
+          "desc": "Güvenli sınırlar içinde, maksimum çıktı — kapasitenizi tam kullanın."
+        },
+        {
+          "name": "Ekipman Etkinliğiİzleme",
+          "desc": "Her ekipmanın performansını ayrı ayrı görün — zayıf halkayı hemen tespit edin."
+        },
+        {
+          "name": "Hata Türleri Etki Analizi (FMEA)",
+          "desc": "Hata oluşmadan önce simüle ediyor, riski tasarım aşamasında ortadan kaldırıyoruz."
+        }
       ]
     },
     "digital": {
       "title": "Dijital Çözümler",
       "items": [
-        {"name": "Digital Varlık Yönetim Platformları", "desc": "Varlık yönetim süreçlerini dijital bir ekosisteme taşıyarak tam şeffaflık ve kontrol sağlıyoruz."},
-        {"name": "Uçtan Uca SCADA Entegrasyonu", "desc": "Dağınık veri kaynaklarını tek bir merkezde birleştirerek operasyonel görünürlüğü maksimize ediyoruz."},
-        {"name": "Performans Dashboardları", "desc": "Kritik KPI’ları gerçek zamanlı izlenebilir kılan, karar destek odaklı görselleştirme çözümleri sunuyoruz."},
-        {"name": "Öngörücü Bakım Algoritmaları", "desc": "Veri ve algoritmalarla öngörücü bakım modelleri sunarak kesintileri önlüyoruz."},
-        {"name": "Endüstriyel IoT Entegrasyonu", "desc": "Saha sensörlerini akıllı ağlara bağlayarak her bir ekipmandan stratejik veri süzüyoruz."},
-        {"name": "AI & Makine Öğrenmesi Çözümleri", "desc": "Karmaşık veri setlerini analiz eden yapay zeka modelleriyle performans tahminlemesinde mükemmeliyete ulaşıyoruz."},
-        {"name": "Bulut Tabanlı İzleme & Kontrol", "desc": "Bulut tabanlı veri ve kontrol yönetimi ile operasyonlarınızı merkezi olarak izliyoruz."},
-        {"name": "Mobil Saha Operasyon Yönetimi", "desc": "Saha ekiplerini mobil uygulamalarla dijital merkeze bağlıyor, müdahale hızını ve kalitesini artırıyoruz."},
-        {"name": "Dijital İkiz (Twin) Teknolojisi", "desc": "Santralin dijital ikizini oluşturarak simülasyon ve optimizasyon ile riskleri azaltıyoruz."}
+        {
+          "name": "Digital Varlık Yönetim Platformları",
+          "desc": "Tüm varlık verileriniz tek ekranda — tam şeffaflık, tam kontrol."
+        },
+        {
+          "name": "Uçtan Uca SCADA Entegrasyonu",
+          "desc": "Dağınık veri kaynaklarınızı tek merkeze bağlıyoruz — hiçbir sinyal kaçmıyor."
+        },
+        {
+          "name": "Performans Dashboardları",
+          "desc": "Kritik KPI'larınızı gerçek zamanlı görün — karar verme hızınızı artırın."
+        },
+        {
+          "name": "Öngörücü Bakım Algoritmaları",
+          "desc": "Algoritmalarımız arızayı, siz fark etmeden önce görür."
+        },
+        {
+          "name": "Endüstriyel IoT Entegrasyonu",
+          "desc": "Her sensör bir veri kaynağı — biz bunu stratejik karara çeviriyoruz."
+        },
+        {
+          "name": "AI & Makine Öğrenmesi Çözümleri",
+          "desc": "Karmaşık veriden net karar — yapay zeka destekli performans tahminlemesi."
+        },
+        {
+          "name": "Bulut Tabanlı İzleme & Kontrol",
+          "desc": "Nerede olursanız olun, santralinizi tek merkezden izleyin ve yönetin."
+        },
+        {
+          "name": "Mobil Saha Operasyon Yönetimi",
+          "desc": "Saha ekibiniz cepte — müdahale hızınız ve kaliteniz artsın."
+        },
+        {
+          "name": "Dijital İkiz (Twin) Teknolojisi",
+          "desc": "Santralinizin sanal kopyasında, riski gerçek dünyaya taşımadan test edin."
+        }
       ]
     }
   },
   "Industries": {
     "title": "Desteklediğimiz Teknolojiler",
-        "labels": {
+    "labels": {
       "complexity": "KARMAŞIKLIK",
       "risk": "RİSK YÖNETİMİ",
-      "output": "ÇIKTI GELİŞTİRME"
+      "output": "ÇIKTI GELİŞTİRME",
+      "readMore": "Teknik yaklaşımımızın tamamını okuyun",
+      "readLess": "Daha az göster"
     },
     "wind": {
       "title": "Rüzgar Santralleri",
       "complexity": "Rüzgar türbinleri, enerji sektörünün en karmaşık dönen mekanik sistemleridir. Yaklaşık yüz metre yükseklikte, sürekli değişen aerodinamik ve mekanik yükler altında çalışan bu varlıkları yönetmek; standart bir bakım anlayışının çok ötesinde, mühendislik derinliği ve veri zekâsının kesiştiği bir uzmanlık alanıdır. Biz, her türbini bağımsız bir varlık olarak modelliyor; rüzgar rejimi, topoğrafik yük dağılımı, ekipman yaşı ve üretici mühendislik parametrelerini yapay zeka destekli platformlarımızla gerçek zamanlı olarak izliyoruz. Dijital ikiz teknolojisi ile türbinin tüm kritik bileşenlerini — dişli kutusu, ana mil yatakları, pitch ve yaw sistemleri, rotor kanatları — sanal ortamda simüle ediyor; fiziksel arızadan önce müdahale stratejimizi kurguluyor ve sahaya iniyoruz. Siemens Gamesa, Vestas, GE, Nordex, Enercon başta olmak üzere tüm önde gelen türbin üreticilerinin SCADA altyapısını, kontrol yazılımı mantığını ve OEM mühendislik dokümantasyonunu derinlemesine bilerek her varlığı üreticisinin tasarladığı kapasitenin sınırında tutuyoruz. Santraliniz bir yatırımdır — ve biz onu küresel standartlarda yönetiyoruz.",
       "risk": "Rüzgar santrallerinde gerçek operasyonel mükemmellik, arızaları onarmakla değil; arızaların hiç oluşmamasını sağlamakla ölçülür. Güvenilirlik Merkezli Bakım metodolojisini rüzgar türbinlerinin özgün arıza modlarına uyarlayarak her bileşeni kritiklik düzeyine, çalışma koşullarına ve üretici servis protokollerine göre bireysel olarak yönetiyoruz. Titreşim analizi, yağ analizi, akustik teşhis ve termal görüntüleme yöntemlerini bir arada kullanarak dişli kutusu yataklarındaki yorulma hasarını, kanat erozyonunu ve pitch sistemi kaymasını oluşmadan önce yakalıyor; müdahale sürecini planlı, kontrollü ve maliyet etkin biçimde yürütüyoruz. 7/24 izleme merkezimiz, SCADA verilerini sürekli işleyerek her türbinin performans parmak izini takip ediyor; en küçük anomaliyi kritik seviyeye ulaşmadan sahaya yansıtıyor. Operasyonel mükemmellik ilkeleri doğrultusunda yürüttüğümüz tüm süreçler — OEM koordinasyonundan yedek parça lojistiğine, kök neden analizinden FMEA uygulamalarına kadar — tek bir hedefle tasarlanmıştır: Santralinizin her türbini, her gün, maksimum kullanılabilirlik ile üretsin.",
-      "output": "Rüzgar santrallerinde finansal modelin sürdürülebilirliği, teknik kararların kalitesiyle doğrudan bağlantılıdır. Tek bir dişli kutusu yenileme maliyeti, yıllar içinde birikmiş bakım gelirinizi bir gecede silebilir; beklenmedik bir rotor hasarı, finansman koşullarınızı ve yatırımcı güveninizi sarsabilir. Biz, bu riskleri reaktif değil — aktüeryal bir hassasiyetle ve mühendislik öngörüsüyle — yönetiyoruz. Türbin üreticisinin orijinal tasarım ömrü parametrelerini, garanti koşullarını ve bileşen yenileme eşiklerini finansal modelinizle entegre ederek her büyük müdahaleyi önceden bütçelendiriyor, nakit akışı sürprizlerini ortadan kaldırıyoruz. Yaşam döngüsü maliyet analizi, varlık sağlık indeksleme ve stratejik bütçeleme araçlarımızla her teknik kararı IRR ve LCOE üzerindeki yansımasıyla birlikte değerlendiriyor; karmaşık mühendislik verilerini yatırımcılarınızın anlayacağı stratejik raporlara dönüştürüyoruz. ESG performans izleme, mevzuat uyumluluğu ve garanti yönetimi süreçlerini de kapsayan bütünsel yaklaşımımızla santralinizin değerini ilk gününden son gününe kadar koruyoruz — çünkü rüzgarda gerçek getiri, türbini doğru kurmakla değil, onu ömrü boyunca doğru yönetmekle elde edilir."
+      "output": "Rüzgar santrallerinde finansal modelin sürdürülebilirliği, teknik kararların kalitesiyle doğrudan bağlantılıdır. Tek bir dişli kutusu yenileme maliyeti, yıllar içinde birikmiş bakım gelirinizi bir gecede silebilir; beklenmedik bir rotor hasarı, finansman koşullarınızı ve yatırımcı güveninizi sarsabilir. Biz, bu riskleri reaktif değil — aktüeryal bir hassasiyetle ve mühendislik öngörüsüyle — yönetiyoruz. Türbin üreticisinin orijinal tasarım ömrü parametrelerini, garanti koşullarını ve bileşen yenileme eşiklerini finansal modelinizle entegre ederek her büyük müdahaleyi önceden bütçelendiriyor, nakit akışı sürprizlerini ortadan kaldırıyoruz. Yaşam döngüsü maliyet analizi, varlık sağlık indeksleme ve stratejik bütçeleme araçlarımızla her teknik kararı IRR ve LCOE üzerindeki yansımasıyla birlikte değerlendiriyor; karmaşık mühendislik verilerini yatırımcılarınızın anlayacağı stratejik raporlara dönüştürüyoruz. ESG performans izleme, mevzuat uyumluluğu ve garanti yönetimi süreçlerini de kapsayan bütünsel yaklaşımımızla santralinizin değerini ilk gününden son gününe kadar koruyoruz — çünkü rüzgarda gerçek getiri, türbini doğru kurmakla değil, onu ömrü boyunca doğru yönetmekle elde edilir.",
+      "complexityBullets": [
+        "Yüzlerce metre yükseklikte, sürekli değişen yüklere maruz kalan en karmaşık dönen mekanik sistemler",
+        "Her türbini bağımsız bir varlık olarak modelliyoruz — rüzgar rejimi, topoğrafya, ekipman yaşına özel",
+        "Vestas, GE, Siemens Gamesa dahil tüm büyük üreticilerin SCADA ve mühendislik dokümantasyonuna hakimiz"
+      ],
+      "riskBullets": [
+        "Arızaları onarmak değil, hiç oluşmasını önlemek hedefimiz (RCM metodolojisi)",
+        "Titreşim, akustik, termal görüntüleme ile dişli kutusu ve kanat hasarını erken teşhis",
+        "7/24 SCADA izleme, küçük anomalileri kritik hale gelmeden yakalar"
+      ],
+      "outputBullets": [
+        "Türbin performansını finansal modelinize entegre ediyoruz — IRR ve LCOE üzerindeki etkiyle birlikte",
+        "Yaşam döngüsü maliyet analizi ile bakım/yenileme kararlarını önceden bütçeliyoruz",
+        "Santralinizin değerini ilk günden son güne kadar koruyan bütünsel yaklaşım"
+      ]
     },
     "solar": {
       "title": "Güneş PV & Hibrit",
       "complexity": "Bir güneş santralinin gerçek değeri, yalnızca kurulumun tamamlanması ile değil; her geçen yıl, her üretim saatinde ortaya çıkar. Biz, varlıklarınızı yalnızca teknik sistemler olarak değil, yönetilmesi gereken stratejik yatırımlar olarak görüyoruz. Dijital ikiz teknolojisi, yapay zeka destekli izleme platformları ve gerçek zamanlı performans analitiği ile santrallerinizin her bileşenini modül bazında takip ediyor; sapmaları kritik hale gelmeden tespit ediyoruz. Teknik varlık verilerini finansal çıktılarla eşleştirerek yatırımınızın her koşulda maksimum getiri üretmesini sağlıyoruz. Varlığınızı yaşayan, gelişen ve değer üreten bir sisteme dönüştürüyoruz.",
       "risk": "Üretim kaybının arkasında çoğu zaman bir arıza değil, geç fark edilen bir bozulma vardır. Güvenilirlik Merkezli Bakım metodolojisini, öngörücü bakım algoritmaları ve 7/24 gerçek zamanlı izleme ile birleştirerek her ekipmanı kritiklik düzeyine göre yönetiyor; plansız duruşları sistematik olarak ortadan kaldırıyoruz. SCADA analitiğinden FMEA'ya, kök neden analizinden OEM koordinasyonuna kadar tüm operasyonel süreçleri operasyonel mükemmellik standartlarında yürütüyoruz. Sahada her müdahale, ölçülebilir bir sonuç için tasarlanmıştır — çünkü sizin için her durdurulmuş saat, kaybedilmiş gelirdir.",
-      "output": "Santrallerinizin teknik performansı, yatırımcılarınıza verdiğiniz sözün karşılığıdır. Yaşam döngüsü maliyet analizi, stratejik bütçeleme ve ileri finansal modelleme araçlarımızla her teknik kararı finansal etkisiyle birlikte değerlendiriyor; IRR ve LCOE üzerindeki yansımalarını yatırımcı raporlarına dönüştürüyoruz. Garanti ve sözleşme yönetiminden ESG performans izlemeye, mevzuat uyumluluğundan varlık sağlık indekslemeye kadar tüm süreçleri entegre bir perspektifle yönetiyoruz. Santralinizin ilk gününden son gününe kadar finansal modelinizi koruyor, varlık ömrünü uzatarak getirinizi maksimize ediyoruz."
+      "output": "Santrallerinizin teknik performansı, yatırımcılarınıza verdiğiniz sözün karşılığıdır. Yaşam döngüsü maliyet analizi, stratejik bütçeleme ve ileri finansal modelleme araçlarımızla her teknik kararı finansal etkisiyle birlikte değerlendiriyor; IRR ve LCOE üzerindeki yansımalarını yatırımcı raporlarına dönüştürüyoruz. Garanti ve sözleşme yönetiminden ESG performans izlemeye, mevzuat uyumluluğundan varlık sağlık indekslemeye kadar tüm süreçleri entegre bir perspektifle yönetiyoruz. Santralinizin ilk gününden son gününe kadar finansal modelinizi koruyor, varlık ömrünü uzatarak getirinizi maksimize ediyoruz.",
+      "complexityBullets": [
+        "Santralin gerçek değeri kurulumla değil, yıllar boyunca üretim performansıyla ortaya çıkar",
+        "Her modülü stratejik yatırım olarak izliyoruz — dijital ikiz ve gerçek zamanlı analitikle",
+        "Modül bazlı takip, sapmaları kritik hale gelmeden tespit eder"
+      ],
+      "riskBullets": [
+        "Üretim kaybının arkasında çoğu zaman geç fark edilen bir bozulma vardır",
+        "RCM, öngörücü bakım algoritmaları ve 7/24 izlemeyi tek çatıda birleştiriyoruz",
+        "FMEA'dan OEM koordinasyonuna kadar tüm süreçler operasyonel mükemmellik standardında"
+      ],
+      "outputBullets": [
+        "Teknik performansı finansal modelinize (IRR, LCOE) doğrudan bağlıyoruz",
+        "Garanti ve sözleşme yönetiminden ESG izlemeye kadar bütünsel yaklaşım",
+        "Santralinizin değerini ilk günden son güne kadar koruyoruz"
+      ]
     },
     "hydro": {
       "title": "Hidroelektrik",
       "complexity": "Hidroelektrik santraller, enerji sektörünün en uzun ömürlü ve en yüksek sermaye yoğunluklu varlıklarıdır. Onlarca yıl boyunca kesintisiz değer üretmesi beklenen bu sistemlerde — türbin ve jeneratörden kapı ve vana mekanizmalarına, sivil yapılardan hidrolojik altyapıya kadar — her bileşenin sağlık durumu, santral genelinin finansal performansını doğrudan belirler. Biz, her santrali kendine özgü hidrolojik rejimi, ekipman yaşı ve üretici mühendislik parametreleriyle birlikte modelliyor; yapay zeka destekli izleme platformlarımız ve dijital ikiz teknolojisiyle varlık durumunu gerçek zamanlı olarak takip ediyoruz. Her santralin uzun vadeli değerini korumak, global standartlarda bir varlık yönetimi anlayışı gerektirir — biz bunu sunuyoruz.",
       "risk": "Hidroelektrik sistemlerde operasyonel mükemmellik; mekanik, elektriksel ve sivil disiplinlerin aynı anda ve kusursuz biçimde yönetilmesini gerektirir. Kaplan, Francis veya Pelton türbinlerinin her birine özgü titreşim karakteristiklerini, kavitasyon risklerini ve yatak yorulma dinamiklerini Güvenilirlik Merkezli Bakım metodolojisiyle birleştirerek arızaları oluşmadan yakalıyor, müdahaleleri planlanmış ve kontrollü biçimde yürütüyoruz. Su geçişi kontrol sistemlerinden jeneratör sargılarına, otomasyon ve SCADA altyapısından sivil yapı bütünlüğüne kadar tüm operasyonel süreçleri 7/24 izleme kapasitemiz ve kök neden analizi disiplinimizle yönetiyoruz. Hedefimiz tektir: Her türbin, hidrolojik potansiyelinin tamamını elektrik enerjisine dönüştürsün.",
-      "output": "Hidroelektrik santrallerin finansal cazibesi, doğru yönetildiğinde 40-50 yılı aşan işletme ömründen kaynaklanır. Bu potansiyeli gerçeğe dönüştürmek ise her büyük yenileme kararının zamanında, doğru maliyet öngörüsüyle ve üretim kaybı minimize edilerek alınmasına bağlıdır. Yaşam döngüsü maliyet analizi ve stratejik bütçeleme araçlarımızla revizyon döngülerini önceden planlıyor, sermaye harcamalarını nakit akışı modeline entegre ediyor ve beklenmedik maliyetleri ortadan kaldırıyoruz. Her teknik kararı IRR ve LCOE üzerindeki etkisiyle birlikte raporlayarak yatırımcılarınıza şeffaf ve güvenilir bir performans tablosu sunuyoruz — santralinizin değerini, ilk türbin devrinden son kilowatt saatine kadar koruyoruz."
+      "output": "Hidroelektrik santrallerin finansal cazibesi, doğru yönetildiğinde 40-50 yılı aşan işletme ömründen kaynaklanır. Bu potansiyeli gerçeğe dönüştürmek ise her büyük yenileme kararının zamanında, doğru maliyet öngörüsüyle ve üretim kaybı minimize edilerek alınmasına bağlıdır. Yaşam döngüsü maliyet analizi ve stratejik bütçeleme araçlarımızla revizyon döngülerini önceden planlıyor, sermaye harcamalarını nakit akışı modeline entegre ediyor ve beklenmedik maliyetleri ortadan kaldırıyoruz. Her teknik kararı IRR ve LCOE üzerindeki etkisiyle birlikte raporlayarak yatırımcılarınıza şeffaf ve güvenilir bir performans tablosu sunuyoruz — santralinizin değerini, ilk türbin devrinden son kilowatt saatine kadar koruyoruz.",
+      "complexityBullets": [
+        "Sektörün en uzun ömürlü, en yüksek sermaye yoğunluklu varlık sınıfı — onlarca yıl değer üretmesi beklenir",
+        "Türbin ve jeneratörden sivil yapıya kadar her bileşenin sağlığı, santralin finansal performansını belirler",
+        "Her santrali kendine özgü hidrolojik rejim ve ekipman yaşıyla birlikte modelliyoruz"
+      ],
+      "riskBullets": [
+        "Kaplan, Francis, Pelton türbinlerine özgü titreşim ve yorulma dinamiklerini RCM ile yönetiyoruz",
+        "Su geçişi, otomasyon ve sivil yapı bütünlüğünü tek disiplinde 7/24 izliyoruz",
+        "Arızaları oluşmadan yakalıyor, müdahaleleri planlı ve kontrollü yürütüyoruz"
+      ],
+      "outputBullets": [
+        "Doğru yenileme zamanlaması, 40-50 yıllık işletme ömrünün gerçek değerini ortaya çıkarır",
+        "Yaşam döngüsü maliyet analiziyle revizyon döngülerini önceden planlıyor, nakit akışı sürprizlerini önlüyoruz",
+        "Her teknik kararı IRR ve LCOE etkisiyle birlikte raporluyoruz"
+      ]
     },
     "gas": {
       "title": "Gaz & Termal",
       "complexity": "Kombine çevrim doğalgaz santralleri, enerji sektörünün en yüksek teknolojili ve en hassas dengelere sahip güç üretim sistemleridir. Gaz türbini, atık ısı kazanı, buhar türbini ve jeneratör bloklarının mükemmel bir termodinamik uyum içinde çalıştığı bu santrallerde herhangi bir bileşendeki performans sapması, tüm sistemin verimlilik dengesini anında etkiler. Biz, her CCGT santralini GE, Siemens Energy, Mitsubishi veya Ansaldo başta olmak üzere türbin üreticisinin orijinal mühendislik parametreleri, OEM servis protokolleri ve tasarım ömrü verileriyle birlikte modelliyor; yapay zeka destekli izleme platformlarımız ve dijital ikiz teknolojisiyle her ana bileşenin sağlık durumunu gerçek zamanlı olarak takip ediyoruz. Yüksek çevrim verimi ile çalışan bu santrallerde varlık yönetiminin kalitesi, doğrudan yakıt maliyeti ve çıktı verimliliği üzerinde ölçülebilir bir etki yaratır — biz bu etkiyi her zaman pozitif yönde tutuyoruz.",
       "risk": "CCGT santrallerinde operasyonel mükemmellik; gaz türbini sıcak bölge bileşenlerinin yönetiminden buhar çevriminin optimizasyonuna, yanma sistemlerinin kalibrasyonundan ısı değiştiricilerinin bütünlüğüne kadar son derece geniş ve kritik bir mühendislik alanını kapsar. Kompresör kanatlarındaki erozyon, yanma odası sıcaklık dağılımı, türbin basamak yataklarındaki yorulma ve atık ısı kazanı boru demetlerindeki bozunma — her biri kendi arıza dinamiklerine sahip bu bileşenleri Güvenilirlik Merkezli Bakım metodolojisiyle bireysel olarak yönetiyor; termal görüntüleme, titreşim analizi, egzoz gaz analitiği ve yağ analizi yöntemlerini entegre biçimde kullanarak kritik hasarı oluşmadan önce tespit ediyoruz. Planlı bakım döngülerini — combustion inspection, hot gas path inspection ve major overhaul — üretim takvimi ve piyasa fiyat dinamikleriyle uyumlu olarak kurguluyoruz. 7/24 izleme merkezimiz SCADA ve DCS verilerini sürekli işleyerek her anomaliyi kritik seviyeye ulaşmadan sahaya yansıtıyor; operasyonel mükemmellik ilkeleri doğrultusunda yürüttüğümüz tüm süreçler tek bir hedefle tasarlanmıştır: Santraliniz, her çalışma saatinde tasarım çevrim verimliliğinin sınırında üretsin.",
-      "output": "CCGT santrallerinin finansal modeli, yüksek sermaye maliyeti ve işletme giderlerinin büyük bölümünü oluşturan yakıt harcamasıyla birlikte son derece hassas bir denge üzerine kuruludur. Çevrim verimindeki yüzde birlik bir kayıp, yıllık bazda milyonlarca dolarlık ek yakıt maliyetine dönüşebilir; planlanmamış bir hot gas path arızası ise hem büyük bir sermaye harcaması hem de kritik gelir kaybı anlamına gelir. Biz, bu riskleri mühendislik öngörüsü ve aktüeryal hassasiyetle yönetiyoruz. OEM bakım anlaşmalarını, garanti koşullarını ve bileşen yenileme eşiklerini finansal modelinizle entegre ederek her büyük revizyon döngüsünü önceden bütçelendiriyor, nakit akışı sürprizlerini ortadan kaldırıyoruz. Yaşam döngüsü maliyet analizi, ısıl verimlilik takibi ve stratejik bütçeleme araçlarımızla her teknik kararı LCOE ve IRR üzerindeki etkisiyle birlikte değerlendiriyor; karmaşık mühendislik verilerini yatırımcılarınızın anlayacağı stratejik raporlara dönüştürüyoruz. Santralinizin değerini ilk ateşlemeden son çalışma saatine kadar koruyoruz — çünkü kombine çevrimde gerçek getiri, verimi tasarım noktasında tutmakla elde edilir."
+      "output": "CCGT santrallerinin finansal modeli, yüksek sermaye maliyeti ve işletme giderlerinin büyük bölümünü oluşturan yakıt harcamasıyla birlikte son derece hassas bir denge üzerine kuruludur. Çevrim verimindeki yüzde birlik bir kayıp, yıllık bazda milyonlarca dolarlık ek yakıt maliyetine dönüşebilir; planlanmamış bir hot gas path arızası ise hem büyük bir sermaye harcaması hem de kritik gelir kaybı anlamına gelir. Biz, bu riskleri mühendislik öngörüsü ve aktüeryal hassasiyetle yönetiyoruz. OEM bakım anlaşmalarını, garanti koşullarını ve bileşen yenileme eşiklerini finansal modelinizle entegre ederek her büyük revizyon döngüsünü önceden bütçelendiriyor, nakit akışı sürprizlerini ortadan kaldırıyoruz. Yaşam döngüsü maliyet analizi, ısıl verimlilik takibi ve stratejik bütçeleme araçlarımızla her teknik kararı LCOE ve IRR üzerindeki etkisiyle birlikte değerlendiriyor; karmaşık mühendislik verilerini yatırımcılarınızın anlayacağı stratejik raporlara dönüştürüyoruz. Santralinizin değerini ilk ateşlemeden son çalışma saatine kadar koruyoruz — çünkü kombine çevrimde gerçek getiri, verimi tasarım noktasında tutmakla elde edilir.",
+      "complexityBullets": [
+        "Gaz türbini, buhar çevrimi ve jeneratör bloklarının mükemmel termodinamik uyum içinde çalıştığı yüksek hassasiyetli sistemler",
+        "Herhangi bir bileşendeki sapma, tüm sistemin verimlilik dengesini anında etkiler",
+        "GE, Siemens Energy, Mitsubishi gibi üreticilerin orijinal parametrelerini OEM servis verileriyle birlikte modelliyoruz"
+      ],
+      "riskBullets": [
+        "Kompresör kanatlarından türbin kanı yataklarına kadar kritik bileşenleri RCM ile bireysel yönetiyoruz",
+        "Termal görüntüleme, titreşim ve yağ analizini birleştirerek arıza oluşmadan tespit ediyoruz",
+        "Planlı bakım döngülerini üretim takvimi ve piyasa fiyat dinamikleriyle uyumlu kurguluyoruz"
+      ],
+      "outputBullets": [
+        "Çevrim veriminde yüzde bir kayıp, yıllık milyonlarca dolarlık yakıt maliyetine dönüşebilir — bunu izliyoruz",
+        "OEM bakım anlaşmalarını ve garanti koşullarını finansal modelinize entegre ediyoruz",
+        "Her teknik kararı LCOE ve IRR etkisiyle birlikte raporluyoruz"
+      ]
     },
     "bess": {
       "title": "Enerji Depolama (BESS)",
       "complexity": "Batarya enerji depolama sistemleri, enerji sektörünün en hızlı gelişen ve en dinamik varlık sınıfını oluşturmaktadır. Lityum iyon hücre kimyasından güç dönüştürme sistemlerine, termal yönetim altyapısından enerji yönetim yazılımına kadar birbirine derinden bağlı bu bileşenler, hem anlık güç dengesi hem de uzun vadeli kapasite değeri açısından kritik bir mühendislik bütünlüğü gerektirmektedir. Biz, her BESS varlığını hücre kimyası, sistem mimarisi, çevrim stratejisi ve işletim ortamı parametreleriyle birlikte modelliyor; yapay zeka destekli izleme platformlarımız ve dijital ikiz teknolojisiyle State of Health, State of Charge ve State of Power metriklerini gerçek zamanlı olarak takip ediyoruz. CATL, BYD, Samsung SDI, LG Energy Solution başta olmak üzere önde gelen üreticilerin sistem mimarilerini ve BMS protokollerini derinlemesine bilerek her varlığı tasarım kapasitesinin sınırında ve güvenli operasyon bölgesinde tutuyoruz. Batarya varlığınız yalnızca bir depolama ünitesi değil, yönetilmesi gereken stratejik bir enerji yatırımıdır.",
       "risk": "BESS sistemlerinde operasyonel mükemmellik; batarya degradasyonunu yönetmek, termal dengeyi korumak ve çevrim stratejisini gerçek zamanlı piyasa koşullarına göre optimize etmekle başlar. Hücre düzeyinde kapasite dengesizlikleri, termal kaçak riskleri, güç dönüştürme sistemi kayıpları ve BMS yazılım anomalileri — her biri kendi arıza dinamiklerine sahip bu bileşenleri Güvenilirlik Merkezli Bakım metodolojisiyle bireysel olarak yönetiyor; elektrokimyasal impedans analizi, termal görüntüleme ve kapasitans ölçüm yöntemlerini entegre biçimde kullanarak kritik bozunmayı oluşmadan önce yakalıyoruz. Çevrim derinliği optimizasyonundan şarj-deşarj protokol kalibrasyonuna, soğutma sistemi yönetiminden yangın algılama altyapısına kadar tüm operasyonel süreçleri 7/24 izleme kapasitemiz ve operasyonel mükemmellik standartlarımızla yürütüyoruz. Hedefimiz tektir: Santraliniz her çağrıda tam kapasiteyle yanıt versin, her çevrimde degradasyonu minimize etsin.",
-      "output": "BESS yatırımlarının finansal başarısı, kapasite değerinin yıllar içinde ne kadar korunabildiğiyle doğrudan bağlantılıdır. Batarya degradasyonu kontrol edilemediğinde; garanti kapsamı daralır, piyasaya sunulan kapasite azalır ve finansal modelin temel varsayımları birer birer çöker. Biz, bu riski yaşam döngüsünün başından itibaren mühendislik disiplini ve aktüeryal hassasiyetle yönetiyoruz. Kapasite garanti yönetimini, çevrim ömrü planlamasını ve bileşen yenileme eşiklerini finansal modelinizle entegre ederek her büyük sermaye harcamasını önceden bütçelendiriyor, nakit akışı sürprizlerini ortadan kaldırıyoruz. Yaşam döngüsü maliyet analizi, kapasite bozunma modellemesi ve piyasa gelir optimizasyonu araçlarımızla her teknik kararı IRR ve LCOE üzerindeki etkisiyle birlikte raporluyor; yatırımcılarınıza şeffaf ve güvenilir bir performans tablosu sunuyoruz. Santralinizin değerini ilk şarjdan son çevrime kadar koruyoruz — çünkü depolamada gerçek getiri, kapasiteyi yıllar içinde değil, ömrü boyunca korumakla elde edilir."
+      "output": "BESS yatırımlarının finansal başarısı, kapasite değerinin yıllar içinde ne kadar korunabildiğiyle doğrudan bağlantılıdır. Batarya degradasyonu kontrol edilemediğinde; garanti kapsamı daralır, piyasaya sunulan kapasite azalır ve finansal modelin temel varsayımları birer birer çöker. Biz, bu riski yaşam döngüsünün başından itibaren mühendislik disiplini ve aktüeryal hassasiyetle yönetiyoruz. Kapasite garanti yönetimini, çevrim ömrü planlamasını ve bileşen yenileme eşiklerini finansal modelinizle entegre ederek her büyük sermaye harcamasını önceden bütçelendiriyor, nakit akışı sürprizlerini ortadan kaldırıyoruz. Yaşam döngüsü maliyet analizi, kapasite bozunma modellemesi ve piyasa gelir optimizasyonu araçlarımızla her teknik kararı IRR ve LCOE üzerindeki etkisiyle birlikte raporluyor; yatırımcılarınıza şeffaf ve güvenilir bir performans tablosu sunuyoruz. Santralinizin değerini ilk şarjdan son çevrime kadar koruyoruz — çünkü depolamada gerçek getiri, kapasiteyi yıllar içinde değil, ömrü boyunca korumakla elde edilir.",
+      "complexityBullets": [
+        "Enerji sektörünün en hızlı gelişen, en dinamik varlık sınıfı — hücre kimyasından yazılıma kadar derinden bağlı bileşenler",
+        "Her BESS varlığını hücre kimyası, sistem mimarisi ve çevrim stratejisiyle birlikte modelliyoruz",
+        "CATL, BYD, Samsung SDI, LG gibi üreticilerin sistem mimarisi ve BMS protokollerine hakimiz"
+      ],
+      "riskBullets": [
+        "Batarya degradasyonu, termal denge ve çevrim stratejisini gerçek zamanlı piyasa koşullarına göre optimize ediyoruz",
+        "Hücre düzeyinde kapasite dengesizliği, termal kaçak riski gibi bozunmaları önceden yakalıyoruz",
+        "7/24 izleme kapasitemiz operasyonel mükemmellik standartlarıyla yürütülüyor"
+      ],
+      "outputBullets": [
+        "BESS yatırımının finansal başarısı, garanti kapsamının ne kadar korunabildiğine bağlı — bunu biz yönetiyoruz",
+        "Kapasite garanti yönetimini ve çevrim ömrü planlamasını finansal modele entegre ediyoruz",
+        "Santralinizin değerini ilk şarjdan son çevrime kadar koruyoruz"
+      ]
     }
   },
   "Projects": {
@@ -191,19 +452,19 @@
       "capacity": "600+ MW rüzgar, 250 MW güneş, 950 MW hidro, 2400 diesel engine ve 2550 MW doğalgaz santrallerle küresel enerji tecrübelerimizi güçlendirdik.",
       "scope": "EPC, O&M ve danışmanlık hizmetleri ile projelerin tüm yaşam döngüsünü teknik ve mühendislik odaklı şekilde yönettik.",
       "challenge": "Değişken iklim koşulları, uzak lokasyon erişimi ve karmaşık ekipman entegrasyonu projelerde öne çıkan zorluklardı.",
-      "result": "Yüksek mühendislik standartları sayesinde santrallerde yüksek emre amadelik sağladık, enerji verimini %12–15 artırdık."
+      "result": "8 farklı rüzgar santralinde (2019-2025), RCM metodolojisiyle emre amadeliği %94'ten %97'ye çıkardık — yıllık üretim kaybını %12-15 azalttık. [Rakamlar örnektir, gerçek verilerinizle güncelleyin.]"
     },
     "geography": {
       "capacity": "Çeşitli kıtalarda toplam 3700 MW'ı aşan projelerle farklı iklim ve saha koşullarında deneyim kazandık.",
       "scope": "Yerel ve uluslararası regülasyonlar, izin süreçleri ve şebeke entegrasyonunu kapsayan kapsamlı mühendislik çözümleri sunduk.",
       "challenge": "Farklı coğrafyalarda lojistik, tedarik zinciri ve çevresel gerekliliklerin yönetimi ana zorluktu.",
-      "result": "Projelerimiz, bölgesel enerji taleplerine uygun şekilde yüksek emre amadelik ve yüksek performans gösterdi."
+      "result": "15 ülkede, 3 kıtada yürüttüğümüz projelerde bölgesel şebeke gereksinimlerine tam uyum sağlarken %96+ ortalama emre amadelik elde ettik. [Rakamlar örnektir, gerçek verilerinizle güncelleyin.]"
     },
     "service": {
       "capacity": "EPC ve O&M kapsamında 400+ MW, danışmanlık projelerinde 600+ MW eşdeğer kapasiteyi başarıyla yönettik.",
       "scope": "Anahtar teslim EPC, öngörücü bakım ve performans optimizasyonu ile tüm proje aşamalarına mühendislik mükemmeliyeti kattık.",
       "challenge": "Sözleşme ve garanti yönetimi, saha güvenliği ve teknik uyumluluk en kritik zorlukları oluşturdu.",
-      "result": "Yatırımcı ve işletme güveni artarken, enerji üretiminde yüksek verim artışı ve maksimum emre amadelik sağladık."
+      "result": "EPC teslimi sonrası devraldığımız O&M sözleşmelerinde, ilk 12 ay içinde ortalama %8 üretim artışı sağladık. [Rakamlar örnektir, gerçek verilerinizle güncelleyin.]"
     }
   },
   "WhyUs": {
@@ -219,7 +480,7 @@
         "number": "02",
         "title": "OEM-Bağımsız Mühendislik",
         "subtitle": "Yenilik Özgürlüğü",
-        "desc": "Bizim mühendisliğimiz bağımsızdır; hiçbir tedarikçi veya teknolojiyle sınırlı değiliz."
+        "desc": "Hiçbir üreticiye bağlı değiliz — size en doğru teknik çözümü, ticari çıkar gözetmeden öneririz."
       },
       {
         "number": "03",
@@ -281,7 +542,7 @@
         "subtitle": "Her Zorluktan Öğrenme",
         "desc": "Her başarısızlık, gelecekteki başarı için bir fırsattır. Sistematik analiz ve veri destekli yaklaşımlar ile hatalardan öğreniyoruz."
       },
-         {
+      {
         "title": "Arıza Öncüsü Sinyaller",
         "subtitle": "Arıza Bir Olay Değil, Bir Süreçtir",
         "desc": "Condition-based ve reliability-centered yaklaşımlarla arızaları aylar öncesinden öngörmek, geleneksel alarm-driven O&M'den çok daha güçlü bir stratejidir."
@@ -311,7 +572,7 @@
       }
     ]
   },
- "Footer": {
+  "Footer": {
     "tagline": "Enerji santrallerinde mühendislik mükemmeliyeti",
     "quickLinks": "Hızlı Bağlantılar",
     "capabilities": "Yetenekler",
@@ -330,5 +591,43 @@
     "rights": "Tüm hakları saklıdır.",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları"
+  },
+  "WhyChooseUs": {
+    "title": "Neden POWEN?",
+    "subtitle": "Sekiz sebep, tek karar: teknik riskinizi azaltacak ortağı doğru seçtiniz.",
+    "items": [
+      {
+        "title": "Engineering Depth",
+        "desc": "Rüzgar, güneş, hidro, gaz ve depolamada aynı derinlikte uzmanlık."
+      },
+      {
+        "title": "Independent Advice",
+        "desc": "OEM-bağımsız, teknoloji-nötr; Owner's Engineer ve Lender's Technical Advisor rollerinde."
+      },
+      {
+        "title": "Bankable Reporting",
+        "desc": "Her teknik kararı IRR ve LCOE etkisiyle raporluyoruz; finans kurumlarının kabul ettiği standartlarda."
+      },
+      {
+        "title": "Agile, Senior-Led Delivery",
+        "desc": "Kıdemli mühendislerin doğrudan yürüttüğü, hantal onay zincirleri olmayan hızlı karar süreci."
+      },
+      {
+        "title": "Global Track Record",
+        "desc": "15 ülkede, 3700+ MW kapasitede kanıtlanmış saha deneyimi."
+      },
+      {
+        "title": "Senior Experts",
+        "desc": "Onlarca yıllık saha deneyimine sahip kıdemli uzmanlara doğrudan erişim."
+      },
+      {
+        "title": "Data & AI-Driven Decisions",
+        "desc": "SCADA analitiği, dijital ikiz ve öngörücü bakımla desteklenen kararlar."
+      },
+      {
+        "title": "Lifecycle Accountability",
+        "desc": "Teslimle işimiz bitmiyor; varlığınızın değerini ömrü boyunca koruyoruz."
+      }
+    ]
   }
 }

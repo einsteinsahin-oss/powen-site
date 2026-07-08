@@ -29,7 +29,25 @@ export default function Hero() {
     {value: '96.8%', label: t('stats.availability')},
     {value: '45+', label: t('stats.projects')},
     {value: '15', label: t('stats.countries')},
+    {value: '25+', label: t('stats.experience')},
   ]
+
+  // ── Rol / yetkinlik şeridi: çeviri dosyasında bulunamazsa sayfa çökmesin diye güvenli varsayılan ──
+  let roles: string[] = []
+  try {
+    const raw = t.raw('roles')
+    if (Array.isArray(raw)) roles = raw
+  } catch (e) {
+    roles = []
+  }
+
+  // ── Birincil (primary) CTA metni — çeviri dosyasında bulunamazsa güvenli varsayılan ──
+  let ctaPrimary: string
+  try {
+    ctaPrimary = t('ctaPrimary')
+  } catch (e) {
+    ctaPrimary = locale === 'tr' ? 'Teknik Görüşme Talep Edin' : locale === 'de' ? 'Technisches Beratungsgespräch vereinbaren' : 'Schedule a Technical Consultation'
+  }
 
   return (
     <section id="home" className="relative min-h-screen bg-gray-900 overflow-hidden">
@@ -66,47 +84,65 @@ export default function Hero() {
         ))}
       </div>
 
-      <div className="relative z-10 pt-36 pb-16">
+      <div className="relative z-10 pt-28 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl min-h-[60vh] flex flex-col justify-center">
+          <div className="max-w-4xl min-h-[42vh] flex flex-col justify-center">
 
             {/* ── h1 → h2 olarak değiştirildi ── */}
-            <h2 className="text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
+            <h2 className="text-4xl lg:text-6xl font-bold text-white mb-4 leading-tight drop-shadow-2xl">
               {slides[currentSlide].title}
             </h2>
             
             {slides[currentSlide].subtitle && (
-              <p className="text-2xl lg:text-3xl text-gray-100 mb-8 leading-relaxed max-w-3xl drop-shadow-lg font-medium">
+              <p className="text-lg lg:text-2xl text-gray-100 mb-4 leading-relaxed max-w-3xl drop-shadow-lg font-medium">
                 {slides[currentSlide].subtitle}
               </p>
             )}
             
-            <div className="inline-block mb-8">
-              <p className="text-xl lg:text-2xl text-teal-400 font-semibold italic border-l-4 border-teal-400 pl-4 drop-shadow-lg">
+            <div className="inline-block mb-4">
+              <p className="text-base lg:text-xl text-teal-400 font-semibold italic border-l-4 border-teal-400 pl-4 drop-shadow-lg">
                 "{slides[currentSlide].tagline}"
               </p>
             </div>
 
-            <div className="flex gap-4">
-              <a href="#capabilities" className="inline-flex items-center px-8 py-4 bg-white text-gray-900 font-bold hover:bg-teal-400 hover:text-white transition-all duration-300 shadow-xl">
+            {/* ── YENİ: Rol / yetkinlik şeridi ── */}
+            {roles.length > 0 && (
+              <div className="flex flex-wrap gap-1.5 mb-5">
+                {roles.map((role, idx) => (
+                  <span
+                    key={idx}
+                    className="text-[11px] md:text-xs text-gray-200 border border-white/30 rounded-full px-2.5 py-0.5 backdrop-blur-sm bg-white/5"
+                  >
+                    {role}
+                  </span>
+                ))}
+              </div>
+            )}
+
+            {/* ── GÜNCELLENDİ: İkinci (primary) CTA butonu eklendi ── */}
+            <div className="flex flex-wrap gap-3">
+              <a href="#contact" className="inline-flex items-center px-6 py-3 bg-teal-400 text-gray-900 font-bold hover:bg-white transition-all duration-300 shadow-xl text-sm lg:text-base">
+                {ctaPrimary}
+              </a>
+              <a href="#capabilities" className="inline-flex items-center px-6 py-3 bg-white text-gray-900 font-bold hover:bg-teal-400 hover:text-white transition-all duration-300 shadow-xl text-sm lg:text-base">
                 {locale === 'tr' ? 'Yetenekleri Keşfet' : locale === 'de' ? 'Fähigkeiten Erkunden' : 'Explore Capabilities'}
-                <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="ml-2 w-4 h-4 lg:w-5 lg:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </a>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-1 mt-16 bg-white/20 backdrop-blur-md">
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-1 mt-8 bg-white/20 backdrop-blur-md">
             {stats.map((stat, idx) => (
-              <div key={idx} className="bg-black/30 p-8 backdrop-blur-sm border-l-2 border-teal-400">
-                <div className="text-4xl font-bold text-white mb-2">{stat.value}</div>
-                <div className="text-xs font-mono uppercase tracking-wider text-gray-300">{stat.label}</div>
+              <div key={idx} className="bg-black/30 p-4 lg:p-5 backdrop-blur-sm border-l-2 border-teal-400">
+                <div className="text-2xl lg:text-3xl font-bold text-white mb-1">{stat.value}</div>
+                <div className="text-[10px] lg:text-xs font-mono uppercase tracking-wider text-gray-300">{stat.label}</div>
               </div>
             ))}
           </div>
 
-          <div className="flex gap-3 mt-12">
+          <div className="flex gap-3 mt-6">
             {slides.map((_, index) => (
               <button
                 key={index}
